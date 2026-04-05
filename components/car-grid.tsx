@@ -50,14 +50,14 @@ export default function CarGrid() {
   }, []);
 
   return (
-    <section id="collection" className="relative py-24 sm:py-32 flex justify-center">
+    <section id="collection" style={{ background: "linear-gradient(to bottom, #000000, #434343)" ,padding: "50px 12px 100px 12px" }} className="relative py-24 sm:py-32 flex justify-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <ScrollReveal>
           <div className="text-center mb-16 justify-items-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-6">
-              <span className="w-1.5 h-1.5 rounded-full bg-violet-400 animate-pulse" />
-              <div className="text-xs font-medium text-white/50 uppercase tracking-[0.2em]">
+              <span className="w-1.5 h-1.5 rounded-full bg-transparent animate-pulse" />
+              <div style={{padding: "5px 12px"}} className="text-xs font-medium text-white/50 uppercase tracking-[0.2em]">
                 Our Collection
               </div>
             </div>
@@ -73,11 +73,12 @@ export default function CarGrid() {
 
         {/* Category Filters */}
         <ScrollReveal delay={0.1}>
-          <div className="flex flex-wrap justify-center gap-2 mb-12">
+          <div style={{margin: "15px 12px"}} className="flex flex-wrap justify-center gap-2 mb-12">
             {CATEGORIES.map((cat) => (
               <button
                 key={cat}
                 onClick={() => handleCategoryChange(cat)}
+                style={{padding: "5px 12px" }}
                 className={cn(
                   "relative px-4 py-2 rounded-full text-xs font-medium uppercase tracking-wider transition-all duration-300",
                   activeCategory === cat
@@ -121,6 +122,7 @@ export default function CarGrid() {
             ))}
           </motion.div>
         </AnimatePresence>
+        <div style={{ padding: "12px" }}></div>
 
         {/* Empty State */}
         {paginatedCars.length === 0 && (

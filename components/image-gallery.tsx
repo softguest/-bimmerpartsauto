@@ -23,7 +23,7 @@ export default function ImageGallery({ images, name }: ImageGalleryProps) {
     <>
       <div className="space-y-4">
         {/* Main Image */}
-        <div className="relative aspect-[4/3] rounded-2xl overflow-hidden glass-card group">
+        <div style={{ margin: "30px 0 30px 0" }} className="relative aspect-[4/3] rounded-2xl overflow-hidden glass-card group">
           <AnimatePresence mode="wait">
             <motion.div
               key={activeIndex}
@@ -78,7 +78,7 @@ export default function ImageGallery({ images, name }: ImageGalleryProps) {
         </div>
 
         {/* Thumbnails */}
-        <div className="grid grid-cols-6 gap-2">
+        <div style={{ margin: "20px 0 20px 0" }} className="grid grid-cols-6 gap-2">
           {images.map((img, i) => (
             <button
               key={i}

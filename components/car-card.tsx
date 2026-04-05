@@ -6,7 +6,7 @@ import Link from "next/link";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { formatPrice } from "@/lib/utils";
 import { Car } from "@/types";
-import { ArrowUpRight, Tag } from "lucide-react";
+import { ArrowUpRight, Tag, Star } from "lucide-react";
 
 interface CarCardProps {
   car: Car;
@@ -80,7 +80,7 @@ export default function CarCard({ car, index }: CarCardProps) {
 
           {/* Category Badge */}
           <div className="absolute top-4 right-4 z-20">
-            <div className="px-2.5 py-1 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm">
+            <div style={{ padding: "2px 8px" }} className="px-2.5 py-1 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm">
               <span className="text-[10px] font-medium text-white/60 uppercase tracking-wider">
                 {car.category}
               </span>
@@ -98,13 +98,19 @@ export default function CarCard({ car, index }: CarCardProps) {
               loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/20 to-transparent opacity-60" />
-
-            {/* Hover overlay */}
             <div className="absolute inset-0 bg-violet-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
           </div>
 
           {/* Content */}
-          <div className="p-5 sm:p-6">
+          <div style={{ padding: "1rem 1.25rem" }} className="p-5 sm:p-6">
+            {/* Brand */}
+            <div className="flex items-center gap-1.5 mb-2">
+              <Star className="w-3 h-3 text-amber-400/60" />
+              <span className="text-[10px] text-white/40 uppercase tracking-wider font-medium">
+                {car.brand}
+              </span>
+            </div>
+
             <div className="flex items-start justify-between gap-2 mb-2">
               <h3 className="text-base sm:text-lg font-semibold text-white group-hover:text-white transition-colors line-clamp-1">
                 {car.name}
@@ -128,6 +134,7 @@ export default function CarCard({ car, index }: CarCardProps) {
                 </div>
               </div>
               <div
+               style={{ padding: "2px 8px" }}
                 className={`px-2 py-0.5 rounded-md text-[10px] font-medium uppercase tracking-wider ${
                   car.condition === "New"
                     ? "bg-blue-500/10 text-blue-400 border border-blue-500/20"

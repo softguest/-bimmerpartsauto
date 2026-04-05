@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="relative border-t border-white/5 flex flex-shrink-0 bg-gradient-to-t from-black/80 to-black/50 justify-center items-center">
+    <footer style={{ padding: "50px 0" }} className="relative border-t border-white/5 flex flex-shrink-0 bg-gradient-to-t from-black/80 to-black/50 justify-center items-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand */}

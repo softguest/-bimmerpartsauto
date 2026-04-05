@@ -71,6 +71,7 @@ export default function OrderModal({ isOpen, onClose, carName }: OrderModalProps
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.9, y: 20 }}
             transition={{ type: "spring", damping: 25, stiffness: 300 }}
+            style={{ padding: "30px" }}
             className="relative w-full max-w-md rounded-3xl glass-strong overflow-hidden"
           >
             {/* Top Gradient Line */}
@@ -93,7 +94,7 @@ export default function OrderModal({ isOpen, onClose, carName }: OrderModalProps
                 <h3 className="text-2xl font-bold text-white mb-2">
                   Order This Vehicle
                 </h3>
-                <p className="text-sm text-white/40 font-light">
+                <p style={{ padding: "15px 0" }} className="text-sm text-white/40 font-light">
                   Submit your details and we&apos;ll connect you via WhatsApp for{" "}
                   <span className="text-white/60 font-medium">{carName}</span>
                 </p>
@@ -102,12 +103,12 @@ export default function OrderModal({ isOpen, onClose, carName }: OrderModalProps
               {/* Form */}
               <form onSubmit={handleSubmit} className="space-y-5">
                 {/* Phone Field */}
-                <div>
+                <div style={{ margin: "10px 0" }}>
                   <label className="block text-xs font-medium text-white/50 uppercase tracking-wider mb-2">
-                    Phone Number
+                    Your Phone Number
                   </label>
                   <div className="relative">
-                    <Phone className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/20" />
+                    {/* <Phone className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/20" /> */}
                     <input
                       type="tel"
                       value={phone}
@@ -131,12 +132,12 @@ export default function OrderModal({ isOpen, onClose, carName }: OrderModalProps
                 </div>
 
                 {/* Email Field */}
-                <div>
+                <div style={{ margin: "10px 0" }}>
                   <label className="block text-xs font-medium text-white/50 uppercase tracking-wider mb-2">
-                    Email Address
+                    Your Email Address
                   </label>
                   <div className="relative">
-                    <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/20" />
+                    {/* <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/20" /> */}
                     <input
                       type="email"
                       value={email}

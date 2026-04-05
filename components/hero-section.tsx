@@ -28,11 +28,11 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-8">
+          <div style={{padding: "10px 12px"}} className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-8">
             <Zap className="w-3.5 h-3.5 text-violet-400" />
-            <span className="text-xs font-medium text-white/70 uppercase tracking-widest">
+            <div className="text-xs font-medium text-white/70 uppercase tracking-widest">
               Premium Automotive Marketplace
-            </span>
+            </div>
           </div>
         </motion.div>
 
@@ -65,22 +65,23 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.45, ease: "easeOut" }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-          <button
+          <div
             onClick={scrollToCollection}
             className="group relative px-8 py-4 rounded-2xl text-sm font-semibold text-white overflow-hidden transition-transform hover:scale-105 active:scale-95"
           >
             <span className="absolute inset-0 bg-gradient-to-r from-blue-500 via-violet-500 to-fuchsia-500" />
             <span className="absolute inset-0 bg-gradient-to-r from-blue-500 via-violet-500 to-fuchsia-500 opacity-0 group-hover:opacity-60 blur-2xl transition-opacity duration-500" />
-            <span className="relative uppercase tracking-wider">
+            <button style={{padding: "10px 12px"}} className="relative uppercase tracking-wider">
               Explore Collection
-            </span>
-          </button>
-          <button
+            </button>
+          </div>
+          <div
             onClick={scrollToCollection}
+            style={{padding: "8px 15px"}}
             className="group px-8 py-4 rounded-2xl text-sm font-medium text-white/70 hover:text-white glass hover:border-white/20 transition-all duration-300"
           >
             <span className="uppercase tracking-wider">View All Cars</span>
-          </button>
+          </div>
         </motion.div>
 
         {/* Stats */}
