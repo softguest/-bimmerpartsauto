@@ -11,19 +11,25 @@ export default function HeroSection() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background Image (NEW) */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundColor: "#212121", // fallback color
+          // backgroundImage: "url('/images/bg-8.png')", // replace with your image
+        }}
+      />
       {/* Background Effects */}
       <div className="absolute inset-0 animated-gradient-bg" />
       <div className="absolute inset-0 grid-pattern" />
-      <div className="absolute inset-0 noise-overlay" />
+      <div className="absolute inset-0 noise-overlay" /> 
 
       {/* Radial Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-violet-500/5 blur-[120px] animate-pulse-glow" />
-      <div className="absolute top-1/4 right-1/4 w-[400px] h-[400px] rounded-full bg-blue-500/5 blur-[100px] animate-float" />
-      <div className="absolute bottom-1/4 left-1/4 w-[300px] h-[300px] rounded-full bg-fuchsia-500/5 blur-[80px] animate-float-delayed" />
-
+     
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <motion.div
+      <div  className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        {/* <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
@@ -34,9 +40,9 @@ export default function HeroSection() {
               Premium Automotive Marketplace
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
 
-        <motion.h1
+        {/* <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.15, ease: "easeOut" }}
@@ -57,9 +63,9 @@ export default function HeroSection() {
           Discover an exclusive collection of the world&apos;s most extraordinary
           vehicles. From hypercars to electric marvels, find your next
           masterpiece.
-        </motion.p>
+        </motion.p> */}
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.45, ease: "easeOut" }}
@@ -82,10 +88,10 @@ export default function HeroSection() {
           >
             <span className="uppercase tracking-wider">View All Cars</span>
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Stats */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
@@ -102,8 +108,13 @@ export default function HeroSection() {
               <div className="text-xs text-white/30 mt-1">{stat.label}</div>
             </div>
           ))}
-        </motion.div>
+        </motion.div> */}
+
+        <img src="/images/heromain.png" alt="Car 1" />
       </div>
+      <div className="absolute top-1/4 right-1/4 w-[400px] h-[400px] rounded-full bg-blue-500/5 blur-[100px] animate-float" />
+      <div className="absolute bottom-1/4 left-1/4 w-[300px] h-[300px] rounded-full bg-fuchsia-500/5 blur-[80px] animate-float-delayed" />
+
 
       {/* Scroll Indicator */}
       <motion.div

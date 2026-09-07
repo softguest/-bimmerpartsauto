@@ -79,12 +79,139 @@ const PHOTOS = [
   "cdn/shop/files/54140-19-24-oem-bmw-g12-g30-m550-750-engine-n63r-high-pressure-fuel-injector-5.jpg?v=1774044677&width=823",
   "cdn/shop/files/54140-19-24-oem-bmw-g12-g30-m550-750-engine-n63r-high-pressure-fuel-injector-9.jpg?v=1774044677&width=823",
   // 12
+  "cdn/shop/files/web_49523a03-eac1-4df9-96a3-b3a859d14412.jpg?v=1774558791&width=823",
+  "cdn/shop/files/web_adb10d06-d5b1-494c-856a-b216966639a4.jpg?v=1774558791&width=823",
+  "cdn/shop/files/web_5153fb3b-ad45-4235-9287-81e1bd6727c4.jpg?v=1774558791&width=823",
+  "cdn/shop/files/web_081456f4-b69a-42d0-8c15-5de7dd33ae30.jpg?v=1774558791&width=823",
+  "cdn/shop/files/web_081456f4-b69a-42d0-8c15-5de7dd33ae30.jpg?v=1774558791&width=823",
+  "cdn/shop/files/web_0c62c94c-1d16-4c6a-8a50-3097e33e6683.jpg?v=1774558791&width=823",
+  // 13 
+  "cdn/shop/files/53592-18-20-oem-bmw-g30-m550ix-engine-n63r-gas-tank-mount-fuel-pump-w-sending-unit.jpg?v=1774044672&width=823",
+  "cdn/shop/files/53592-18-20-oem-bmw-g30-m550ix-engine-n63r-gas-tank-mount-fuel-pump-w-sending-unit-2.jpg?v=1774044672&width=823",
+  "cdn/shop/files/53592-18-20-oem-bmw-g30-m550ix-engine-n63r-gas-tank-mount-fuel-pump-w-sending-unit-3.jpg?v=1774044672&width=823",
+  "cdn/shop/files/53592-18-20-oem-bmw-g30-m550ix-engine-n63r-gas-tank-mount-fuel-pump-w-sending-unit-4.jpg?v=1774044672&width=823",
+  "cdn/shop/files/53592-18-20-oem-bmw-g30-m550ix-engine-n63r-gas-tank-mount-fuel-pump-w-sending-unit-5.jpg?v=1774044673&width=823",
+  "cdn/shop/files/53592-18-20-oem-bmw-g30-m550ix-engine-n63r-gas-tank-mount-fuel-pump-w-sending-unit-7.jpg?v=1774044673&width=823",
+  // 14 
+  "cdn/shop/files/53597-oem-bmw-f97-g01-g02-g12-g30-bdc-body-domain-control-control-module-unit-keys.jpg?v=1774044703&width=823",
+  "cdn/shop/files/53597-oem-bmw-f97-g01-g02-g12-g30-bdc-body-domain-control-control-module-unit-keys-2.jpg?v=1774044703&width=823",
+  "cdn/shop/files/53597-oem-bmw-f97-g01-g02-g12-g30-bdc-body-domain-control-control-module-unit-keys-3.jpg?v=1774044703&width=823",
+  "cdn/shop/files/53597-oem-bmw-f97-g01-g02-g12-g30-bdc-body-domain-control-control-module-unit-keys-4.jpg?v=1774044704&width=823",
+  "cdn/shop/files/53597-oem-bmw-f97-g01-g02-g12-g30-bdc-body-domain-control-control-module-unit-keys-2.jpg?v=1774044703&width=823",
+  "cdn/shop/files/53597-oem-bmw-f97-g01-g02-g12-g30-bdc-body-domain-control-control-module-unit-keys-3.jpg?v=1774044703&width=823",
+  // 15
+  "cdn/shop/files/54214-oem-bmw-f30-f44-f80-g01-g20-g30-front-rear-left-right-suspension-level-sensor.jpg?v=1774044685&width=823",
+  "cdn/shop/files/54214-oem-bmw-f30-f44-f80-g01-g20-g30-front-rear-left-right-suspension-level-sensor-2.jpg?v=1774044685&width=823",
+  "cdn/shop/files/54214-oem-bmw-f30-f44-f80-g01-g20-g30-front-rear-left-right-suspension-level-sensor-3.jpg?v=1774044685&width=823",
+  "cdn/shop/files/54214-oem-bmw-f30-f44-f80-g01-g20-g30-front-rear-left-right-suspension-level-sensor-4.jpg?v=1774044685&width=823",
+  "cdn/shop/files/54214-oem-bmw-f30-f44-f80-g01-g20-g30-front-rear-left-right-suspension-level-sensor-5.jpg?v=1774044686&width=823",
+  "cdn/shop/files/54214-oem-bmw-f30-f44-f80-g01-g20-g30-front-rear-left-right-suspension-level-sensor-6.jpg?v=1774044685&width=823",
+  // 16
+  "cdn/shop/files/54203-oem-bmw-f44-g01-g05-g12-g20-g26-g30-steering-wheel-paddle-shifter-plus-up.jpg?v=1774044714&width=823",
+  "cdn/shop/files/54203-oem-bmw-f44-g01-g05-g12-g20-g26-g30-steering-wheel-paddle-shifter-plus-up-2.jpg?v=1774044714&width=823",
+  "cdn/shop/files/54203-oem-bmw-f44-g01-g05-g12-g20-g26-g30-steering-wheel-paddle-shifter-plus-up-3.jpg?v=1774044714&width=823",
+  "cdn/shop/files/54203-oem-bmw-f44-g01-g05-g12-g20-g26-g30-steering-wheel-paddle-shifter-plus-up-4.jpg?v=1774044714&width=823",
+  "cdn/shop/files/54203-oem-bmw-f44-g01-g05-g12-g20-g26-g30-steering-wheel-paddle-shifter-plus-up-5.jpg?v=1774044714&width=823",
+  "cdn/shop/files/54203-oem-bmw-f44-g01-g05-g12-g20-g26-g30-steering-wheel-paddle-shifter-plus-up-6.jpg?v=1774044714&width=823",
+  // 17
+  "cdn/shop/files/53591-pre-lci-oem-bmw-g01-g12-g30-abs-brake-pump-anti-lock-dsc-dynamic-stability.jpg?v=1774044668&width=823",
+  "cdn/shop/files/53591-pre-lci-oem-bmw-g01-g12-g30-abs-brake-pump-anti-lock-dsc-dynamic-stability-2.jpg?v=1774044668&width=823",
+  "cdn/shop/files/53591-pre-lci-oem-bmw-g01-g12-g30-abs-brake-pump-anti-lock-dsc-dynamic-stability-3.jpg?v=1774044668&width=823",
+  "cdn/shop/files/53591-pre-lci-oem-bmw-g01-g12-g30-abs-brake-pump-anti-lock-dsc-dynamic-stability-4.jpg?v=1774044668&width=823",
+  "cdn/shop/files/53591-pre-lci-oem-bmw-g01-g12-g30-abs-brake-pump-anti-lock-dsc-dynamic-stability-5.jpg?v=1774044669&width=823",
+  "cdn/shop/files/53591-pre-lci-oem-bmw-g01-g12-g30-abs-brake-pump-anti-lock-dsc-dynamic-stability-6.jpg?v=1774044668&width=823",
+  // 18 
+  "cdn/shop/files/54127-pre-lci-oem-bmw-g05-g07-g11-g12-g30-m550-x5-left-right-turbo-charger-set-n63-k.jpg?v=1774043467&width=823",
+  "cdn/shop/files/54127-pre-lci-oem-bmw-g05-g07-g11-g12-g30-m550-x5-left-right-turbo-charger-set-n63-k-2.jpg?v=1774043467&width=823",
+  "cdn/shop/files/54127-pre-lci-oem-bmw-g05-g07-g11-g12-g30-m550-x5-left-right-turbo-charger-set-n63-k-3.jpg?v=1774043467&width=823",
+  "cdn/shop/files/54127-pre-lci-oem-bmw-g05-g07-g11-g12-g30-m550-x5-left-right-turbo-charger-set-n63-k-4.jpg?v=1774043467&width=823",
+  "cdn/shop/files/54127-pre-lci-oem-bmw-g05-g07-g11-g12-g30-m550-x5-left-right-turbo-charger-set-n63-k-5.jpg?v=1774043467&width=823",
+  "cdn/shop/files/54127-pre-lci-oem-bmw-g05-g07-g11-g12-g30-m550-x5-left-right-turbo-charger-set-n63-k-9.jpg?v=1774043468&width=823",
+  // 19
+  "cdn/shop/files/54128-16-22-oem-bmw-g11-g12-740-750-m760-air-suspension-compressor-pump-module-motor.jpg?v=1774043462&width=823",
+  "cdn/shop/files/54128-16-22-oem-bmw-g11-g12-740-750-m760-air-suspension-compressor-pump-module-motor-2.jpg?v=1774043462&width=823",
+  "cdn/shop/files/54128-16-22-oem-bmw-g11-g12-740-750-m760-air-suspension-compressor-pump-module-motor-3.jpg?v=1774043463&width=823",
+  "cdn/shop/files/54128-16-22-oem-bmw-g11-g12-740-750-m760-air-suspension-compressor-pump-module-motor-4.jpg?v=1774043463&width=823",
+  "cdn/shop/files/54128-16-22-oem-bmw-g11-g12-740-750-m760-air-suspension-compressor-pump-module-motor-5.jpg?v=1774043463&width=823",
+  "cdn/shop/files/54128-16-22-oem-bmw-g11-g12-740-750-m760-air-suspension-compressor-pump-module-motor-8.jpg?v=1774043463&width=823",
+  // 20 
+  "cdn/shop/files/54129-16-19-oem-bmw-g11-g12-740-750-transmission-shifter-gear-selector-switch-ceramic.jpg?v=1774043481&width=823",
+  "cdn/shop/files/54129-16-19-oem-bmw-g11-g12-740-750-transmission-shifter-gear-selector-switch-ceramic-2.jpg?v=1774043481&width=823",
+  "cdn/shop/files/54129-16-19-oem-bmw-g11-g12-740-750-transmission-shifter-gear-selector-switch-ceramic-3.jpg?v=1774043481&width=823",
+  "cdn/shop/files/54129-16-19-oem-bmw-g11-g12-740-750-transmission-shifter-gear-selector-switch-ceramic-4.jpg?v=1774043481&width=823",
+  "cdn/shop/files/54129-16-19-oem-bmw-g11-g12-740-750-transmission-shifter-gear-selector-switch-ceramic-5.jpg?v=1774043482&width=823",
+  "cdn/shop/files/54129-16-19-oem-bmw-g11-g12-740-750-transmission-shifter-gear-selector-switch-ceramic-8.jpg?v=1774043481&width=823",
+  // 21 
+  "cdn/shop/files/54118-oem-bmw-f90-f93-g11-g12-g16-g30-m5-radiator-mount-support-bracket-left-right-set.jpg?v=1774043442&width=823",
+  "cdn/shop/files/54118-oem-bmw-f90-f93-g11-g12-g16-g30-m5-radiator-mount-support-bracket-left-right-set-2.jpg?v=1774043442&width=823",
+  "cdn/shop/files/54118-oem-bmw-f90-f93-g11-g12-g16-g30-m5-radiator-mount-support-bracket-left-right-set-2.jpg?v=1774043442&width=823",
+  "cdn/shop/files/54118-oem-bmw-f90-f93-g11-g12-g16-g30-m5-radiator-mount-support-bracket-left-right-set-4.jpg?v=1774043442&width=823",
+  "cdn/shop/files/54118-oem-bmw-f90-f93-g11-g12-g16-g30-m5-radiator-mount-support-bracket-left-right-set-5.jpg?v=1774043442&width=823",
+  "cdn/shop/files/54118-oem-bmw-f90-f93-g11-g12-g16-g30-m5-radiator-mount-support-bracket-left-right-set-9.jpg?v=1774043442&width=823",
+  // 22 
+  "cdn/shop/files/54033-oem-bmw-f90-g12-g30-g32-front-right-passenger-seat-adjustment-control-switch.jpg?v=1774043416&width=823",
+  "cdn/shop/files/54033-oem-bmw-f90-g12-g30-g32-front-right-passenger-seat-adjustment-control-switch-2.jpg?v=1774043416&width=823",
+  "cdn/shop/files/54033-oem-bmw-f90-g12-g30-g32-front-right-passenger-seat-adjustment-control-switch-3.jpg?v=1774043415&width=823",
+  "cdn/shop/files/54033-oem-bmw-f90-g12-g30-g32-front-right-passenger-seat-adjustment-control-switch-4.jpg?v=1774043415&width=823",
+  "cdn/shop/files/54033-oem-bmw-f90-g12-g30-g32-front-right-passenger-seat-adjustment-control-switch-5.jpg?v=1774043415&width=823",
+  "cdn/shop/files/54033-oem-bmw-f90-g12-g30-g32-front-right-passenger-seat-adjustment-control-switch-6.jpg?v=1774043415&width=823",
+  // 23 
+  "cdn/shop/files/54028-16-22-oem-bmw-g11-g12-740-750-idrive-navigation-controller-knob-button-ceramic.jpg?v=1774043388&width=823",
+  "cdn/shop/files/54028-16-22-oem-bmw-g11-g12-740-750-idrive-navigation-controller-knob-button-ceramic-2.jpg?v=1774043389&width=823",
+  "cdn/shop/files/54028-16-22-oem-bmw-g11-g12-740-750-idrive-navigation-controller-knob-button-ceramic-3.jpg?v=1774043389&width=823",
+  "cdn/shop/files/54028-16-22-oem-bmw-g11-g12-740-750-idrive-navigation-controller-knob-button-ceramic-4.jpg?v=1774043389&width=823",
+  "cdn/shop/files/54028-16-22-oem-bmw-g11-g12-740-750-idrive-navigation-controller-knob-button-ceramic-5.jpg?v=1774043389&width=823",
+  "cdn/shop/files/54028-16-22-oem-bmw-g11-g12-740-750-idrive-navigation-controller-knob-button-ceramic-8.jpg?v=1774043388&width=823",
+  // 24
+  "cdn/shop/files/54116-16-19-oem-bmw-g11-g12-750-alpina-b7-compressor-clutch-pump-engine-n63r.jpg?v=1774043452&width=823",
+  "cdn/shop/files/54116-16-19-oem-bmw-g11-g12-750-alpina-b7-compressor-clutch-pump-engine-n63r-2.jpg?v=1774043452&width=823",
+  "cdn/shop/files/54116-16-19-oem-bmw-g11-g12-750-alpina-b7-compressor-clutch-pump-engine-n63r-3.jpg?v=1774043452&width=823",
+  "cdn/shop/files/54116-16-19-oem-bmw-g11-g12-750-alpina-b7-compressor-clutch-pump-engine-n63r-4.jpg?v=1774043453&width=823",
+  "cdn/shop/files/54116-16-19-oem-bmw-g11-g12-750-alpina-b7-compressor-clutch-pump-engine-n63r-5.jpg?v=1774043453&width=823",
+  "cdn/shop/files/54116-16-19-oem-bmw-g11-g12-750-alpina-b7-compressor-clutch-pump-engine-n63r-8.jpg?v=1774043452&width=823",
+  // 25
+  "cdn/shop/files/54126-16-19-oem-bmw-g12-g30-g11-750-m550-m760-coolant-expansion-tank-reservoir.jpg?v=1774043473&width=823",
+  "cdn/shop/files/54126-16-19-oem-bmw-g12-g30-g11-750-m550-m760-coolant-expansion-tank-reservoir-2.jpg?v=1774043471&width=823",
+  "cdn/shop/files/54126-16-19-oem-bmw-g12-g30-g11-750-m550-m760-coolant-expansion-tank-reservoir-3.jpg?v=1774043471&width=823",
+  "cdn/shop/files/54126-16-19-oem-bmw-g12-g30-g11-750-m550-m760-coolant-expansion-tank-reservoir-4.jpg?v=1774043471&width=823",
+  "cdn/shop/files/54126-16-19-oem-bmw-g12-g30-g11-750-m550-m760-coolant-expansion-tank-reservoir-5.jpg?v=1774043471&width=823",
+  "cdn/shop/files/54126-16-19-oem-bmw-g12-g30-g11-750-m550-m760-coolant-expansion-tank-reservoir-8.jpg?v=1774043471&width=823",
+  // 26 
   "",
   "",
   "",
   "",
   "",
-  ""
+  "",
+  // 27 
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  // 28
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  // 29 
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  // 30 
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+
 ];
 
 function img(index: number, w = 1200, h = 800): string {
@@ -394,15 +521,14 @@ Please feel free to reach out with any questions!!`,
     tagline: "The Future of BMW",
     description:
       "BMW's advanced adaptive cruise control radar sensor enhances driving comfort and safety by maintaining a safe distance from the vehicle ahead.",
-    fullDescription: `The OEM BMW G01 G12 G30 F90 M5 X3 ACC Adaptive Cruise Control Radar Sensor FRR-02 is a crucial component for vehicles equipped with advanced driver assistance systems. This radar sensor enables features such as adaptive cruise control, collision avoidance, and lane-keeping assistance, making it an essential part of BMW's commitment to safety and innovation.
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-The powertrain is nothing short of extraordinary. The 4.0-liter twin-turbo V8 produces 769 horsepower on its own, while three electric motors contribute an additional 217 horsepower for a combined system output of 986 horsepower. Two motors drive the front wheels independently, enabling advanced torque vectoring capabilities never before seen on a Ferrari.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-The SF90 Stradale accelerates from 0 to 60 mph in just 2.0 seconds and reaches 124 mph from standstill in 6.7 seconds. Despite its hybrid powertrain adding weight, the SF90 is actually lighter than the 812 Superfast thanks to extensive use of carbon fiber and innovative engineering solutions.
+Compatibility is the responsibility of the customer to ensure!!
 
-Ferrari's engineers developed an entirely new architecture called "Assetto Fiorano" (Fiorano Package) featuring Multimatic shock absorbers, carbon fiber wheels, and titanium springs. This package reduces weight while improving handling dynamics.
-
-The cockpit introduces Ferrari's first head-up display and a 16-inch curved digital instrument cluster. The steering wheel follows Ferrari's motorsport tradition by integrating almost all controls, including an innovative haptic touch pad for adjusting vehicle settings.`,
+Please feel free to reach out with any questions!!
+`,
     condition: "New",
     year: 2024,
     mileage: 178,
@@ -452,15 +578,14 @@ The cockpit introduces Ferrari's first head-up display and a 16-inch curved digi
     tagline: "Electric Has Gone Thrilling",
     description:
       "Electrifying performance meets Audi's legendary design language. Dual electric motors produce 637 hp with quattro all-wheel drive, delivering exhilarating acceleration in whisper-quiet refinement.",
-    fullDescription: `The Audi RS e-tron GT represents the pinnacle of Audi's electric ambitions, combining breathtaking performance with sustainable luxury. Sharing its advanced J1 platform with the Porsche Taycan, this electric grand tourer delivers an experience unlike any other Audi before it.
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-The dual-motor powertrain produces 637 horsepower in boost mode, launching the RS e-tron GT from 0 to 60 mph in just 3.1 seconds. The rear motor utilizes a two-speed transmission, providing strong acceleration at low speeds while enabling efficient cruising at highway velocities.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-Audi's legendary quattro all-wheel-drive system takes on a new form in the RS e-tron GT. The electric all-wheel drive system can distribute torque between the front and rear axles in milliseconds, providing exceptional traction in all conditions while enabling rear-biased dynamics for enthusiastic driving.
+Compatibility is the responsibility of the customer to ensure!!
 
-The 93.4 kWh battery provides an estimated range of 232 miles, while 800-volt charging architecture enables exceptionally fast charging. Using a DC fast charger, the battery can be replenished from 5% to 80% in approximately 22.5 minutes.
-
-The interior showcases Audi's commitment to sustainable luxury. Recycled materials are used throughout, including a leather-free option featuring Dinamica microfiber. The curved digital cockpit, Bang & Olufsen 3D audio system, and matrix LED headlights represent the cutting edge of automotive technology.`,
+Please feel free to reach out with any questions!!
+`,
     condition: "New",
     year: 2024,
     mileage: 512,
@@ -511,15 +636,14 @@ The interior showcases Audi's commitment to sustainable luxury. Recycled materia
     tagline: "America's Track-Ready Supercar",
     description:
       "America's supercar redefined. The flat-plane crank 5.5L V8 screams to 8,600 RPM producing 670 hp, paired with race-proven aerodynamics and mid-engine precision handling.",
-    fullDescription: `The Chevrolet Corvette Z06 represents the most track-capable Corvette ever produced. This American supercar combines exotic car performance with attainable pricing, democratizing access to world-class driving dynamics.
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-At the heart of the Z06 lies the most powerful naturally aspirated V8 ever fitted to a production car: the 5.5-liter LT6 with a flat-plane crankshaft. This engineering masterpiece produces 670 horsepower at a stratospheric 8,400 rpm and revs all the way to 8,600 rpm. The flat-plane crank enables faster revving and creates an exotic, race-car-like exhaust note.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-The mid-engine layout, introduced with the C8 generation, transforms the Corvette's handling character. The Z06 builds on this foundation with wider bodywork housing massive 275/30ZR-20 front and 345/25ZR-21 rear Michelin Pilot Sport Cup 2 R tires – the widest ever fitted to a production Corvette.
+Compatibility is the responsibility of the customer to ensure!!
 
-The Z07 Performance Package adds carbon fiber aerodynamic components that generate significant downforce, along with carbon ceramic brakes and competition-spec suspension. This package transforms the Z06 into a legitimate track weapon capable of challenging the world's best.
-
-The interior combines genuine carbon fiber, premium Napa leather, and advanced technology including a 12-inch diagonal digital instrument cluster and 8-inch central touchscreen. Despite its track focus, the Z06 remains remarkably civilized for daily driving.`,
+Please feel free to reach out with any questions!!
+`,
     condition: "New",
     year: 2024,
     mileage: 643,
@@ -570,15 +694,14 @@ The interior combines genuine carbon fiber, premium Napa leather, and advanced t
     tagline: "Open-Air Italian Excellence",
     description:
       "Italian artistry meets cutting-edge innovation. The MC20 Cielo features a retractable glass roof, the revolutionary Nettuno twin-combustion V6 engine with 621 hp, and timeless elegance.",
-    fullDescription: `The Maserati MC20 Cielo represents a renaissance for the storied Italian brand, combining breakthrough technology with the passionate soul that has defined Maserati for over a century. "Cielo" means "sky" in Italian, and this convertible supercar opens up the heavens above you.
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-The retractable hardtop features electrochromic glass technology, allowing occupants to adjust the roof's transparency from fully transparent to completely opaque at the touch of a button. This innovative solution maintains the MC20's stunning silhouette while offering an open-air experience.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-At the heart of the MC20 Cielo lies Maserati's revolutionary Nettuno engine. This 3.0-liter twin-turbocharged V6 uses an innovative pre-chamber combustion system derived from Formula 1 technology. The result is 621 horsepower and 538 lb-ft of torque from a remarkably compact and lightweight package.
+Compatibility is the responsibility of the customer to ensure!!
 
-The MC20's chassis is constructed entirely from carbon fiber, resulting in a curb weight of just 3,517 pounds despite the added complexity of the retractable roof mechanism. This lightweight construction enables exceptional performance: 0-60 mph in 2.9 seconds and a top speed of 198 mph with the roof closed.
-
-The interior blends Italian craftsmanship with modern technology. Premium leather, carbon fiber, and alcantara create an atmosphere of refined luxury, while the 10.25-inch central display and digital instrument cluster provide cutting-edge connectivity.`,
+Please feel free to reach out with any questions!!
+.`,
     condition: "New",
     year: 2024,
     mileage: 234,
@@ -684,16 +807,14 @@ Please feel free to reach out with any questions!!`,
     category: "SUV",
     tagline: "The Definition of Refined Capability",
     description:
-      "The pinnacle of refined capability. A 4.4L twin-turbo V8 with 523 hp, combined with peerless off-road prowess and an interior that rivals the finest luxury sedans.",
-    fullDescription: `The Range Rover Autobiography stands as the ultimate expression of Land Rover's legendary combination of luxury and capability. For over 50 years, Range Rover has defined the full-size luxury SUV segment, and the Autobiography trim represents the absolute pinnacle of this legacy.
+      "All parts are used unless otherwise noted! Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!.",
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-Powering the Autobiography is a 4.4-liter twin-turbocharged V8 engine producing 523 horsepower and 553 lb-ft of torque. This sophisticated powerplant provides effortless acceleration while delivering surprising efficiency through its mild-hybrid system. The Range Rover accelerates from 0 to 60 mph in just 4.4 seconds.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-The fifth-generation Range Rover rides on Land Rover's new MLA-Flex architecture, featuring an intelligent all-wheel-drive system with an electronic rear differential and optional all-wheel steering. The adaptive air suspension provides 145mm of vertical travel, enabling exceptional off-road capability while maintaining a limousine-like ride on pavement.
+Compatibility is the responsibility of the customer to ensure!!
 
-Inside, the Autobiography creates a sanctuary of luxury. The cabin features semi-aniline leather, real metal accents, and open-pore wood veneers. The curved 13.1-inch touchscreen integrates seamlessly with the digital instrument cluster, while the rear passengers enjoy individual screens and aircraft-inspired reclining seats.
-
-The innovative Pivi Pro infotainment system works with Amazon Alexa and features over-the-air updates, ensuring the Range Rover evolves and improves over time. Meridian's 1,600-watt, 35-speaker Signature Sound System creates an immersive audio experience.`,
+Please feel free to reach out with any questions!`,
     condition: "New",
     year: 2024,
     mileage: 876,
@@ -738,30 +859,29 @@ The innovative Pivi Pro infotainment system works with Amazon Alexa and features
   },
   {
     id: "12",
-    name: "Bentley Continental GT Speed",
+    name: "2016 BMW 750i G12 - Front Right Passenger Door Lock Actuator PN: 2581894",
     brand: "Bentley",
     category: "Luxury",
     tagline: "Breathtaking Performance, Handcrafted Luxury",
     description:
       "Handcrafted perfection at breathtaking pace. The W12 engine produces 650 hp, clothed in a body of timeless proportions with an interior of unrivaled British craftsmanship and heritage.",
-    fullDescription: `The Bentley Continental GT Speed represents the pinnacle of the grand touring art form, combining extraordinary performance with uncompromising luxury. Every Continental GT Speed is handcrafted in Crewe, England, where skilled artisans spend over 100 hours on the interior alone.
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-At the heart of this magnificent grand tourer lies Bentley's legendary 6.0-liter twin-turbocharged W12 engine. This unique powerplant produces 650 horsepower and 664 lb-ft of torque, enabling the Continental GT Speed to accelerate from 0 to 60 mph in just 3.5 seconds and reach a top speed of 208 mph.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-The Continental GT Speed features Bentley's most advanced chassis ever. The 48-volt active anti-roll control system virtually eliminates body roll, while the electronic limited-slip differential at the rear enables precise torque vectoring. Three-chamber air springs provide exceptional compliance while maintaining sporting agility.
+Compatibility is the responsibility of the customer to ensure!!
 
-The Speed's exterior features unique 22-inch wheels, dark-tinted grilles, and distinctive Speed badging. The available carbon fiber body kit adds aggressive splitters and diffusers that enhance both aesthetics and downforce.
-
-Inside, the Continental GT Speed showcases Bentley's unmatched craftsmanship. The hide of a single bull creates each seat, hand-stitched with perfect diamond quilting. The rotating dashboard display can show either a 12.3-inch touchscreen, three analog dials, or a clean veneer panel, depending on the driver's preference.`,
+Please feel free to reach out with any questions!!
+`,
     condition: "New",
     year: 2024,
     mileage: 456,
     exteriorColor: "Verdant Green",
     interiorColor: "Beluga / Hotspur",
     vin: generateVIN(),
-    price: 274900,
-    discountedPrice: 259900,
-    images: gallery(3),
+    price: 200,
+    discountedPrice: 140,
+    images: gallery(66),
     specifications: {
       engine: "6.0L Twin-Turbocharged W12",
       power: "650 hp @ 5,000-6,000 rpm",
@@ -797,30 +917,29 @@ Inside, the Continental GT Speed showcases Bentley's unmatched craftsmanship. Th
   },
   {
     id: "13",
-    name: "McLaren 720S Spider",
+    name: "18-20 OEM BMW G30 M550iX Engine N63R Gas Tank Mount Fuel Pump w/ Sending Unit",
     brand: "McLaren",
     category: "Convertible",
     tagline: "Engineered for Open-Air Thrills",
     description:
       "Aerodynamic artistry meets open-air exhilaration. The 4.0L twin-turbo V8 delivers 710 hp through a carbon fiber monocoque, with a retractable hardtop that transforms the experience.",
-    fullDescription: `The McLaren 720S Spider combines the ferocious performance of the 720S Coupé with the visceral thrill of open-air driving. Every element has been engineered to deliver an experience that engages all the senses while maintaining McLaren's uncompromising performance standards.
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-The retractable hardtop is an engineering marvel, folding away in just 11 seconds at speeds up to 31 mph. Remarkably, the Spider is only 49 kg heavier than the Coupé, thanks to the Monocage II-S carbon fiber chassis that provides exceptional rigidity without additional reinforcement.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-The 4.0-liter twin-turbocharged V8 engine produces 710 horsepower and 568 lb-ft of torque, launching the 720S Spider from 0 to 60 mph in 2.8 seconds. The top speed reaches 212 mph with the roof up and 202 mph with the roof lowered – figures that establish the 720S Spider as one of the fastest convertibles ever made.
+Compatibility is the responsibility of the customer to ensure!!
 
-McLaren's innovative Proactive Chassis Control II suspension system continuously adapts to road conditions, providing exceptional comfort and control. The Hydraulic Cross-Link system connects the suspension units, reducing body roll while maintaining exceptional ride quality.
-
-The cabin combines racing-inspired design with luxury materials. The dihedral doors, a McLaren signature, provide dramatic access to a cockpit focused entirely on the driver. With the roof lowered and the rear glass in place, the engine's sonorous exhaust note is perfectly showcased.`,
+Please feel free to reach out with any questions!!
+`,
     condition: "Used",
     year: 2022,
     mileage: 4567,
     exteriorColor: "Sarthe Grey",
     interiorColor: "Carbon Black / McLaren Orange",
     vin: generateVIN(),
-    price: 315000,
-    discountedPrice: 279900,
-    images: gallery(5),
+    price: 350,
+    discountedPrice: 200,
+    images: gallery(72),
     specifications: {
       engine: "4.0L Twin-Turbocharged V8",
       power: "710 hp @ 7,250 rpm",
@@ -855,30 +974,29 @@ The cabin combines racing-inspired design with luxury materials. The dihedral do
   },
   {
     id: "14",
-    name: "Aston Martin DB12",
+    name: "OEM BMW F97 G01 G02 G12 G30 BDC Body Domain Control Control Module Unit + Keys",
     brand: "Aston Martin",
     category: "Coupe",
     tagline: "The World's First Super Tourer",
     description:
       "The world's first super tourer. A twin-turbo V8 producing 671 hp married to Aston Martin's most advanced chassis ever, wrapped in breathtakingly sculpted aluminum bodywork.",
-    fullDescription: `The Aston Martin DB12 marks a new era for the iconic British brand, claiming the title of "The World's First Super Tourer." This designation reflects the DB12's ability to combine the performance of a supercar with the refinement and comfort expected of a grand tourer.
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-The DB12 is powered by an enhanced version of the twin-turbocharged 4.0-liter V8 engine, now producing 671 horsepower and 590 lb-ft of torque – making it the most powerful production DB model ever created. The 8-speed automatic transmission has been calibrated to deliver both lightning-fast shifts and smooth, refined gear changes depending on the driving mode selected.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-Aston Martin's engineers completely redesigned the chassis for the DB12. New adaptive dampers, electronic rear differential, and an upgraded steering system deliver exceptional dynamic capability while maintaining the supple ride quality expected of a true grand tourer.
+Compatibility is the responsibility of the customer to ensure!!
 
-The exterior design evolves Aston Martin's iconic styling with a more assertive presence. The wider, lower stance features new LED headlights and a redesigned grille that improves cooling. The aluminum body is handcrafted at Aston Martin's headquarters in Gaydon, England.
-
-Inside, the DB12 features Aston Martin's most advanced interior ever. The new 10.25-inch touchscreen infotainment system, developed with Mercedes-Benz, brings modern connectivity to the cabin. Bridge of Weir leather, genuine carbon fiber, and available tweed inserts create an atmosphere of British sophistication.`,
+Please feel free to reach out with any questions!!
+.`,
     condition: "New",
     year: 2024,
     mileage: 234,
     exteriorColor: "Iridescent Emerald",
     interiorColor: "Obsidian Black / Eifel Green",
     vin: generateVIN(),
-    price: 245000,
-    discountedPrice: 234900,
-    images: gallery(7),
+    price: 290,
+    discountedPrice: 260,
+    images: gallery(78),
     specifications: {
       engine: "4.0L Twin-Turbocharged V8",
       power: "671 hp @ 6,000 rpm",
@@ -914,30 +1032,29 @@ Inside, the DB12 features Aston Martin's most advanced interior ever. The new 10
   },
   {
     id: "15",
-    name: "Bugatti Chiron Sport",
+    name: "OEM BMW F30 F44 F80 G01 G20 G30 Front Rear Left Right Suspension Level Sensor",
     brand: "Bugatti",
     category: "Hypercar",
     tagline: "Engineering Beyond Imagination",
     description:
       "Engineering beyond imagination. The legendary 8.0L quad-turbo W16 produces 1,500 hp, propelling this masterpiece to speeds that redefine what's mechanically possible.",
-    fullDescription: `The Bugatti Chiron Sport represents the ultimate expression of automotive engineering and craftsmanship. This hypercar exists at the absolute pinnacle of what is technically achievable, combining unprecedented performance with uncompromising luxury.
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-The Chiron Sport's beating heart is the legendary 8.0-liter quad-turbocharged W16 engine – essentially two V8 engines joined at the crankshaft. This masterpiece of engineering produces 1,500 horsepower and an almost inconceivable 1,180 lb-ft of torque, enabling acceleration from 0 to 60 mph in just 2.4 seconds.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-The top speed of the Chiron Sport is electronically limited to 261 mph, though the car is theoretically capable of exceeding 300 mph. The seven-speed dual-clutch transmission can handle the immense torque, while the sophisticated all-wheel-drive system provides the traction necessary to deploy such power.
+Compatibility is the responsibility of the customer to ensure!!
 
-The "Sport" designation brings significant chassis enhancements. Stiffer suspension springs, a more responsive steering rack, and revised handling balance make the Chiron Sport more agile and engaging than the standard model. Weight savings of 18 kg are achieved through lightweight wheels and carbon fiber components.
-
-Inside, the Chiron Sport combines traditional haute couture craftsmanship with modern technology. Every element is handcrafted by skilled artisans in Molsheim, France. The distinctive "C" design element, created using a single piece of milled aluminum, houses the controls for climate, media, and comfort systems.`,
+Please feel free to reach out with any questions!!
+`,
     condition: "Used",
     year: 2022,
     mileage: 2345,
     exteriorColor: "Atlantic Blue / French Racing Blue",
     interiorColor: "Gaucho / Beluga Black",
     vin: generateVIN(),
-    price: 3300000,
-    discountedPrice: 2990000,
-    images: gallery(9),
+    price: 40,
+    discountedPrice: 35,
+    images: gallery(84),
     specifications: {
       engine: "8.0L Quad-Turbocharged W16",
       power: "1,500 hp @ 6,700 rpm",
@@ -972,30 +1089,29 @@ Inside, the Chiron Sport combines traditional haute couture craftsmanship with m
   },
   {
     id: "16",
-    name: "Lexus LC 500",
+    name: "OEM BMW F44 G01 G05 G12 G20 G26 G30 Steering Wheel Paddle Shifter plus up",
     brand: "Lexus",
     category: "Coupe",
     tagline: "Concept-Car Beauty Made Real",
     description:
       "Where concept-car beauty meets production-car reality. A naturally aspirated 5.0L V8 with 471 hp delivers an emotional driving experience wrapped in jaw-dropping design.",
-    fullDescription: `The Lexus LC 500 proves that sometimes the boldest concept cars can make it to production virtually unchanged. This stunning grand tourer combines provocative design with genuine driving excitement, establishing Lexus as a creator of truly desirable sports cars.
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-The LC 500 is powered by a naturally aspirated 5.0-liter V8 engine producing 471 horsepower and 398 lb-ft of torque. In an era of forced induction, the LC's high-revving V8 is refreshingly pure, delivering linear power delivery and an intoxicating exhaust note. The engine revs eagerly to its 7,300 rpm redline.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-Lexus developed an innovative 10-speed Direct-Shift automatic transmission specifically for the LC. This unit provides both silky smooth shifts for grand touring and rapid-fire changes when driving enthusiastically. The close gear ratios keep the engine in its powerband during spirited driving.
+Compatibility is the responsibility of the customer to ensure!!
 
-The LC 500's chassis combines a new multi-link suspension design with an exceptionally rigid platform. The resulting dynamics balance sporting agility with grand touring comfort. Available 21-inch wheels and an optional Performance Package with active rear steering sharpen the LC's responses further.
-
-Inside, the LC 500 showcases Lexus's "Takumi" craftsmanship philosophy. Hand-pleated door inserts require over 300 processes to create. The driver-focused cockpit positions all controls within easy reach, while the 12.3-inch multimedia display provides connectivity without cluttering the elegant design.`,
+Please feel free to reach out with any questions!!
+`,
     condition: "New",
     year: 2024,
     mileage: 567,
     exteriorColor: "Infrared",
     interiorColor: "Toasted Caramel Semi-Aniline Leather",
     vin: generateVIN(),
-    price: 93050,
-    discountedPrice: 87500,
-    images: gallery(11),
+    price: 75,
+    discountedPrice: 60,
+    images: gallery(90),
     specifications: {
       engine: "5.0L Naturally Aspirated V8",
       power: "471 hp @ 7,100 rpm",
@@ -1031,30 +1147,29 @@ Inside, the LC 500 showcases Lexus's "Takumi" craftsmanship philosophy. Hand-ple
   },
   {
     id: "17",
-    name: "Jaguar F-Type R75",
+    name: "PRE-LCI OEM BMW G01 G12 G30 ABS Brake Pump Anti Lock DSC Dynamic Stability",
     brand: "Jaguar",
     category: "Sports",
     tagline: "A 75-Year Legacy of Sports Cars",
     description:
       "A celebration of 75 years of Jaguar sports cars. The supercharged 5.0L V8 with 575 hp delivers savage performance with distinctly British charm and a soundtrack to match.",
-    fullDescription: `The Jaguar F-Type R75 is a fitting tribute to 75 years of Jaguar sports car heritage, dating back to the legendary XK120 of 1948. This limited-edition model represents the final and most powerful iteration of the F-Type, marking the end of an era for Jaguar's combustion-powered sports cars.
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-The R75 is powered by the supercharged 5.0-liter V8 engine in its most potent form, producing 575 horsepower and 516 lb-ft of torque. This handcrafted engine propels the F-Type from 0 to 60 mph in just 3.5 seconds, accompanied by one of the most stirring exhaust notes in the automotive world.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-The all-wheel-drive system works with the quick-shifting 8-speed automatic transmission to deploy power effectively in all conditions. The intelligent driveline can send up to 100% of torque to the rear axle under normal conditions, providing engaging rear-drive dynamics while maintaining all-weather capability.
+Compatibility is the responsibility of the customer to ensure!!
 
-Unique to the R75 are exclusive 20-inch wheels in satin grey, special badging, and unique interior trim. The cabin features Windsor leather with diamond quilting, an 11.4-inch curved touchscreen, and Meridian premium audio with 770 watts of power.
-
-The F-Type's aluminum architecture provides an ideal balance of rigidity and weight, enabling responsive handling. Adaptive dynamics continuously adjust the suspension, steering, and throttle response to match driving conditions and driver preferences.`,
+Please feel free to reach out with any questions!!
+`,
     condition: "New",
     year: 2024,
     mileage: 234,
     exteriorColor: "British Racing Green",
     interiorColor: "Mars Red / Ebony",
     vin: generateVIN(),
-    price: 103200,
-    discountedPrice: 96800,
-    images: gallery(13),
+    price: 230,
+    discountedPrice: 200,
+    images: gallery(96),
     specifications: {
       engine: "5.0L Supercharged V8",
       power: "575 hp @ 6,500-7,000 rpm",
@@ -1090,30 +1205,30 @@ The F-Type's aluminum architecture provides an ideal balance of rigidity and wei
   },
   {
     id: "18",
-    name: "Porsche Taycan Turbo S",
+    name: "PRE-LCI OEM BMW G05 G07 G11 G12 G30 M550 X5 Left Right Turbo Charger SET N63 k",
     brand: "Porsche",
     category: "Electric",
     tagline: "Electric Performance, Porsche Soul",
     description:
-      "Electric performance, Porsche soul. Dual electric motors produce 750 hp with overboost, delivering the iconic Porsche driving experience in a stunning all-electric package.",
-    fullDescription: `The Porsche Taycan Turbo S proves that the transition to electric power doesn't require sacrificing the qualities that make a Porsche a Porsche. This ground-breaking sports sedan delivers exhilarating performance while establishing new standards for electric vehicle driving dynamics.
+      "All parts are used unless otherwise noted! Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!.",
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-The Taycan Turbo S features dual permanent-magnet synchronous motors producing up to 750 horsepower with overboost during launch control. This enables acceleration from 0 to 60 mph in just 2.6 seconds, with consistently repeatable performance thanks to the innovative 800-volt electrical architecture.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-The innovative two-speed transmission on the rear axle is unique in the electric vehicle world. First gear provides maximum acceleration off the line, while second gear ensures efficient high-speed cruising. This engineering solution enables both explosive acceleration and impressive range.
+Compatibility is the responsibility of the customer to ensure!!
 
-Porsche's chassis engineering excellence is evident in every aspect of the Taycan's dynamics. The adaptive air suspension, rear-axle steering, and Porsche Dynamic Chassis Control work in harmony to deliver the precise, confidence-inspiring handling that defines every Porsche.
+Please feel free to reach out with any questions!!
 
-The interior combines traditional Porsche design elements with advanced technology. The curved 16.8-inch digital instrument cluster and 10.9-inch central display create a driver-focused cockpit. An optional passenger display allows the front passenger to monitor vehicle data and control media functions.`,
+`,
     condition: "New",
     year: 2024,
     mileage: 345,
     exteriorColor: "Frozen Blue Metallic",
     interiorColor: "Black / Lime Green",
     vin: generateVIN(),
-    price: 185000,
-    discountedPrice: 176500,
-    images: gallery(15),
+    price: 670,
+    discountedPrice: 630,
+    images: gallery(102),
     specifications: {
       engine: "Dual Permanent-Magnet Synchronous Motors",
       power: "750 hp (Overboost with Launch Control)",
@@ -1149,21 +1264,19 @@ The interior combines traditional Porsche design elements with advanced technolo
   },
   {
     id: "19",
-    name: "Mercedes-Maybach S 680",
+    name: "16-22 OEM BMW G11 G12 740 750 M760 Air Suspension Compressor Pump Module Motor",
     brand: "Mercedes-Maybach",
     category: "Sedan",
     tagline: "The Absolute Zenith of Luxury",
     description:
-      "The absolute zenith of automotive luxury. A handcrafted twin-turbo V12, rear-seat first-class experience, and technology that anticipates your every desire before you think it.",
-    fullDescription: `The Mercedes-Maybach S 680 represents the ultimate expression of automotive luxury, combining the technological excellence of Mercedes-Benz with the bespoke craftsmanship that has defined Maybach for over a century. This flagship sedan is designed primarily for those who are driven.
+      "All parts are used unless otherwise noted! Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!.",
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-The S 680 is powered by a hand-assembled 6.0-liter twin-turbocharged V12 engine producing 621 horsepower and 738 lb-ft of torque. Each engine bears a plaque signed by its creator, a testament to the craftsmanship involved. The 9G-TRONIC automatic transmission shifts imperceptibly, ensuring the utmost refinement.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-The rear compartment is where the Maybach S 680 truly excels. Executive seats recline to 43.5 degrees while providing massage functions, ventilation, and adjustable calf rests. Individual climate control, tablet controllers for all vehicle functions, and an optional champagne cooler create a first-class experience on wheels.
+Compatibility is the responsibility of the customer to ensure!!
 
-Mercedes-Maybach's attention to detail extends to every surface. The wood trim requires 33 days and over 100 individual processes to create. The unique "flowing lines" pattern on the seats requires specialized embroidery machines that operate with micron-level precision.
-
-Advanced technology operates invisibly to enhance comfort and safety. The Magic Body Control suspension uses cameras to read the road ahead and adjust the dampers preemptively. The Burmester high-end 4D surround sound system with resonators in the seats creates an immersive audio experience.`,
+Please feel free to reach out with any questions!`,
     condition: "New",
     year: 2024,
     mileage: 456,
@@ -1172,7 +1285,7 @@ Advanced technology operates invisibly to enhance comfort and safety. The Magic 
     vin: generateVIN(),
     price: 229000,
     discountedPrice: 219500,
-    images: gallery(17),
+    images: gallery(108),
     specifications: {
       engine: "6.0L Twin-Turbocharged V12",
       power: "621 hp @ 4,800 rpm",
@@ -1208,30 +1321,28 @@ Advanced technology operates invisibly to enhance comfort and safety. The Magic 
   },
   {
     id: "20",
-    name: "BMW iX M60",
+    name: "16-19 OEM BMW G11 G12 740 750 Transmission Shifter Gear Selector Switch Ceramic",
     brand: "BMW",
     category: "Electric",
     tagline: "The Future of Driving Pleasure",
     description:
-      "The future of luxury electric mobility. Dual motors with 610 hp, cutting-edge technology wrapped in sustainable materials, and a range that makes every journey effortless.",
-    fullDescription: `The BMW iX M60 represents BMW's vision of sustainable luxury for the future. This flagship electric SUV combines M Performance DNA with cutting-edge electric technology, proving that the transition to electric mobility can enhance rather than compromise the driving experience.
+      "All parts are used unless otherwise noted! Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!",
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-The iX M60 features a dual-motor setup producing up to 610 horsepower in Sport Mode, with overboost capability during launches. This enables acceleration from 0 to 60 mph in just 3.6 seconds – remarkable performance for a vehicle of this size. The 111.5 kWh battery provides over 280 miles of range.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-BMW's fifth-generation eDrive technology powers the iX M60, incorporating improvements in motor efficiency, battery management, and thermal control. The intelligent all-wheel-drive system continuously optimizes power distribution between the axles for maximum traction and efficiency.
+Compatibility is the responsibility of the customer to ensure!!
 
-The interior represents a radical departure for BMW, featuring sustainable materials throughout. The leather is naturally tanned using olive leaf extract, while recycled plastics and FSC-certified wood create an environmentally conscious luxury experience. The curved BMW iDrive display combines the 12.3-inch digital cluster with a 14.9-inch central touchscreen.
-
-The iX M60's carbon fiber chassis structure, combined with double wishbones at the front and a five-link rear axle, delivers surprisingly engaging dynamics for an electric SUV. Available adaptive M suspension with active roll stabilization further enhances the driving experience.`,
+Please feel free to reach out with any questions!`,
     condition: "New",
     year: 2024,
     mileage: 678,
     exteriorColor: "Aventurin Red Metallic",
     interiorColor: "Castanea Leather / Natural Wool",
     vin: generateVIN(),
-    price: 108900,
-    discountedPrice: 99900,
-    images: gallery(19),
+    price: 190,
+    discountedPrice: 150,
+    images: gallery(114),
     specifications: {
       engine: "Dual Electric Motors",
       power: "610 hp (Sport Mode)",
@@ -1267,21 +1378,20 @@ The iX M60's carbon fiber chassis structure, combined with double wishbones at t
   },
   {
     id: "21",
-    name: "Lamborghini Urus Performante",
+    name: "OEM BMW F90 F93 G11 G12 G16 G30 M5 Radiator Mount Support Bracket Left Right SET",
     brand: "Lamborghini",
     category: "SUV",
     tagline: "The Super SUV, Evolved",
     description:
       "The world's first Super SUV, evolved. A 4.0L twin-turbo V8 with 657 hp, aggressive styling, and race-inspired engineering make this the apex predator of luxury SUVs.",
-    fullDescription: `The Lamborghini Urus Performante takes the Super SUV concept that Lamborghini pioneered and elevates it to new extremes. Lighter, more powerful, and more focused than the standard Urus, the Performante delivers supercar performance with real-world practicality.
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-The 4.0-liter twin-turbocharged V8 engine has been enhanced to produce 657 horsepower and 627 lb-ft of torque – increases of 16 hp and 37 lb-ft over the standard Urus. Combined with a weight reduction of 47 kg through extensive use of carbon fiber, the Performante accelerates from 0 to 60 mph in 3.3 seconds.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-The Performante features an extensively revised chassis with new springs, dampers, and anti-roll bars. The rear-wheel steering system has been retuned for greater agility, and new Torque Rear technology enhances the vehicle's yaw rate during dynamic driving. The result is an SUV that handles like a sports car.
+Compatibility is the responsibility of the customer to ensure!!
 
-Aggressive aerodynamic enhancements differentiate the Performante visually while providing functional benefits. The new front bumper increases airflow to the cooling system, while the redesigned rear diffuser generates additional downforce. A new integrated rear spoiler completes the athletic look.
-
-Inside, the Performante features lightweight sports seats, Alcantara trim, and exposed carbon fiber elements. The standard specification is deliberately focused on weight savings, though Lamborghini's Ad Personam program allows for extensive personalization.`,
+Please feel free to reach out with any questions!!
+`,
     condition: "New",
     year: 2024,
     mileage: 432,
@@ -1290,7 +1400,7 @@ Inside, the Performante features lightweight sports seats, Alcantara trim, and e
     vin: generateVIN(),
     price: 260676,
     discountedPrice: 248900,
-    images: gallery(0),
+    images: gallery(120),
     specifications: {
       engine: "4.0L Twin-Turbocharged V8",
       power: "657 hp @ 6,000 rpm",
@@ -1326,30 +1436,29 @@ Inside, the Performante features lightweight sports seats, Alcantara trim, and e
   },
   {
     id: "22",
-    name: "Ferrari Roma Spider",
+    name: "OEM BMW F90 G12 G30 G32 Front Right Passenger Seat Adjustment Control Switch",
     brand: "Ferrari",
     category: "Convertible",
     tagline: "La Dolce Vita, Reimagined",
     description:
       "La Dolce Vita, reimagined. The elegant lines of the Roma meet open-top freedom with a twin-turbo V8 producing 612 hp and Ferrari's most refined grand touring experience.",
-    fullDescription: `The Ferrari Roma Spider captures the spirit of 1960s Italian glamour while incorporating Ferrari's most advanced technology. This elegant convertible represents Ferrari's vision of a front-engine grand tourer designed for open-air enjoyment.
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-The retractable soft top can be operated in just 13.5 seconds at speeds up to 37 mph. This rapid operation allows spontaneous enjoyment of open-air driving, whether cruising along a coastal road or waiting at a traffic light as the weather clears.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-The Roma Spider is powered by Ferrari's multi-award-winning 3.9-liter twin-turbocharged V8 engine, producing 612 horsepower and 561 lb-ft of torque. The 8-speed dual-clutch transmission delivers seamless shifts, enabling acceleration from 0 to 60 mph in 3.4 seconds and a top speed of 198 mph.
+Compatibility is the responsibility of the customer to ensure!!
 
-Ferrari's engineers ensured that removing the fixed roof doesn't compromise the driving experience. Extensive work on chassis stiffness, aerodynamics, and acoustic management means the Roma Spider delivers the same precise handling and refined character as the coupé.
-
-The interior features Ferrari's dual-cockpit design philosophy, with driver and passenger surrounded by elegant leather and modern technology. The 16-inch digital instrument cluster and 8.4-inch passenger display create an immersive experience, while the 7-inch rear screen provides control of navigation and media for the passenger.`,
+Please feel free to reach out with any questions!!
+`,
     condition: "New",
     year: 2024,
     mileage: 198,
     exteriorColor: "Blu Corsa",
     interiorColor: "Cuoio / Nero",
     vin: generateVIN(),
-    price: 272000,
-    discountedPrice: 259900,
-    images: gallery(5),
+    price: 170,
+    discountedPrice: 120,
+    images: gallery(126),
     specifications: {
       engine: "3.9L Twin-Turbocharged V8",
       power: "612 hp @ 5,750-7,500 rpm",
@@ -1384,30 +1493,29 @@ The interior features Ferrari's dual-cockpit design philosophy, with driver and 
   },
   {
     id: "23",
-    name: "Audi R8 V10 Performance",
+    name: "16-22 OEM BMW G11 G12 740 750 iDrive Navigation Controller Knob Button CERAMIC",
     brand: "Audi",
     category: "Sports",
     tagline: "The Naturally Aspirated Legend",
     description:
-      "A naturally aspirated 5.2L V10 masterpiece producing 602 hp at a soul-stirring 8,700 RPM. Quattro all-wheel drive with rear-biased torque for pure driving engagement.",
-    fullDescription: `The Audi R8 V10 Performance stands as one of the last naturally aspirated supercars in production, and its 5.2-liter V10 engine represents the pinnacle of this fading art form. This final-generation R8 delivers an experience that future electric vehicles may never replicate.
+      "All parts are used unless otherwise noted! Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!",
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-The V10 engine, shared with Lamborghini and derived from racing technology, produces 602 horsepower at 8,100 rpm and can rev to an intoxicating 8,700 rpm. The dry-sump lubrication system enables aggressive cornering without oil starvation, while the direct fuel injection ensures optimal power delivery.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-Quattro all-wheel drive with rear-biased torque distribution provides exceptional traction while maintaining engaging handling characteristics. Under normal conditions, up to 100% of power goes to the rear wheels, with the front axle engaging seamlessly when additional traction is required.
+Compatibility is the responsibility of the customer to ensure!!
 
-The R8's construction combines an aluminum space frame with carbon fiber reinforced polymer components, creating an exceptionally rigid yet lightweight structure. The mid-engine layout provides optimal weight distribution for predictable, balanced handling.
-
-Inside, the R8 features Audi's Virtual Cockpit fully digital instrument cluster, displaying navigation, media, and vehicle data in the driver's direct line of sight. The optional laser headlights provide nearly twice the illumination range of LED units, representing the cutting edge of automotive lighting technology.`,
+Please feel free to reach out with any questions!!
+`,
     condition: "Used",
     year: 2022,
     mileage: 7890,
     exteriorColor: "Kemora Grey Metallic",
     interiorColor: "Express Red Fine Nappa Leather",
     vin: generateVIN(),
-    price: 196700,
-    discountedPrice: 174900,
-    images: gallery(6),
+    price: 210,
+    discountedPrice: 190,
+    images: gallery(132),
     specifications: {
       engine: "5.2L Naturally Aspirated V10",
       power: "602 hp @ 8,100 rpm",
@@ -1443,30 +1551,29 @@ Inside, the R8 features Audi's Virtual Cockpit fully digital instrument cluster,
   },
   {
     id: "24",
-    name: "Tesla Cybertruck",
+    name: "16-19 OEM BMW G11 G12 750 Alpina B7 Compressor Clutch Pump Engine N63R",
     brand: "Tesla",
     category: "Electric",
     tagline: "Radically Different by Design",
     description:
       "Radically reimagining what a truck can be. Ultra-hard stainless steel exoskeleton, tri-motor AWD with 845 hp, and adaptive air suspension for supreme versatility.",
-    fullDescription: `The Tesla Cybertruck represents the most radical reimagining of the pickup truck in decades. Its polarizing design conceals engineering innovation that delivers capability exceeding traditional trucks while producing zero emissions.
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-The tri-motor Cyberbeast variant produces 845 horsepower, enabling acceleration from 0 to 60 mph in a supercar-matching 2.6 seconds – unprecedented for a pickup truck. The 123 kWh battery provides over 320 miles of range, while 11,000 lb of towing capacity handles serious hauling duties.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-The stainless steel exoskeleton serves as the vehicle's structure, eliminating the need for traditional body panels and paint. This 30X cold-rolled stainless steel is ultra-hard and dent-resistant, while the Tesla armor glass provides unprecedented window protection.
+Compatibility is the responsibility of the customer to ensure!!
 
-The Cybertruck's adaptive air suspension provides 17 inches of total travel, enabling both a low stance for highway efficiency and high ground clearance for off-road adventures. Four-wheel steering reduces the turning radius while improving stability at highway speeds.
-
-Inside, the Cybertruck features a 18.5-inch central touchscreen and a 9.4-inch rear passenger display. The 6-foot bed features 1,800 watts of power outlets, integrated lighting, and a versatile tonneau cover that can support the weight of an adult standing on it.`,
+Please feel free to reach out with any questions!!
+.`,
     condition: "New",
     year: 2024,
     mileage: 234,
     exteriorColor: "Ultra Metal",
     interiorColor: "Black / White Premium Interior",
     vin: generateVIN(),
-    price: 99990,
-    discountedPrice: 96490,
-    images: gallery(10),
+    price: 180,
+    discountedPrice: 150,
+    images: gallery(138),
     specifications: {
       engine: "Tri Motor All-Electric",
       power: "845 hp Combined",
@@ -1502,30 +1609,29 @@ Inside, the Cybertruck features a 18.5-inch central touchscreen and a 9.4-inch r
   },
   {
     id: "25",
-    name: "Cadillac Escalade-V",
+    name: "16-19 OEM BMW G12 G30 G11 750 M550 M760 Coolant Expansion Tank Reservoir",
     brand: "Cadillac",
     category: "SUV",
     tagline: "American Luxury Taken to Extremes",
     description:
       "American luxury taken to the extreme. A supercharged 6.2L V8 with 682 hp transforms this iconic luxury SUV into the most powerful full-size SUV ever produced.",
-    fullDescription: `The Cadillac Escalade-V represents the ultimate expression of American luxury and performance. As the most powerful full-size SUV ever produced by a major manufacturer, it combines the Escalade's iconic presence with genuine high-performance capability.
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-The heart of the Escalade-V is GM's LT4 supercharged 6.2-liter V8 engine, producing 682 horsepower and 653 lb-ft of torque. This hand-assembled powerplant launches the nearly 6,500-pound Escalade-V from 0 to 60 mph in just 4.4 seconds – performance that rivals many sports sedans.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-The V-Series performance treatment includes Magnetic Ride Control 4.0 with unique V-Series tuning, providing exceptional body control without sacrificing ride comfort. Air springs maintain the Escalade's signature smooth ride while enabling adjustable ride height for different conditions.
+Compatibility is the responsibility of the customer to ensure!!
 
-An electronic limited-slip differential with V-Mode tuning enhances cornering capability, while the performance-tuned steering provides excellent feedback for a vehicle of this size. The Brembo brake system with 6-piston front and 4-piston rear calipers ensures confident stopping power.
-
-Inside, the Escalade-V features a stunning 38-inch curved OLED display spanning the dashboard. AKG Studio Reference audio with 36 speakers and 3D surround sound creates an immersive audio experience. Semi-aniline leather with V-Series specific detailing adorns every surface.`,
+Please feel free to reach out with any questions!!
+`,
     condition: "New",
     year: 2024,
     mileage: 567,
     exteriorColor: "Black Raven",
     interiorColor: "Jet Black with Jet Black Accents",
     vin: generateVIN(),
-    price: 149990,
-    discountedPrice: 142900,
-    images: gallery(14),
+    price: 92,
+    discountedPrice: 75,
+    images: gallery(144),
     specifications: {
       engine: "6.2L Supercharged V8 (LT4)",
       power: "682 hp @ 6,000 rpm",
@@ -1567,15 +1673,14 @@ Inside, the Escalade-V features a stunning 38-inch curved OLED display spanning 
     tagline: "Godzilla, The Ultimate Form",
     description:
       "Godzilla, the ultimate iteration. Hand-assembled twin-turbo V6 with 600 hp, NISMO-tuned suspension, and aerodynamics born from decades of motorsport dominance at every level.",
-    fullDescription: `The Nissan GT-R NISMO represents the ultimate iteration of "Godzilla" – Japan's legendary supercar killer. This special variant receives the full treatment from NISMO, Nissan's motorsport division, creating a machine focused entirely on maximum performance.
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-The VR38DETT 3.8-liter twin-turbocharged V6 engine is hand-assembled by specialized Takumi craftsmen who sign each engine they create. In NISMO specification, this powerplant produces 600 horsepower and 481 lb-ft of torque, channeled through a sophisticated all-wheel-drive system capable of adjusting torque split in milliseconds.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-The GT-R NISMO features an extensive aerodynamic package developed through Super GT racing. The carbon fiber front bumper with dedicated canards, carbon fiber rear wing, and revised rear diffuser generate significant downforce while maintaining the GT-R's exceptional stability at speed.
+Compatibility is the responsibility of the customer to ensure!!
 
-The suspension has been completely revised with NISMO-specific settings. The Bilstein DampTronic dampers feature unique valving, while the springs are 5% stiffer at the front and 10% stiffer at the rear. The result is dramatically improved turn-in response and mid-corner adjustability.
-
-Inside, the GT-R NISMO features Recaro bucket seats with red accents, an Alcantara-wrapped steering wheel, and a carbon fiber center console. The functional focus of the interior reflects the car's purpose as a tool for driving excellence.`,
+Please feel free to reach out with any questions!!
+`,
     condition: "Used",
     year: 2021,
     mileage: 8765,
@@ -1802,15 +1907,14 @@ The interior features unique Sapphire-exclusive trim, including Nappa leather wi
     tagline: "The Electric Hypercar Revolution",
     description:
       "The electric hypercar that changed everything. Four motors deliver 1,914 hp with 2,360 Nm of torque, hand-built in Croatia as a testament to human innovation.",
-    fullDescription: `The Rimac Nevera represents the ultimate expression of electric hypercar performance, proving conclusively that the future of extreme performance is electric. Named after the Croatian word for a violent Mediterranean storm, the Nevera delivers force of nature performance from its four electric motors.
+    fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
 
-The quad-motor powertrain produces an astounding 1,914 horsepower and 2,360 Nm (1,740 lb-ft) of torque. This enables acceleration from 0 to 60 mph in 1.85 seconds, 0 to 100 mph in 4.3 seconds, and a top speed of 258 mph. These are figures that establish new benchmarks for production automobiles.
+Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
 
-Each wheel is driven by its own electric motor, enabling torque vectoring of unprecedented sophistication. The Rimac All-Wheel Torque Vectoring 2 system can adjust torque to each wheel 100 times per second, providing both exceptional performance and remarkable stability.
+Compatibility is the responsibility of the customer to ensure!!
 
-The 120 kWh battery pack provides a WLTP range of 550 km (340 miles), while 500 kW DC fast charging capability enables rapid replenishment. The battery and motors incorporate extensive active cooling to maintain performance during sustained high-performance driving.
-
-Hand-built in Croatia by a team of passionate engineers, each Nevera requires 2,000 hours of assembly. The carbon fiber monocoque, bonded aluminum structures, and carbon fiber body panels create a curb weight of just 2,150 kg – exceptional for an electric hypercar.`,
+Please feel free to reach out with any questions!!
+.`,
     condition: "New",
     year: 2024,
     mileage: 89,
