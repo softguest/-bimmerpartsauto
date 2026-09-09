@@ -42,10 +42,10 @@ export default function Navbar() {
                 </div>
                 <div>
                   <span className="text-xl font-bold tracking-tight text-white">
-                    LUXE
+                    BIMMER 
                   </span>
                   <span className="text-xl font-light tracking-tight text-white/60">
-                    MOTORS
+                    PARTSAUTO
                   </span>
                 </div>
               </Link>
