@@ -41,8 +41,11 @@ import Navbar from "@/components/navbar";
 import ParticleBackground from "@/components/particle-background";
 import Footer from "@/components/footer";
 import { cn } from "@/lib/utils";
+import FloatingContact from "@/components/FloatingContact";
+import Link from "next/link";
+import { Sparkles } from "lucide-react";
 
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
+const geist = Geist({ subsets: ['latin'], variable: '--font-sans' });
 
 const inter = Inter({
   subsets: ["latin"],
@@ -83,6 +86,7 @@ export default function RootLayout({
         <ParticleBackground />
         <Navbar />
         <main className="relative z-10">{children}</main>
+        <FloatingContact />
         <Footer />
       </body>
     </html>

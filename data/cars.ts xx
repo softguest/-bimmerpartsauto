@@ -1,0 +1,1987 @@
+// import { Car } from "@/types";
+
+// const PHOTOS = [
+//   // 01 
+//   "cdn/shop/files/46093-14-20-oem-bmw-f22-f23-m235i-m240i-rear-differential-axle-carrier-ratio-308-56k.jpg?v=1763145118&width=823",
+//   "cdn/shop/files/46093-14-20-oem-bmw-f22-f23-m235i-m240i-rear-differential-axle-carrier-ratio-308-56k-3.jpg?v=1763145116&width=823",
+//   "cdn/shop/files/46093-14-20-oem-bmw-f22-f23-m235i-m240i-rear-differential-axle-carrier-ratio-308-56k-4.jpg?v=1763145117&width=823",
+//   "cdn/shop/files/46093-14-20-oem-bmw-f22-f23-m235i-m240i-rear-differential-axle-carrier-ratio-308-56k-5.jpg?v=1763145117&width=823",
+//   "cdn/shop/files/46093-14-20-oem-bmw-f22-f23-m235i-m240i-rear-differential-axle-carrier-ratio-308-56k-6.jpg?v=1763145116&width=823",
+//   "cdn/shop/files/46093-14-20-oem-bmw-f22-f23-m235i-m240i-rear-differential-axle-carrier-ratio-308-56k-7.jpg?v=1763145117&width=823",
+//   // 02 
+//   "cdn/shop/files/54031-16-19-oem-bmw-g12-g11-740-750-front-seat-control-memory-module.jpg?v=1774043404&width=1680",
+//   "cdn/shop/files/54031-16-19-oem-bmw-g12-g11-740-750-front-seat-control-memory-module-2.jpg?v=1774043403&width=823",
+//   "cdn/shop/files/54031-16-19-oem-bmw-g12-g11-740-750-front-seat-control-memory-module-3.jpg?v=1774043404&width=823",
+//   "cdn/shop/files/54031-16-19-oem-bmw-g12-g11-740-750-front-seat-control-memory-module-4.jpg?v=1774043404&width=823",
+//   "cdn/shop/files/54031-16-19-oem-bmw-g12-g11-740-750-front-seat-control-memory-module-5.jpg?v=1774043404&width=823",
+//   "cdn/shop/files/54031-16-19-oem-bmw-g12-g11-740-750-front-seat-control-memory-module-6.jpg?v=1774043406&width=823",
+//   // 03 
+//   "cdn/shop/files/44687-oem-bmw-e90-e92-e93-328-335-wheels-rims-18x8-85-et34-37-star-spoke-style-189.jpg?v=1761684110&width=823",
+//   "cdn/shop/files/44687-oem-bmw-e90-e92-e93-328-335-wheels-rims-18x8-85-et34-37-star-spoke-style-189-2.jpg?v=1761684110&width=823",
+//   "cdn/shop/files/44687-oem-bmw-e90-e92-e93-328-335-wheels-rims-18x8-85-et34-37-star-spoke-style-189-3.jpg?v=1761684110&width=823",
+//   "cdn/shop/files/44687-oem-bmw-e90-e92-e93-328-335-wheels-rims-18x8-85-et34-37-star-spoke-style-189-4.jpg?v=1761684110&width=823",
+//   "cdn/shop/files/44687-oem-bmw-e90-e92-e93-328-335-wheels-rims-18x8-85-et34-37-star-spoke-style-189-5.jpg?v=1761684110&width=823",
+//   "cdn/shop/files/44687-oem-bmw-e90-e92-e93-328-335-wheels-rims-18x8-85-et34-37-star-spoke-style-189-6.jpg?v=1761684110&width=823",
+//   // 04 
+//   "cdn/shop/files/54135-16-19-oem-bmw-g11-g12-740-750-m760-b7-rear-left-driver-outer-led-tail-light.jpg?v=1774044705&width=823",
+//   "cdn/shop/files/54135-16-19-oem-bmw-g11-g12-740-750-m760-b7-rear-left-driver-outer-led-tail-light-2.jpg?v=1774044705&width=823",
+//   "cdn/shop/files/54135-16-19-oem-bmw-g11-g12-740-750-m760-b7-rear-left-driver-outer-led-tail-light-3.jpg?v=1774044705&width=823",
+//   "cdn/shop/files/54135-16-19-oem-bmw-g11-g12-740-750-m760-b7-rear-left-driver-outer-led-tail-light-5.jpg?v=1774044705&width=823",
+//   "cdn/shop/files/54135-16-19-oem-bmw-g11-g12-740-750-m760-b7-rear-left-driver-outer-led-tail-light-9.jpg?v=1774044705&width=823",
+//   "cdn/shop/files/54135-16-19-oem-bmw-g11-g12-740-750-m760-b7-rear-left-driver-outer-led-tail-light-12.jpg?v=1774044705&width=823",
+//   // 05 
+//   "cdn/shop/files/53593-17-23-oem-bmw-f90-g30-m5-gas-fuel-tank-filler-door-flap-cap-lid-cover-assembly.jpg?v=1774044684&width=823",
+//   "cdn/shop/files/53593-17-23-oem-bmw-f90-g30-m5-gas-fuel-tank-filler-door-flap-cap-lid-cover-assembly-2.jpg?v=1774044684&width=823",
+//   "cdn/shop/files/53593-17-23-oem-bmw-f90-g30-m5-gas-fuel-tank-filler-door-flap-cap-lid-cover-assembly-3.jpg?v=1774044684&width=823",
+//   "cdn/shop/files/53593-17-23-oem-bmw-f90-g30-m5-gas-fuel-tank-filler-door-flap-cap-lid-cover-assembly-4.jpg?v=1774044684&width=823",
+//   "cdn/shop/files/53593-17-23-oem-bmw-f90-g30-m5-gas-fuel-tank-filler-door-flap-cap-lid-cover-assembly-5.jpg?v=1774044684&width=823",
+//   "cdn/shop/files/53593-17-23-oem-bmw-f90-g30-m5-gas-fuel-tank-filler-door-flap-cap-lid-cover-assembly-9.jpg?v=1774044684&width=823",
+//   // 06 
+//   "cdn/shop/files/53594-oem-bmw-g01-g12-g30-f90-m5-x3-acc-adaptive-cruise-control-radar-sensor-frr-02.jpg?v=1774044689&width=823",
+//   "cdn/shop/files/53594-oem-bmw-g01-g12-g30-f90-m5-x3-acc-adaptive-cruise-control-radar-sensor-frr-02-2.jpg?v=1774044689&width=823",
+//   "cdn/shop/files/53594-oem-bmw-g01-g12-g30-f90-m5-x3-acc-adaptive-cruise-control-radar-sensor-frr-02-3.jpg?v=1774044689&width=823",
+//   "cdn/shop/files/53594-oem-bmw-g01-g12-g30-f90-m5-x3-acc-adaptive-cruise-control-radar-sensor-frr-02-4.jpg?v=1774044689&width=1680",
+//   "cdn/shop/files/53594-oem-bmw-g01-g12-g30-f90-m5-x3-acc-adaptive-cruise-control-radar-sensor-frr-02-5.jpg?v=1774044689&width=823",
+//   "cdn/shop/files/53594-oem-bmw-g01-g12-g30-f90-m5-x3-acc-adaptive-cruise-control-radar-sensor-frr-02-6.jpg?v=1774044689&width=823",
+//   // 07 
+//   "cdn/shop/files/53599-16-25-oem-bmw-f15-f30-f36-f48-g01-g05-g12-g20-g30-telematics-control-unit-module.jpg?v=1774044672&width=823",
+//   "cdn/shop/files/53599-16-25-oem-bmw-f15-f30-f36-f48-g01-g05-g12-g20-g30-telematics-control-unit-module-2.jpg?v=1774044672&width=823",
+//   "cdn/shop/files/53599-16-25-oem-bmw-f15-f30-f36-f48-g01-g05-g12-g20-g30-telematics-control-unit-module-3.jpg?v=1774044672&width=823",
+//   "cdn/shop/files/53599-16-25-oem-bmw-f15-f30-f36-f48-g01-g05-g12-g20-g30-telematics-control-unit-module-4.jpg?v=1774044672&width=823",
+//   "cdn/shop/files/53599-16-25-oem-bmw-f15-f30-f36-f48-g01-g05-g12-g20-g30-telematics-control-unit-module-5.jpg?v=1774044672&width=823",
+//   "cdn/shop/files/53599-16-25-oem-bmw-f15-f30-f36-f48-g01-g05-g12-g20-g30-telematics-control-unit-module-6.jpg?v=1774044672&width=823",
+//   // 08 
+//   "cdn/shop/files/54139-16-19-oem-bmw-g12-740-750-right-passenger-led-icon-adaptive-headlight-complete.jpg?v=1774044681&width=823",
+//   "cdn/shop/files/54139-16-19-oem-bmw-g12-740-750-right-passenger-led-icon-adaptive-headlight-complete-3.jpg?v=1774044681&width=823",
+//   "cdn/shop/files/54139-16-19-oem-bmw-g12-740-750-right-passenger-led-icon-adaptive-headlight-complete-4.jpg?v=1774044681&width=823",
+//   "cdn/shop/files/54139-16-19-oem-bmw-g12-740-750-right-passenger-led-icon-adaptive-headlight-complete-5.jpg?v=1774044681&width=823",
+//   "cdn/shop/files/54139-16-19-oem-bmw-g12-740-750-right-passenger-led-icon-adaptive-headlight-complete-6.jpg?v=1774044681&width=823",
+//   "cdn/shop/files/54139-16-19-oem-bmw-g12-740-750-right-passenger-led-icon-adaptive-headlight-complete-9.jpg?v=1774044681&width=823",
+//   // 09
+//   "cdn/shop/files/54208-oem-bmw-f90-g12-g30-740-750-530-540-m550-m5-blind-spot-sensor-radar-module.jpg?v=1774044674&width=823",
+//   "cdn/shop/files/54208-oem-bmw-f90-g12-g30-740-750-530-540-m550-m5-blind-spot-sensor-radar-module-2.jpg?v=1774044674&width=823",
+//   "cdn/shop/files/54208-oem-bmw-f90-g12-g30-740-750-530-540-m550-m5-blind-spot-sensor-radar-module-3.jpg?v=1774044674&width=823",
+//   "cdn/shop/files/54208-oem-bmw-f90-g12-g30-740-750-530-540-m550-m5-blind-spot-sensor-radar-module-4.jpg?v=1774044674&width=823",
+//   "cdn/shop/files/54208-oem-bmw-f90-g12-g30-740-750-530-540-m550-m5-blind-spot-sensor-radar-module-5.jpg?v=1774044674&width=823",
+//   "cdn/shop/files/54208-oem-bmw-f90-g12-g30-740-750-530-540-m550-m5-blind-spot-sensor-radar-module-9.jpg?v=1774044674&width=823",
+//   // 10
+//   "cdn/shop/files/54213-15-20-oem-bmw-f16-f90-f97-g01-g30-i12-i8-m5-x3-bumper-parking-pdc-sensor.jpg?v=1774044681&width=823",
+//   "cdn/shop/files/54213-15-20-oem-bmw-f16-f90-f97-g01-g30-i12-i8-m5-x3-bumper-parking-pdc-sensor-2.jpg?v=1774044681&width=823",
+//   "cdn/shop/files/54213-15-20-oem-bmw-f16-f90-f97-g01-g30-i12-i8-m5-x3-bumper-parking-pdc-sensor-3.jpg?v=1774044681&width=823",
+//   "cdn/shop/files/54213-15-20-oem-bmw-f16-f90-f97-g01-g30-i12-i8-m5-x3-bumper-parking-pdc-sensor-4.jpg?v=1774044681&width=823",
+//   "cdn/shop/files/54213-15-20-oem-bmw-f16-f90-f97-g01-g30-i12-i8-m5-x3-bumper-parking-pdc-sensor-5.jpg?v=1774044681&width=823",
+//   "cdn/shop/files/54213-15-20-oem-bmw-f16-f90-f97-g01-g30-i12-i8-m5-x3-bumper-parking-pdc-sensor-8.jpg?v=1774044681&width=823",
+//   // 11
+//   "cdn/shop/files/54140-19-24-oem-bmw-g12-g30-m550-750-engine-n63r-high-pressure-fuel-injector.jpg?v=1774044677&width=823",
+//   "cdn/shop/files/54140-19-24-oem-bmw-g12-g30-m550-750-engine-n63r-high-pressure-fuel-injector-2.jpg?v=1774044677&width=823",
+//   "cdn/shop/files/54140-19-24-oem-bmw-g12-g30-m550-750-engine-n63r-high-pressure-fuel-injector-3.jpg?v=1774044677&width=823",
+//   "cdn/shop/files/54140-19-24-oem-bmw-g12-g30-m550-750-engine-n63r-high-pressure-fuel-injector-4.jpg?v=1774044677&width=823",
+//   "cdn/shop/files/54140-19-24-oem-bmw-g12-g30-m550-750-engine-n63r-high-pressure-fuel-injector-5.jpg?v=1774044677&width=823",
+//   "cdn/shop/files/54140-19-24-oem-bmw-g12-g30-m550-750-engine-n63r-high-pressure-fuel-injector-9.jpg?v=1774044677&width=823",
+//   // 12
+//   "cdn/shop/files/web_49523a03-eac1-4df9-96a3-b3a859d14412.jpg?v=1774558791&width=823",
+//   "cdn/shop/files/web_adb10d06-d5b1-494c-856a-b216966639a4.jpg?v=1774558791&width=823",
+//   "cdn/shop/files/web_5153fb3b-ad45-4235-9287-81e1bd6727c4.jpg?v=1774558791&width=823",
+//   "cdn/shop/files/web_081456f4-b69a-42d0-8c15-5de7dd33ae30.jpg?v=1774558791&width=823",
+//   "cdn/shop/files/web_081456f4-b69a-42d0-8c15-5de7dd33ae30.jpg?v=1774558791&width=823",
+//   "cdn/shop/files/web_0c62c94c-1d16-4c6a-8a50-3097e33e6683.jpg?v=1774558791&width=823",
+//   // 13 
+//   "cdn/shop/files/53592-18-20-oem-bmw-g30-m550ix-engine-n63r-gas-tank-mount-fuel-pump-w-sending-unit.jpg?v=1774044672&width=823",
+//   "cdn/shop/files/53592-18-20-oem-bmw-g30-m550ix-engine-n63r-gas-tank-mount-fuel-pump-w-sending-unit-2.jpg?v=1774044672&width=823",
+//   "cdn/shop/files/53592-18-20-oem-bmw-g30-m550ix-engine-n63r-gas-tank-mount-fuel-pump-w-sending-unit-3.jpg?v=1774044672&width=823",
+//   "cdn/shop/files/53592-18-20-oem-bmw-g30-m550ix-engine-n63r-gas-tank-mount-fuel-pump-w-sending-unit-4.jpg?v=1774044672&width=823",
+//   "cdn/shop/files/53592-18-20-oem-bmw-g30-m550ix-engine-n63r-gas-tank-mount-fuel-pump-w-sending-unit-5.jpg?v=1774044673&width=823",
+//   "cdn/shop/files/53592-18-20-oem-bmw-g30-m550ix-engine-n63r-gas-tank-mount-fuel-pump-w-sending-unit-7.jpg?v=1774044673&width=823",
+//   // 14 
+//   "cdn/shop/files/53597-oem-bmw-f97-g01-g02-g12-g30-bdc-body-domain-control-control-module-unit-keys.jpg?v=1774044703&width=823",
+//   "cdn/shop/files/53597-oem-bmw-f97-g01-g02-g12-g30-bdc-body-domain-control-control-module-unit-keys-2.jpg?v=1774044703&width=823",
+//   "cdn/shop/files/53597-oem-bmw-f97-g01-g02-g12-g30-bdc-body-domain-control-control-module-unit-keys-3.jpg?v=1774044703&width=823",
+//   "cdn/shop/files/53597-oem-bmw-f97-g01-g02-g12-g30-bdc-body-domain-control-control-module-unit-keys-4.jpg?v=1774044704&width=823",
+//   "cdn/shop/files/53597-oem-bmw-f97-g01-g02-g12-g30-bdc-body-domain-control-control-module-unit-keys-2.jpg?v=1774044703&width=823",
+//   "cdn/shop/files/53597-oem-bmw-f97-g01-g02-g12-g30-bdc-body-domain-control-control-module-unit-keys-3.jpg?v=1774044703&width=823",
+//   // 15
+//   "cdn/shop/files/54214-oem-bmw-f30-f44-f80-g01-g20-g30-front-rear-left-right-suspension-level-sensor.jpg?v=1774044685&width=823",
+//   "cdn/shop/files/54214-oem-bmw-f30-f44-f80-g01-g20-g30-front-rear-left-right-suspension-level-sensor-2.jpg?v=1774044685&width=823",
+//   "cdn/shop/files/54214-oem-bmw-f30-f44-f80-g01-g20-g30-front-rear-left-right-suspension-level-sensor-3.jpg?v=1774044685&width=823",
+//   "cdn/shop/files/54214-oem-bmw-f30-f44-f80-g01-g20-g30-front-rear-left-right-suspension-level-sensor-4.jpg?v=1774044685&width=823",
+//   "cdn/shop/files/54214-oem-bmw-f30-f44-f80-g01-g20-g30-front-rear-left-right-suspension-level-sensor-5.jpg?v=1774044686&width=823",
+//   "cdn/shop/files/54214-oem-bmw-f30-f44-f80-g01-g20-g30-front-rear-left-right-suspension-level-sensor-6.jpg?v=1774044685&width=823",
+//   // 16
+//   "cdn/shop/files/54203-oem-bmw-f44-g01-g05-g12-g20-g26-g30-steering-wheel-paddle-shifter-plus-up.jpg?v=1774044714&width=823",
+//   "cdn/shop/files/54203-oem-bmw-f44-g01-g05-g12-g20-g26-g30-steering-wheel-paddle-shifter-plus-up-2.jpg?v=1774044714&width=823",
+//   "cdn/shop/files/54203-oem-bmw-f44-g01-g05-g12-g20-g26-g30-steering-wheel-paddle-shifter-plus-up-3.jpg?v=1774044714&width=823",
+//   "cdn/shop/files/54203-oem-bmw-f44-g01-g05-g12-g20-g26-g30-steering-wheel-paddle-shifter-plus-up-4.jpg?v=1774044714&width=823",
+//   "cdn/shop/files/54203-oem-bmw-f44-g01-g05-g12-g20-g26-g30-steering-wheel-paddle-shifter-plus-up-5.jpg?v=1774044714&width=823",
+//   "cdn/shop/files/54203-oem-bmw-f44-g01-g05-g12-g20-g26-g30-steering-wheel-paddle-shifter-plus-up-6.jpg?v=1774044714&width=823",
+//   // 17
+//   "cdn/shop/files/53591-pre-lci-oem-bmw-g01-g12-g30-abs-brake-pump-anti-lock-dsc-dynamic-stability.jpg?v=1774044668&width=823",
+//   "cdn/shop/files/53591-pre-lci-oem-bmw-g01-g12-g30-abs-brake-pump-anti-lock-dsc-dynamic-stability-2.jpg?v=1774044668&width=823",
+//   "cdn/shop/files/53591-pre-lci-oem-bmw-g01-g12-g30-abs-brake-pump-anti-lock-dsc-dynamic-stability-3.jpg?v=1774044668&width=823",
+//   "cdn/shop/files/53591-pre-lci-oem-bmw-g01-g12-g30-abs-brake-pump-anti-lock-dsc-dynamic-stability-4.jpg?v=1774044668&width=823",
+//   "cdn/shop/files/53591-pre-lci-oem-bmw-g01-g12-g30-abs-brake-pump-anti-lock-dsc-dynamic-stability-5.jpg?v=1774044669&width=823",
+//   "cdn/shop/files/53591-pre-lci-oem-bmw-g01-g12-g30-abs-brake-pump-anti-lock-dsc-dynamic-stability-6.jpg?v=1774044668&width=823",
+//   // 18 
+//   "cdn/shop/files/54127-pre-lci-oem-bmw-g05-g07-g11-g12-g30-m550-x5-left-right-turbo-charger-set-n63-k.jpg?v=1774043467&width=823",
+//   "cdn/shop/files/54127-pre-lci-oem-bmw-g05-g07-g11-g12-g30-m550-x5-left-right-turbo-charger-set-n63-k-2.jpg?v=1774043467&width=823",
+//   "cdn/shop/files/54127-pre-lci-oem-bmw-g05-g07-g11-g12-g30-m550-x5-left-right-turbo-charger-set-n63-k-3.jpg?v=1774043467&width=823",
+//   "cdn/shop/files/54127-pre-lci-oem-bmw-g05-g07-g11-g12-g30-m550-x5-left-right-turbo-charger-set-n63-k-4.jpg?v=1774043467&width=823",
+//   "cdn/shop/files/54127-pre-lci-oem-bmw-g05-g07-g11-g12-g30-m550-x5-left-right-turbo-charger-set-n63-k-5.jpg?v=1774043467&width=823",
+//   "cdn/shop/files/54127-pre-lci-oem-bmw-g05-g07-g11-g12-g30-m550-x5-left-right-turbo-charger-set-n63-k-9.jpg?v=1774043468&width=823",
+//   // 19
+//   "cdn/shop/files/54128-16-22-oem-bmw-g11-g12-740-750-m760-air-suspension-compressor-pump-module-motor.jpg?v=1774043462&width=823",
+//   "cdn/shop/files/54128-16-22-oem-bmw-g11-g12-740-750-m760-air-suspension-compressor-pump-module-motor-2.jpg?v=1774043462&width=823",
+//   "cdn/shop/files/54128-16-22-oem-bmw-g11-g12-740-750-m760-air-suspension-compressor-pump-module-motor-3.jpg?v=1774043463&width=823",
+//   "cdn/shop/files/54128-16-22-oem-bmw-g11-g12-740-750-m760-air-suspension-compressor-pump-module-motor-4.jpg?v=1774043463&width=823",
+//   "cdn/shop/files/54128-16-22-oem-bmw-g11-g12-740-750-m760-air-suspension-compressor-pump-module-motor-5.jpg?v=1774043463&width=823",
+//   "cdn/shop/files/54128-16-22-oem-bmw-g11-g12-740-750-m760-air-suspension-compressor-pump-module-motor-8.jpg?v=1774043463&width=823",
+//   // 20 
+//   "cdn/shop/files/54129-16-19-oem-bmw-g11-g12-740-750-transmission-shifter-gear-selector-switch-ceramic.jpg?v=1774043481&width=823",
+//   "cdn/shop/files/54129-16-19-oem-bmw-g11-g12-740-750-transmission-shifter-gear-selector-switch-ceramic-2.jpg?v=1774043481&width=823",
+//   "cdn/shop/files/54129-16-19-oem-bmw-g11-g12-740-750-transmission-shifter-gear-selector-switch-ceramic-3.jpg?v=1774043481&width=823",
+//   "cdn/shop/files/54129-16-19-oem-bmw-g11-g12-740-750-transmission-shifter-gear-selector-switch-ceramic-4.jpg?v=1774043481&width=823",
+//   "cdn/shop/files/54129-16-19-oem-bmw-g11-g12-740-750-transmission-shifter-gear-selector-switch-ceramic-5.jpg?v=1774043482&width=823",
+//   "cdn/shop/files/54129-16-19-oem-bmw-g11-g12-740-750-transmission-shifter-gear-selector-switch-ceramic-8.jpg?v=1774043481&width=823",
+//   // 21 
+//   "cdn/shop/files/54118-oem-bmw-f90-f93-g11-g12-g16-g30-m5-radiator-mount-support-bracket-left-right-set.jpg?v=1774043442&width=823",
+//   "cdn/shop/files/54118-oem-bmw-f90-f93-g11-g12-g16-g30-m5-radiator-mount-support-bracket-left-right-set-2.jpg?v=1774043442&width=823",
+//   "cdn/shop/files/54118-oem-bmw-f90-f93-g11-g12-g16-g30-m5-radiator-mount-support-bracket-left-right-set-2.jpg?v=1774043442&width=823",
+//   "cdn/shop/files/54118-oem-bmw-f90-f93-g11-g12-g16-g30-m5-radiator-mount-support-bracket-left-right-set-4.jpg?v=1774043442&width=823",
+//   "cdn/shop/files/54118-oem-bmw-f90-f93-g11-g12-g16-g30-m5-radiator-mount-support-bracket-left-right-set-5.jpg?v=1774043442&width=823",
+//   "cdn/shop/files/54118-oem-bmw-f90-f93-g11-g12-g16-g30-m5-radiator-mount-support-bracket-left-right-set-9.jpg?v=1774043442&width=823",
+//   // 22 
+//   "cdn/shop/files/54033-oem-bmw-f90-g12-g30-g32-front-right-passenger-seat-adjustment-control-switch.jpg?v=1774043416&width=823",
+//   "cdn/shop/files/54033-oem-bmw-f90-g12-g30-g32-front-right-passenger-seat-adjustment-control-switch-2.jpg?v=1774043416&width=823",
+//   "cdn/shop/files/54033-oem-bmw-f90-g12-g30-g32-front-right-passenger-seat-adjustment-control-switch-3.jpg?v=1774043415&width=823",
+//   "cdn/shop/files/54033-oem-bmw-f90-g12-g30-g32-front-right-passenger-seat-adjustment-control-switch-4.jpg?v=1774043415&width=823",
+//   "cdn/shop/files/54033-oem-bmw-f90-g12-g30-g32-front-right-passenger-seat-adjustment-control-switch-5.jpg?v=1774043415&width=823",
+//   "cdn/shop/files/54033-oem-bmw-f90-g12-g30-g32-front-right-passenger-seat-adjustment-control-switch-6.jpg?v=1774043415&width=823",
+//   // 23 
+//   "cdn/shop/files/54028-16-22-oem-bmw-g11-g12-740-750-idrive-navigation-controller-knob-button-ceramic.jpg?v=1774043388&width=823",
+//   "cdn/shop/files/54028-16-22-oem-bmw-g11-g12-740-750-idrive-navigation-controller-knob-button-ceramic-2.jpg?v=1774043389&width=823",
+//   "cdn/shop/files/54028-16-22-oem-bmw-g11-g12-740-750-idrive-navigation-controller-knob-button-ceramic-3.jpg?v=1774043389&width=823",
+//   "cdn/shop/files/54028-16-22-oem-bmw-g11-g12-740-750-idrive-navigation-controller-knob-button-ceramic-4.jpg?v=1774043389&width=823",
+//   "cdn/shop/files/54028-16-22-oem-bmw-g11-g12-740-750-idrive-navigation-controller-knob-button-ceramic-5.jpg?v=1774043389&width=823",
+//   "cdn/shop/files/54028-16-22-oem-bmw-g11-g12-740-750-idrive-navigation-controller-knob-button-ceramic-8.jpg?v=1774043388&width=823",
+//   // 24
+//   "cdn/shop/files/54116-16-19-oem-bmw-g11-g12-750-alpina-b7-compressor-clutch-pump-engine-n63r.jpg?v=1774043452&width=823",
+//   "cdn/shop/files/54116-16-19-oem-bmw-g11-g12-750-alpina-b7-compressor-clutch-pump-engine-n63r-2.jpg?v=1774043452&width=823",
+//   "cdn/shop/files/54116-16-19-oem-bmw-g11-g12-750-alpina-b7-compressor-clutch-pump-engine-n63r-3.jpg?v=1774043452&width=823",
+//   "cdn/shop/files/54116-16-19-oem-bmw-g11-g12-750-alpina-b7-compressor-clutch-pump-engine-n63r-4.jpg?v=1774043453&width=823",
+//   "cdn/shop/files/54116-16-19-oem-bmw-g11-g12-750-alpina-b7-compressor-clutch-pump-engine-n63r-5.jpg?v=1774043453&width=823",
+//   "cdn/shop/files/54116-16-19-oem-bmw-g11-g12-750-alpina-b7-compressor-clutch-pump-engine-n63r-8.jpg?v=1774043452&width=823",
+//   // 25
+//   "cdn/shop/files/54126-16-19-oem-bmw-g12-g30-g11-750-m550-m760-coolant-expansion-tank-reservoir.jpg?v=1774043473&width=823",
+//   "cdn/shop/files/54126-16-19-oem-bmw-g12-g30-g11-750-m550-m760-coolant-expansion-tank-reservoir-2.jpg?v=1774043471&width=823",
+//   "cdn/shop/files/54126-16-19-oem-bmw-g12-g30-g11-750-m550-m760-coolant-expansion-tank-reservoir-3.jpg?v=1774043471&width=823",
+//   "cdn/shop/files/54126-16-19-oem-bmw-g12-g30-g11-750-m550-m760-coolant-expansion-tank-reservoir-4.jpg?v=1774043471&width=823",
+//   "cdn/shop/files/54126-16-19-oem-bmw-g12-g30-g11-750-m550-m760-coolant-expansion-tank-reservoir-5.jpg?v=1774043471&width=823",
+//   "cdn/shop/files/54126-16-19-oem-bmw-g12-g30-g11-750-m550-m760-coolant-expansion-tank-reservoir-8.jpg?v=1774043471&width=823",
+//   // 26 
+//   "",
+//   "",
+//   "",
+//   "",
+//   "",
+//   "",
+//   // 27 
+//   "",
+//   "",
+//   "",
+//   "",
+//   "",
+//   "",
+//   // 28
+//   "",
+//   "",
+//   "",
+//   "",
+//   "",
+//   "",
+//   // 29 
+//   "",
+//   "",
+//   "",
+//   "",
+//   "",
+//   "",
+//   // 30 
+//   "",
+//   "",
+//   "",
+//   "",
+//   "",
+//   "",
+
+// ];
+
+// function img(index: number, w = 1200, h = 800): string {
+//   return `https://oe-mgarage.com/${PHOTOS[index % PHOTOS.length]}?w=${w}&h=${h}&fit=crop&auto=format&q=80`;
+// }
+
+// function gallery(start: number): string[] {
+//   return Array.from({ length: 6 }, (_, i) => img(start + i));
+// }
+
+// function generateVIN(): string {
+//   const chars = "ABCDEFGHJKLMNPRSTUVWXYZ0123456789";
+//   return Array.from({ length: 17 }, () =>
+//     chars.charAt(Math.floor(Math.random() * chars.length))
+//   ).join("");
+// }
+
+// export const cars: Car[] = [
+//   {
+//     id: "1",
+//     name: "14-20 OEM BMW F22 F23 M235i M240i Rear Differential Axle Carrier Ratio 3.08 56k",
+//     brand: "Lamborghini",
+//     category: "Hypercar",
+//     tagline: "The Pinnacle of V12 Performance",
+//     description:
+//       "All parts are used unless otherwise noted! Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!
+
+// Please feel free to reach out with any questions!`,
+//     condition: "New",
+//     year: 2016,
+//     mileage: 56250,
+//     exteriorColor: "Verde Mantis",
+//     interiorColor: "Nero Ade / Verde",
+//     vin: generateVIN(),
+//     price: 395.95,
+//     discountedPrice: 489900,
+//     images: gallery(0),
+//     specifications: {
+//       engine: "6.5L Naturally Aspirated V12",
+//       power: "770 hp @ 8,500 rpm",
+//       torque: "531 lb-ft @ 6,750 rpm",
+//       acceleration: "0-60 mph in 2.8 seconds",
+//       topSpeed: "217+ mph",
+//       transmission: "7-Speed ISR Automated Manual",
+//       drivetrain: "All-Wheel Drive",
+//       fuelType: "Premium Gasoline",
+//       seating: 2,
+//     },
+//     features: [
+//       "ALA 2.0 Active Aerodynamics",
+//       "Lamborghini Dynamic Steering",
+//       "Magnetorheological Suspension",
+//       "Carbon Ceramic Brakes",
+//       "Full Carbon Fiber Monocoque",
+//       "Digital Instrument Cluster",
+//       "Apple CarPlay Integration",
+//       "Sensonum Premium Audio",
+//       "Rear View Camera",
+//       "Lifting System for Front Axle",
+//       "Transparent Engine Bonnet",
+//       "Alcantara Interior Trim",
+//     ],
+//     highlights: [
+//       "Nürburgring Nordschleife Production Car Record Holder",
+//       "Limited Production Run",
+//       "Hand-Built in Sant'Agata Bolognese, Italy",
+//       "Full Carbon Fiber Body Panels",
+//     ],
+//   },
+//   {
+//     id: "2",
+//     name: "16-19 OEM BMW G12 G11 740 750 Front Seat Control Memory Module",
+//     brand: "",
+//     category: "Sports",
+//     tagline: "Born on the Racetrack",
+//     description:
+//       "All parts are used unless otherwise noted! Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!.`,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 342,
+//     exteriorColor: "Python Green",
+//     interiorColor: "Black / Guards Red",
+//     vin: generateVIN(),
+//     price: 223800,
+//     discountedPrice: 214500,
+//     images: gallery(6),
+//     specifications: {
+//       engine: "4.0L Naturally Aspirated Flat-Six",
+//       power: "518 hp @ 8,400 rpm",
+//       torque: "346 lb-ft @ 6,250 rpm",
+//       acceleration: "0-60 mph in 3.0 seconds",
+//       topSpeed: "184 mph",
+//       transmission: "7-Speed PDK Dual-Clutch",
+//       drivetrain: "Rear-Wheel Drive",
+//       fuelType: "Premium Gasoline",
+//       seating: 2,
+//     },
+//     features: [
+//       "Active Rear Axle Steering",
+//       "Porsche Ceramic Composite Brakes (PCCB)",
+//       "Sport Chrono Package",
+//       "Clubsport Package",
+//       "Front Axle Lift System",
+//       "LED Matrix Headlights",
+//       "Track Precision App",
+//       "Carbon Fiber Full Bucket Seats",
+//       "Roll Cage",
+//       "Fire Extinguisher",
+//       "Six-Point Harness Preparation",
+//       "Weissach Package Available",
+//     ],
+//     highlights: [
+//       "Race-Derived Double-Wishbone Front Suspension",
+//       "DRS-Inspired Active Aerodynamics",
+//       "Center-Lock Wheels",
+//       "Magnesium Roof",
+//     ],
+//   },
+//   {
+//     id: "3",
+//     name: "OEM BMW E90 E92 E93 328 335 Wheels Rims 18x8/8.5\" ET:34/37 Star Spoke Style 189",
+//     brand: "BMW",
+//     category: "Luxury",
+//     tagline: "Power Meets Prestige",
+//     description:
+//       "All parts are used unless otherwise noted! Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!`,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 856,
+//     exteriorColor: "Frozen Black Metallic",
+//     interiorColor: "Silverstone Merino Leather",
+//     vin: generateVIN(),
+//     price: 479.95,
+//     discountedPrice: 122500,
+//     images: gallery(12),
+//     specifications: {
+//       engine: "4.4L Twin-Turbocharged V8",
+//       power: "617 hp @ 6,000 rpm",
+//       torque: "553 lb-ft @ 1,800-5,800 rpm",
+//       acceleration: "0-60 mph in 2.9 seconds",
+//       topSpeed: "190 mph (with M Driver's Package)",
+//       transmission: "8-Speed M Steptronic",
+//       drivetrain: "M xDrive All-Wheel Drive",
+//       fuelType: "Premium Gasoline",
+//       seating: 4,
+//       cargo: "14.0 cu ft",
+//     },
+//     features: [
+//       "M Carbon Ceramic Brakes",
+//       "Adaptive M Suspension Professional",
+//       "M Sport Exhaust System",
+//       "BMW Laserlight Headlights",
+//       "Head-Up Display",
+//       "Bowers & Wilkins Diamond Surround Sound",
+//       "Gesture Control",
+//       "Parking Assistant Plus",
+//       "Night Vision Assistant",
+//       "Active Driving Assistant Professional",
+//       "Wireless Charging",
+//       "Four-Zone Climate Control",
+//     ],
+//     highlights: [
+//       "Carbon Fiber Roof",
+//       "M Driver's Package for Increased Top Speed",
+//       "Individual M Competition Seats",
+//       "M Carbon Exterior Package",
+//     ],
+//   },
+//   {
+//     id: "4",
+//     name: "16-19 OEM BMW G11 G12 740 750 M760 B7 Rear Left Driver Outer LED Tail Light",
+//     brand: "Mercedes-AMG",
+//     category: "Sports",
+//     tagline: "The Most Powerful AMG Ever",
+//     description:
+//       "All parts are used unless otherwise noted! Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!
+// .`,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 89,
+//     exteriorColor: "Magno Grey",
+//     interiorColor: "Neon Green / Black Nappa",
+//     vin: generateVIN(),
+//     price: 325.00,
+//     discountedPrice: 299.95,
+//     images: gallery(18),
+//     specifications: {
+//       engine: "4.0L Twin-Turbocharged V8 (Flat-Plane Crank)",
+//       power: "720 hp @ 6,700-6,900 rpm",
+//       torque: "590 lb-ft @ 2,000-6,000 rpm",
+//       acceleration: "0-60 mph in 3.1 seconds",
+//       topSpeed: "202 mph",
+//       transmission: "7-Speed AMG Speedshift DCT",
+//       drivetrain: "Rear-Wheel Drive",
+//       fuelType: "Premium Gasoline",
+//       seating: 2,
+//     },
+//     features: [
+//       "AMG Active Aerodynamics",
+//       "Carbon Ceramic Brakes",
+//       "AMG Coilover Suspension",
+//       "Carbon Fiber Wishbones",
+//       "AMG Track Pace App",
+//       "Carbon Fiber Torque Tube",
+//       "Adjustable Rear Wing",
+//       "AMG Carbon Fiber Exterior Package",
+//       "AMG Carbon Bucket Seats",
+//       "Exclusive Black Series Interior",
+//       "AMG Performance Exhaust",
+//       "Carbon Fiber Hood with Vents",
+//     ],
+//     highlights: [
+//       "Nürburgring Nordschleife Record for Production Mercedes-Benz",
+//       "Most Powerful AMG V8 Ever",
+//       "Race-Derived Flat-Plane Crankshaft",
+//       "Limited Production",
+//     ],
+//   },
+//   {
+//     id: "5",
+//     name: "17-23 OEM BMW F90 G30 M5 Gas Fuel Tank Filler Door Flap Cap Lid Cover Assembly",
+//     brand: "BMW",
+//     category: "Sports",
+//     tagline: "Precision Engineered for Perfect Fit",
+//     description:
+//       "All parts are used unless otherwise noted! Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!`,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 234,
+//     exteriorColor: "Ultra Red",
+//     interiorColor: "Cream Premium Interior",
+//     vin: generateVIN(),
+//     price: 450.00,
+//     discountedPrice: 319.95,
+//     images: gallery(24),
+//     specifications: {
+//       engine: "Tri Motor All-Electric",
+//       power: "1,020 hp Combined",
+//       torque: "Instant Electric Torque",
+//       acceleration: "0-60 mph in 1.99 seconds",
+//       topSpeed: "200 mph",
+//       transmission: "Single-Speed Direct Drive",
+//       drivetrain: "All-Wheel Drive",
+//       fuelType: "Electric (396 mi range)",
+//       seating: 5,
+//       cargo: "28 cu ft",
+//     },
+//     features: [
+//       "17-inch Cinematic Display",
+//       "Full Self-Driving Capability",
+//       "Autopilot",
+//       "Yoke Steering Wheel",
+//       "22-Speaker Premium Audio",
+//       "Adaptive Air Suspension",
+//       "Glass Roof",
+//       "Supercharging Network Access",
+//       "Over-the-Air Updates",
+//       "Sentry Mode",
+//       "Dog Mode",
+//       "Camp Mode",
+//     ],
+//     highlights: [
+//       "Quickest Production Car Ever Made",
+//       "Sub-2-Second 0-60 Time",
+//       "Over 1,000 Horsepower",
+//       "Nearly 400 Miles of Range",
+//     ],
+//   },
+//   {
+//     id: "6",
+//     name: "OEM BMW G01 G12 G30 F90 M5 X3 ACC Adaptive Cruise Control Radar Sensor FRR-02",
+//     brand: "BMW",
+//     category: "Sports",
+//     tagline: "The Future of BMW",
+//     description:
+//       "BMW's advanced adaptive cruise control radar sensor enhances driving comfort and safety by maintaining a safe distance from the vehicle ahead.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!
+// `,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 178,
+//     exteriorColor: "Rosso Corsa",
+//     interiorColor: "Nero / Rosso",
+//     vin: generateVIN(),
+//     price: 625000,
+//     discountedPrice: 599000,
+//     images: gallery(30),
+//     specifications: {
+//       engine: "4.0L Twin-Turbocharged V8 + 3 Electric Motors",
+//       power: "986 hp Combined",
+//       torque: "590 lb-ft",
+//       acceleration: "0-60 mph in 2.0 seconds",
+//       topSpeed: "211 mph",
+//       transmission: "8-Speed F1 DCT",
+//       drivetrain: "All-Wheel Drive",
+//       fuelType: "Plug-in Hybrid (15.5 mi electric range)",
+//       seating: 2,
+//     },
+//     features: [
+//       "eManettino with 4 Power Modes",
+//       "Head-Up Display",
+//       "16-inch Curved Digital Display",
+//       "Electric Front Axle Torque Vectoring",
+//       "Active Aerodynamics",
+//       "Ferrari Dynamic Enhancer+",
+//       "SCM-E Adaptive Suspension",
+//       "Carbon Fiber Wheels (Assetto Fiorano)",
+//       "Michelin Pilot Sport Cup 2 Tires",
+//       "Apple CarPlay",
+//       "7-Year Maintenance Program",
+//       "Ferrari Telemetry System",
+//     ],
+//     highlights: [
+//       "Ferrari's Most Powerful Road Car Ever",
+//       "First Series-Production Ferrari PHEV",
+//       "Revolutionary RAC-e Electric Front Axle",
+//       "Set New Internal Fiorano Circuit Record",
+//     ],
+//   },
+//   {
+//     id: "7",
+//     name: "16-25 OEM BMW F15 F30 F36 F48 G01 G05 G12 G20 G30 Telematics Control Unit Module",
+//     brand: "BMW",
+//     category: "Electric",
+//     tagline: "Electric Has Gone Thrilling",
+//     description:
+//       "Electrifying performance meets Audi's legendary design language. Dual electric motors produce 637 hp with quattro all-wheel drive, delivering exhilarating acceleration in whisper-quiet refinement.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!
+// `,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 512,
+//     exteriorColor: "Tactical Green",
+//     interiorColor: "Black Valcona Leather",
+//     vin: generateVIN(),
+//     price: 420,
+//     discountedPrice: 359.95,
+//     images: gallery(36),
+//     specifications: {
+//       engine: "Dual Electric Motors",
+//       power: "637 hp (Boost Mode)",
+//       torque: "612 lb-ft",
+//       acceleration: "0-60 mph in 3.1 seconds",
+//       topSpeed: "155 mph (electronically limited)",
+//       transmission: "2-Speed Rear / Single-Speed Front",
+//       drivetrain: "electric quattro All-Wheel Drive",
+//       fuelType: "Electric (232 mi range)",
+//       seating: 4,
+//       cargo: "9.2 cu ft",
+//     },
+//     features: [
+//       "800-Volt Charging Architecture",
+//       "Adaptive Air Suspension",
+//       "All-Wheel Steering",
+//       "Matrix LED Headlights",
+//       "Bang & Olufsen 3D Audio",
+//       "Virtual Cockpit Plus",
+//       "MMI Navigation Plus",
+//       "Audi Pre Sense",
+//       "Adaptive Cruise Assist",
+//       "Parking System Plus",
+//       "Wireless Charging",
+//       "Panoramic Glass Roof",
+//     ],
+//     highlights: [
+//       "800-Volt Ultra-Fast Charging",
+//       "Carbon Fiber Roof",
+//       "Sustainable Interior Materials",
+//       "Shared Platform with Porsche Taycan",
+//     ],
+//   },
+//   {
+//     id: "8",
+//     name: "16-19 OEM BMW G12 740 750 Right Passenger LED ICON Adaptive Headlight COMPLETE",
+//     brand: "Chevrolet",
+//     category: "Sports",
+//     tagline: "America's Track-Ready Supercar",
+//     description:
+//       "America's supercar redefined. The flat-plane crank 5.5L V8 screams to 8,600 RPM producing 670 hp, paired with race-proven aerodynamics and mid-engine precision handling.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!
+// `,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 643,
+//     exteriorColor: "Torch Red",
+//     interiorColor: "Adrenaline Red",
+//     vin: generateVIN(),
+//     price: 1700,
+//     discountedPrice: 1495.95,
+//     images: gallery(42),
+//     specifications: {
+//       engine: "5.5L Flat-Plane Crank V8 (LT6)",
+//       power: "670 hp @ 8,400 rpm",
+//       torque: "460 lb-ft @ 6,300 rpm",
+//       acceleration: "0-60 mph in 2.6 seconds",
+//       topSpeed: "195 mph",
+//       transmission: "8-Speed DCT",
+//       drivetrain: "Rear-Wheel Drive",
+//       fuelType: "Premium Gasoline",
+//       seating: 2,
+//       cargo: "12.6 cu ft",
+//     },
+//     features: [
+//       "Performance Data Recorder",
+//       "Z07 Performance Package Available",
+//       "Carbon Fiber Aero Package",
+//       "Magnetic Ride Control 4.0",
+//       "Brembo Carbon Ceramic Brakes (Z07)",
+//       "Front Lift System",
+//       "Head-Up Display",
+//       "Bose Performance Audio",
+//       "Wireless Apple CarPlay/Android Auto",
+//       "GT2 Seats with Carbon Fiber",
+//       "Competition Sport Bucket Seats Option",
+//       "Visible Carbon Fiber Interior",
+//     ],
+//     highlights: [
+//       "Most Powerful Naturally Aspirated V8 in Any Production Car",
+//       "Flat-Plane Crankshaft V8",
+//       "Widest Tires Ever on a Production Corvette",
+//       "8,600 RPM Redline",
+//     ],
+//   },
+//   {
+//     id: "9",
+//     name: "OEM BMW F90 G12 G30 740 750 530 540 M550 M5 Blind Spot Sensor Radar Module",
+//     brand: "Maserati",
+//     category: "Convertible",
+//     tagline: "Open-Air Italian Excellence",
+//     description:
+//       "Italian artistry meets cutting-edge innovation. The MC20 Cielo features a retractable glass roof, the revolutionary Nettuno twin-combustion V6 engine with 621 hp, and timeless elegance.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!
+// .`,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 234,
+//     exteriorColor: "Blu Infinito",
+//     interiorColor: "Cuoio Natural Leather",
+//     vin: generateVIN(),
+//     price: 100,
+//     discountedPrice: 80,
+//     images: gallery(48),
+//     specifications: {
+//       engine: "3.0L Twin-Turbocharged V6 (Nettuno)",
+//       power: "621 hp @ 7,500 rpm",
+//       torque: "538 lb-ft @ 3,000-5,500 rpm",
+//       acceleration: "0-60 mph in 2.9 seconds",
+//       topSpeed: "198 mph",
+//       transmission: "8-Speed DCT",
+//       drivetrain: "Rear-Wheel Drive",
+//       fuelType: "Premium Gasoline",
+//       seating: 2,
+//     },
+//     features: [
+//       "Electrochromic Glass Roof",
+//       "F1-Derived Pre-Chamber Combustion",
+//       "Carbon Fiber Monocoque",
+//       "Virtual Vehicle Dynamics Control",
+//       "Launch Control",
+//       "Corsa, GT, and Wet Drive Modes",
+//       "10.25-inch Central Display",
+//       "Sonus Faber Premium Audio",
+//       "Wireless Apple CarPlay",
+//       "360° Camera System",
+//       "Front Axle Lift System",
+//       "Full LED Adaptive Headlights",
+//     ],
+//     highlights: [
+//       "First Engine Designed Entirely In-House by Maserati Since 1998",
+//       "Formula 1-Derived Engine Technology",
+//       "Electrochromic Smart Glass Roof",
+//       "100% Carbon Fiber Monocoque",
+//     ],
+//   },
+//   {
+//     id: "10",
+//     name: "15-20 OEM BMW F16 F90 F97 G01 G30 I12 i8 M5 X3 Bumper Parking PDC Sensor Module",
+//     brand: "BMW",
+//     category: "Luxury",
+//     tagline: "Precision Engineering for Your BMW",
+//     description:
+//       "Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!`,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 312,
+//     exteriorColor: "Black Diamond",
+//     interiorColor: "Arctic White / Scivaro Grey",
+//     vin: generateVIN(),
+//     price: 60,
+//     discountedPrice: 40,
+//     images: gallery(54),
+//     specifications: {
+//       engine: "6.75L Twin-Turbocharged V12",
+//       power: "563 hp @ 5,000 rpm",
+//       torque: "627 lb-ft @ 1,600-4,500 rpm",
+//       acceleration: "0-60 mph in 4.6 seconds",
+//       topSpeed: "155 mph (electronically limited)",
+//       transmission: "8-Speed Automatic",
+//       drivetrain: "All-Wheel Drive",
+//       fuelType: "Premium Gasoline",
+//       seating: 5,
+//       cargo: "17.1 cu ft",
+//     },
+//     features: [
+//       "Planar Suspension System",
+//       "Starlight Headliner",
+//       "Illuminated Fascia",
+//       "All-Wheel Steering",
+//       "Night Vision with Pedestrian Detection",
+//       "Vision Assist",
+//       "Bespoke Audio System",
+//       "Four-Zone Climate Control",
+//       "Massage Seats",
+//       "Rear Theatre Configuration",
+//       "Champagne Cooler",
+//       "Umbrella in Door",
+//     ],
+//     highlights: [
+//       "Architecture of Luxury Platform",
+//       "Camera-Guided Predictive Suspension",
+//       "Essentially Unlimited Bespoke Options",
+//       "Hand-Built in Goodwood, England",
+//     ],
+//   },
+//   {
+//     id: "11",
+//     name: "19-24 OEM BMW G12 G30 M550 750 Engine N63R High Pressure Fuel Injector",
+//     brand: "Land Rover",
+//     category: "SUV",
+//     tagline: "The Definition of Refined Capability",
+//     description:
+//       "All parts are used unless otherwise noted! Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!`,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 876,
+//     exteriorColor: "Carpathian Grey",
+//     interiorColor: "Caraway / Ebony",
+//     vin: generateVIN(),
+//     price: 60,
+//     discountedPrice: 40,
+//     images: gallery(60),
+//     specifications: {
+//       engine: "4.4L Twin-Turbocharged V8 + 48V Mild Hybrid",
+//       power: "523 hp @ 5,500-6,000 rpm",
+//       torque: "553 lb-ft @ 1,500-4,000 rpm",
+//       acceleration: "0-60 mph in 4.4 seconds",
+//       topSpeed: "155 mph",
+//       transmission: "8-Speed Automatic",
+//       drivetrain: "All-Wheel Drive",
+//       fuelType: "Premium Gasoline (MHEV)",
+//       seating: 5,
+//       cargo: "31.8 cu ft",
+//     },
+//     features: [
+//       "Adaptive Dynamics with Electronic Air Suspension",
+//       "All-Wheel Steering",
+//       "Terrain Response 2",
+//       "Wade Sensing",
+//       "13.1-inch Curved Touchscreen",
+//       "Meridian Signature Sound System",
+//       "Executive Class Rear Seats",
+//       "Hot Stone Massage Seats",
+//       "Refrigerator Compartment",
+//       "Head-Up Display",
+//       "Amazon Alexa Integration",
+//       "Clear Sight Interior Mirror",
+//     ],
+//     highlights: [
+//       "900mm Wading Depth",
+//       "Up to 7,716 lb Towing Capacity",
+//       "Optional Rear Executive Class Seating",
+//       "Over-the-Air Updates",
+//     ],
+//   },
+//   {
+//     id: "12",
+//     name: "2016 BMW 750i G12 - Front Right Passenger Door Lock Actuator PN: 2581894",
+//     brand: "Bentley",
+//     category: "Luxury",
+//     tagline: "Breathtaking Performance, Handcrafted Luxury",
+//     description:
+//       "Handcrafted perfection at breathtaking pace. The W12 engine produces 650 hp, clothed in a body of timeless proportions with an interior of unrivaled British craftsmanship and heritage.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!
+// `,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 456,
+//     exteriorColor: "Verdant Green",
+//     interiorColor: "Beluga / Hotspur",
+//     vin: generateVIN(),
+//     price: 200,
+//     discountedPrice: 140,
+//     images: gallery(66),
+//     specifications: {
+//       engine: "6.0L Twin-Turbocharged W12",
+//       power: "650 hp @ 5,000-6,000 rpm",
+//       torque: "664 lb-ft @ 1,500-5,000 rpm",
+//       acceleration: "0-60 mph in 3.5 seconds",
+//       topSpeed: "208 mph",
+//       transmission: "8-Speed Dual-Clutch",
+//       drivetrain: "All-Wheel Drive",
+//       fuelType: "Premium Gasoline",
+//       seating: 4,
+//       cargo: "12.6 cu ft",
+//     },
+//     features: [
+//       "48-Volt Active Anti-Roll Control",
+//       "Electronic Limited-Slip Differential",
+//       "Three-Chamber Air Suspension",
+//       "Rotating Dashboard Display",
+//       "Naim for Bentley Premium Audio",
+//       "Diamond Quilted Seats",
+//       "Bentley Dynamic Ride",
+//       "Mood Lighting",
+//       "Night Vision Camera",
+//       "Head-Up Display",
+//       "City Specification",
+//       "Touring Specification",
+//     ],
+//     highlights: [
+//       "Handcrafted in Crewe, England",
+//       "Over 100 Hours of Interior Craftsmanship",
+//       "Unique W12 Engine Configuration",
+//       "208 mph Top Speed",
+//     ],
+//   },
+//   {
+//     id: "13",
+//     name: "18-20 OEM BMW G30 M550iX Engine N63R Gas Tank Mount Fuel Pump w/ Sending Unit",
+//     brand: "McLaren",
+//     category: "Convertible",
+//     tagline: "Engineered for Open-Air Thrills",
+//     description:
+//       "Aerodynamic artistry meets open-air exhilaration. The 4.0L twin-turbo V8 delivers 710 hp through a carbon fiber monocoque, with a retractable hardtop that transforms the experience.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!
+// `,
+//     condition: "Used",
+//     year: 2022,
+//     mileage: 4567,
+//     exteriorColor: "Sarthe Grey",
+//     interiorColor: "Carbon Black / McLaren Orange",
+//     vin: generateVIN(),
+//     price: 350,
+//     discountedPrice: 200,
+//     images: gallery(72),
+//     specifications: {
+//       engine: "4.0L Twin-Turbocharged V8",
+//       power: "710 hp @ 7,250 rpm",
+//       torque: "568 lb-ft @ 5,500 rpm",
+//       acceleration: "0-60 mph in 2.8 seconds",
+//       topSpeed: "212 mph (roof up) / 202 mph (roof down)",
+//       transmission: "7-Speed SSG Dual-Clutch",
+//       drivetrain: "Rear-Wheel Drive",
+//       fuelType: "Premium Gasoline",
+//       seating: 2,
+//     },
+//     features: [
+//       "Retractable Hardtop (11 seconds)",
+//       "Monocage II-S Carbon Fiber Chassis",
+//       "Proactive Chassis Control II",
+//       "Variable Drift Control",
+//       "Dihedral Doors",
+//       "McLaren Track Telemetry",
+//       "8-inch Central Touchscreen",
+//       "12-Speaker Bowers & Wilkins Audio",
+//       "Vehicle Lift System",
+//       "Folding Driver Display",
+//       "Electrochromic Roof Panel (Optional)",
+//       "MSO Defined Options",
+//     ],
+//     highlights: [
+//       "Only 49 kg Heavier Than Coupé",
+//       "212 mph Top Speed",
+//       "11-Second Roof Operation",
+//       "Carbon Fiber Monocoque Construction",
+//     ],
+//   },
+//   {
+//     id: "14",
+//     name: "OEM BMW F97 G01 G02 G12 G30 BDC Body Domain Control Control Module Unit + Keys",
+//     brand: "Aston Martin",
+//     category: "Coupe",
+//     tagline: "The World's First Super Tourer",
+//     description:
+//       "The world's first super tourer. A twin-turbo V8 producing 671 hp married to Aston Martin's most advanced chassis ever, wrapped in breathtakingly sculpted aluminum bodywork.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!
+// .`,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 234,
+//     exteriorColor: "Iridescent Emerald",
+//     interiorColor: "Obsidian Black / Eifel Green",
+//     vin: generateVIN(),
+//     price: 290,
+//     discountedPrice: 260,
+//     images: gallery(78),
+//     specifications: {
+//       engine: "4.0L Twin-Turbocharged V8",
+//       power: "671 hp @ 6,000 rpm",
+//       torque: "590 lb-ft @ 2,750-6,000 rpm",
+//       acceleration: "0-60 mph in 3.5 seconds",
+//       topSpeed: "202 mph",
+//       transmission: "8-Speed Automatic",
+//       drivetrain: "Rear-Wheel Drive",
+//       fuelType: "Premium Gasoline",
+//       seating: 4,
+//       cargo: "9.6 cu ft",
+//     },
+//     features: [
+//       "10.25-inch Touchscreen Infotainment",
+//       "Electronic Rear Differential",
+//       "Adaptive Damping System",
+//       "Sport Plus Driving Mode",
+//       "Carbon Ceramic Brakes",
+//       "11-Speaker Premium Audio",
+//       "Bridge of Weir Leather",
+//       "360° Parking Camera",
+//       "Wireless Apple CarPlay/Android Auto",
+//       "Climate Seats",
+//       "Aston Martin Art of Living Program",
+//       "Q by Aston Martin Personalization",
+//     ],
+//     highlights: [
+//       "Most Powerful DB Production Car Ever",
+//       "First to Use 'Super Tourer' Designation",
+//       "All-New Infotainment System",
+//       "Handcrafted in Gaydon, England",
+//     ],
+//   },
+//   {
+//     id: "15",
+//     name: "OEM BMW F30 F44 F80 G01 G20 G30 Front Rear Left Right Suspension Level Sensor",
+//     brand: "Bugatti",
+//     category: "Hypercar",
+//     tagline: "Engineering Beyond Imagination",
+//     description:
+//       "Engineering beyond imagination. The legendary 8.0L quad-turbo W16 produces 1,500 hp, propelling this masterpiece to speeds that redefine what's mechanically possible.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!
+// `,
+//     condition: "Used",
+//     year: 2022,
+//     mileage: 2345,
+//     exteriorColor: "Atlantic Blue / French Racing Blue",
+//     interiorColor: "Gaucho / Beluga Black",
+//     vin: generateVIN(),
+//     price: 40,
+//     discountedPrice: 35,
+//     images: gallery(84),
+//     specifications: {
+//       engine: "8.0L Quad-Turbocharged W16",
+//       power: "1,500 hp @ 6,700 rpm",
+//       torque: "1,180 lb-ft @ 2,000-6,000 rpm",
+//       acceleration: "0-60 mph in 2.4 seconds",
+//       topSpeed: "261 mph (electronically limited)",
+//       transmission: "7-Speed Dual-Clutch",
+//       drivetrain: "All-Wheel Drive",
+//       fuelType: "Premium Gasoline",
+//       seating: 2,
+//     },
+//     features: [
+//       "Quad-Turbo W16 Engine",
+//       "Active Aerodynamics",
+//       "Carbon Fiber Monocoque",
+//       "Magnesium Wheels",
+//       "Six Exhaust Tailpipes",
+//       "10-Radiator Cooling System",
+//       "Adaptive Hydraulic Dampers",
+//       "Active Rear Spoiler",
+//       "Top Speed Key",
+//       "Burmester Audio System",
+//       "Full Leather Interior",
+//       "Sky View Roof Option",
+//     ],
+//     highlights: [
+//       "1,500 Horsepower",
+//       "261 mph Top Speed (Limited)",
+//       "Handcrafted in Molsheim, France",
+//       "Rarer Than Any Supercar",
+//     ],
+//   },
+//   {
+//     id: "16",
+//     name: "OEM BMW F44 G01 G05 G12 G20 G26 G30 Steering Wheel Paddle Shifter plus up",
+//     brand: "Lexus",
+//     category: "Coupe",
+//     tagline: "Concept-Car Beauty Made Real",
+//     description:
+//       "Where concept-car beauty meets production-car reality. A naturally aspirated 5.0L V8 with 471 hp delivers an emotional driving experience wrapped in jaw-dropping design.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!
+// `,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 567,
+//     exteriorColor: "Infrared",
+//     interiorColor: "Toasted Caramel Semi-Aniline Leather",
+//     vin: generateVIN(),
+//     price: 75,
+//     discountedPrice: 60,
+//     images: gallery(90),
+//     specifications: {
+//       engine: "5.0L Naturally Aspirated V8",
+//       power: "471 hp @ 7,100 rpm",
+//       torque: "398 lb-ft @ 4,800 rpm",
+//       acceleration: "0-60 mph in 4.4 seconds",
+//       topSpeed: "168 mph",
+//       transmission: "10-Speed Direct-Shift Automatic",
+//       drivetrain: "Rear-Wheel Drive",
+//       fuelType: "Premium Gasoline",
+//       seating: 4,
+//       cargo: "5.4 cu ft",
+//     },
+//     features: [
+//       "10-Speed Direct-Shift Automatic",
+//       "Active Rear Steering (Optional)",
+//       "Variable Gear Ratio Steering",
+//       "Adaptive Variable Suspension",
+//       "12.3-inch Multimedia Display",
+//       "Mark Levinson Reference Audio",
+//       "Head-Up Display",
+//       "Takumi Craftsmanship",
+//       "Alcantara Headliner",
+//       "Climate Concierge",
+//       "Lexus Safety System+ 2.5",
+//       "Wireless Charging",
+//     ],
+//     highlights: [
+//       "Production Car True to Concept Design",
+//       "High-Revving Naturally Aspirated V8",
+//       "Innovative 10-Speed Transmission",
+//       "Takumi Handcraftsmanship",
+//     ],
+//   },
+//   {
+//     id: "17",
+//     name: "PRE-LCI OEM BMW G01 G12 G30 ABS Brake Pump Anti Lock DSC Dynamic Stability",
+//     brand: "Jaguar",
+//     category: "Sports",
+//     tagline: "A 75-Year Legacy of Sports Cars",
+//     description:
+//       "A celebration of 75 years of Jaguar sports cars. The supercharged 5.0L V8 with 575 hp delivers savage performance with distinctly British charm and a soundtrack to match.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!
+// `,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 234,
+//     exteriorColor: "British Racing Green",
+//     interiorColor: "Mars Red / Ebony",
+//     vin: generateVIN(),
+//     price: 230,
+//     discountedPrice: 200,
+//     images: gallery(96),
+//     specifications: {
+//       engine: "5.0L Supercharged V8",
+//       power: "575 hp @ 6,500-7,000 rpm",
+//       torque: "516 lb-ft @ 3,500-5,000 rpm",
+//       acceleration: "0-60 mph in 3.5 seconds",
+//       topSpeed: "186 mph",
+//       transmission: "8-Speed Quickshift Automatic",
+//       drivetrain: "All-Wheel Drive",
+//       fuelType: "Premium Gasoline",
+//       seating: 2,
+//       cargo: "14.4 cu ft",
+//     },
+//     features: [
+//       "Adaptive Dynamics",
+//       "Configurable Dynamics",
+//       "Electronic Active Differential",
+//       "11.4-inch Curved Touchscreen",
+//       "Meridian 770W Surround Sound",
+//       "Windsor Leather Interior",
+//       "Performance Active Exhaust",
+//       "Activity Key",
+//       "360° Surround Camera",
+//       "Wireless Charging",
+//       "R75 Exclusive Badging",
+//       "20-inch Satin Grey Wheels",
+//     ],
+//     highlights: [
+//       "Limited Edition Celebrating 75 Years",
+//       "Final Iteration of F-Type",
+//       "Most Powerful Production F-Type",
+//       "Exclusive Interior and Exterior Details",
+//     ],
+//   },
+//   {
+//     id: "18",
+//     name: "PRE-LCI OEM BMW G05 G07 G11 G12 G30 M550 X5 Left Right Turbo Charger SET N63 k",
+//     brand: "Porsche",
+//     category: "Electric",
+//     tagline: "Electric Performance, Porsche Soul",
+//     description:
+//       "All parts are used unless otherwise noted! Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!
+
+// `,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 345,
+//     exteriorColor: "Frozen Blue Metallic",
+//     interiorColor: "Black / Lime Green",
+//     vin: generateVIN(),
+//     price: 670,
+//     discountedPrice: 630,
+//     images: gallery(102),
+//     specifications: {
+//       engine: "Dual Permanent-Magnet Synchronous Motors",
+//       power: "750 hp (Overboost with Launch Control)",
+//       torque: "774 lb-ft",
+//       acceleration: "0-60 mph in 2.6 seconds",
+//       topSpeed: "162 mph",
+//       transmission: "2-Speed Rear / Single-Speed Front",
+//       drivetrain: "All-Wheel Drive",
+//       fuelType: "Electric (222 mi range)",
+//       seating: 4,
+//       cargo: "13.8 cu ft",
+//     },
+//     features: [
+//       "800-Volt Architecture",
+//       "Two-Speed Rear Transmission",
+//       "Rear-Axle Steering",
+//       "Porsche Dynamic Chassis Control",
+//       "Adaptive Air Suspension",
+//       "Launch Control",
+//       "16.8-inch Curved Display",
+//       "Burmester High-End Surround Sound",
+//       "Porsche InnoDrive",
+//       "Night Vision Assist",
+//       "Passenger Display",
+//       "Porsche Communication Management",
+//     ],
+//     highlights: [
+//       "First Electric Porsche Sports Car",
+//       "Unique Two-Speed Rear Transmission",
+//       "800-Volt Ultra-Fast Charging",
+//       "Repeatable Performance",
+//     ],
+//   },
+//   {
+//     id: "19",
+//     name: "16-22 OEM BMW G11 G12 740 750 M760 Air Suspension Compressor Pump Module Motor",
+//     brand: "Mercedes-Maybach",
+//     category: "Sedan",
+//     tagline: "The Absolute Zenith of Luxury",
+//     description:
+//       "All parts are used unless otherwise noted! Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!`,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 456,
+//     exteriorColor: "Two-Tone Obsidian Black / Rubellite Red",
+//     interiorColor: "Macchiato Beige / Yacht Blue",
+//     vin: generateVIN(),
+//     price: 229000,
+//     discountedPrice: 219500,
+//     images: gallery(108),
+//     specifications: {
+//       engine: "6.0L Twin-Turbocharged V12",
+//       power: "621 hp @ 4,800 rpm",
+//       torque: "738 lb-ft @ 2,000-4,000 rpm",
+//       acceleration: "0-60 mph in 4.4 seconds",
+//       topSpeed: "155 mph (electronically limited)",
+//       transmission: "9-Speed Automatic",
+//       drivetrain: "All-Wheel Drive (4MATIC+)",
+//       fuelType: "Premium Gasoline",
+//       seating: 4,
+//       cargo: "12.4 cu ft",
+//     },
+//     features: [
+//       "Magic Body Control",
+//       "Executive Rear Seats with 43.5° Recline",
+//       "Burmester High-End 4D Surround Sound",
+//       "MBUX Rear Tablet Remote",
+//       "Refrigerator with Silver Champagne Flutes",
+//       "Executive Table",
+//       "Chauffeur Package",
+//       "Night Series Design Elements",
+//       "Rear Privacy Curtains",
+//       "Hot Stone Massage Function",
+//       "Ionized Air Filtration",
+//       "Automatic Comfort Doors",
+//     ],
+//     highlights: [
+//       "Hand-Assembled V12 with Builder's Signature",
+//       "33-Day Wood Trim Creation Process",
+//       "43.5-Degree Rear Seat Recline",
+//       "Two-Tone Exterior Paint",
+//     ],
+//   },
+//   {
+//     id: "20",
+//     name: "16-19 OEM BMW G11 G12 740 750 Transmission Shifter Gear Selector Switch Ceramic",
+//     brand: "BMW",
+//     category: "Electric",
+//     tagline: "The Future of Driving Pleasure",
+//     description:
+//       "All parts are used unless otherwise noted! Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!`,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 678,
+//     exteriorColor: "Aventurin Red Metallic",
+//     interiorColor: "Castanea Leather / Natural Wool",
+//     vin: generateVIN(),
+//     price: 190,
+//     discountedPrice: 150,
+//     images: gallery(114),
+//     specifications: {
+//       engine: "Dual Electric Motors",
+//       power: "610 hp (Sport Mode)",
+//       torque: "749 lb-ft",
+//       acceleration: "0-60 mph in 3.6 seconds",
+//       topSpeed: "155 mph (electronically limited)",
+//       transmission: "Single-Speed Direct Drive",
+//       drivetrain: "All-Wheel Drive",
+//       fuelType: "Electric (280+ mi range)",
+//       seating: 5,
+//       cargo: "35.5 cu ft",
+//     },
+//     features: [
+//       "111.5 kWh Battery Pack",
+//       "BMW Curved Display",
+//       "5G Connectivity",
+//       "BMW Intelligent Personal Assistant",
+//       "Bowers & Wilkins Diamond Surround Sound",
+//       "Sky Lounge Panoramic Roof",
+//       "Driving Assistant Professional",
+//       "Active Roll Stabilization",
+//       "DC Fast Charging (200 kW)",
+//       "Sustainable Interior Materials",
+//       "Gesture Control",
+//       "M Sport Brakes",
+//     ],
+//     highlights: [
+//       "Carbon Fiber Core Structure",
+//       "Sustainable Luxury Materials",
+//       "Over 600 Horsepower",
+//       "200 kW DC Fast Charging",
+//     ],
+//   },
+//   {
+//     id: "21",
+//     name: "OEM BMW F90 F93 G11 G12 G16 G30 M5 Radiator Mount Support Bracket Left Right SET",
+//     brand: "Lamborghini",
+//     category: "SUV",
+//     tagline: "The Super SUV, Evolved",
+//     description:
+//       "The world's first Super SUV, evolved. A 4.0L twin-turbo V8 with 657 hp, aggressive styling, and race-inspired engineering make this the apex predator of luxury SUVs.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!
+// `,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 432,
+//     exteriorColor: "Verde Scandal",
+//     interiorColor: "Nero Ade Sportivo",
+//     vin: generateVIN(),
+//     price: 260676,
+//     discountedPrice: 248900,
+//     images: gallery(120),
+//     specifications: {
+//       engine: "4.0L Twin-Turbocharged V8",
+//       power: "657 hp @ 6,000 rpm",
+//       torque: "627 lb-ft @ 2,300-4,500 rpm",
+//       acceleration: "0-60 mph in 3.3 seconds",
+//       topSpeed: "190 mph",
+//       transmission: "8-Speed Automatic",
+//       drivetrain: "All-Wheel Drive",
+//       fuelType: "Premium Gasoline",
+//       seating: 5,
+//       cargo: "21.8 cu ft",
+//     },
+//     features: [
+//       "Torque Rear Torque Vectoring",
+//       "Rear-Wheel Steering",
+//       "Active Roll Stabilization",
+//       "Adaptive Air Suspension",
+//       "Carbon Ceramic Brakes",
+//       "Carbon Fiber Roof",
+//       "Carbon Fiber Hood",
+//       "Performance Sport Seats",
+//       "ANIMA Drive Mode Selector",
+//       "Rally Mode",
+//       "Bang & Olufsen 3D Audio",
+//       "Lamborghini Connect",
+//     ],
+//     highlights: [
+//       "47 kg Lighter Than Standard Urus",
+//       "Pikes Peak Hill Climb Record Holder",
+//       "Torque Rear Technology",
+//       "Rally-Inspired Driving Mode",
+//     ],
+//   },
+//   {
+//     id: "22",
+//     name: "OEM BMW F90 G12 G30 G32 Front Right Passenger Seat Adjustment Control Switch",
+//     brand: "Ferrari",
+//     category: "Convertible",
+//     tagline: "La Dolce Vita, Reimagined",
+//     description:
+//       "La Dolce Vita, reimagined. The elegant lines of the Roma meet open-top freedom with a twin-turbo V8 producing 612 hp and Ferrari's most refined grand touring experience.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!
+// `,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 198,
+//     exteriorColor: "Blu Corsa",
+//     interiorColor: "Cuoio / Nero",
+//     vin: generateVIN(),
+//     price: 170,
+//     discountedPrice: 120,
+//     images: gallery(126),
+//     specifications: {
+//       engine: "3.9L Twin-Turbocharged V8",
+//       power: "612 hp @ 5,750-7,500 rpm",
+//       torque: "561 lb-ft @ 3,000-5,750 rpm",
+//       acceleration: "0-60 mph in 3.4 seconds",
+//       topSpeed: "198 mph",
+//       transmission: "8-Speed DCT",
+//       drivetrain: "Rear-Wheel Drive",
+//       fuelType: "Premium Gasoline",
+//       seating: 2,
+//     },
+//     features: [
+//       "Retractable Soft Top (13.5 seconds)",
+//       "Dual-Cockpit Interior Design",
+//       "16-inch Digital Display",
+//       "8.4-inch Passenger Display",
+//       "7-inch Rear Screen",
+//       "Manettino Driving Mode Selector",
+//       "Side Slip Control 6.0",
+//       "Ferrari Virtual Short Wheelbase 3.0",
+//       "JBL Professional Audio",
+//       "Advanced Driver Assistance Systems",
+//       "7-Year Maintenance Program",
+//       "Ferrari Portofino-Derived Platform",
+//     ],
+//     highlights: [
+//       "Ferrari's Most Elegant Current Design",
+//       "13.5-Second Roof Operation",
+//       "Award-Winning V8 Engine",
+//       "Dual-Cockpit Interior Philosophy",
+//     ],
+//   },
+//   {
+//     id: "23",
+//     name: "16-22 OEM BMW G11 G12 740 750 iDrive Navigation Controller Knob Button CERAMIC",
+//     brand: "Audi",
+//     category: "Sports",
+//     tagline: "The Naturally Aspirated Legend",
+//     description:
+//       "All parts are used unless otherwise noted! Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!
+// `,
+//     condition: "Used",
+//     year: 2022,
+//     mileage: 7890,
+//     exteriorColor: "Kemora Grey Metallic",
+//     interiorColor: "Express Red Fine Nappa Leather",
+//     vin: generateVIN(),
+//     price: 210,
+//     discountedPrice: 190,
+//     images: gallery(132),
+//     specifications: {
+//       engine: "5.2L Naturally Aspirated V10",
+//       power: "602 hp @ 8,100 rpm",
+//       torque: "413 lb-ft @ 6,500 rpm",
+//       acceleration: "0-60 mph in 3.1 seconds",
+//       topSpeed: "205 mph",
+//       transmission: "7-Speed S tronic Dual-Clutch",
+//       drivetrain: "quattro All-Wheel Drive",
+//       fuelType: "Premium Gasoline",
+//       seating: 2,
+//       cargo: "4.6 cu ft",
+//     },
+//     features: [
+//       "Audi Virtual Cockpit",
+//       "Sport Exhaust System",
+//       "Laser Headlights",
+//       "Magnetic Ride Adaptive Suspension",
+//       "Carbon Ceramic Brakes",
+//       "Fine Nappa Leather Interior",
+//       "Bang & Olufsen Sound System",
+//       "Carbon Fiber Side Blades",
+//       "Audi Drive Select",
+//       "Performance Driving Mode",
+//       "Rear View Camera",
+//       "Diamond-Stitched Seats",
+//     ],
+//     highlights: [
+//       "One of the Last Naturally Aspirated Supercars",
+//       "8,700 RPM Redline",
+//       "Rear-Biased quattro System",
+//       "Shared DNA with Lamborghini Huracán",
+//     ],
+//   },
+//   {
+//     id: "24",
+//     name: "16-19 OEM BMW G11 G12 750 Alpina B7 Compressor Clutch Pump Engine N63R",
+//     brand: "Tesla",
+//     category: "Electric",
+//     tagline: "Radically Different by Design",
+//     description:
+//       "Radically reimagining what a truck can be. Ultra-hard stainless steel exoskeleton, tri-motor AWD with 845 hp, and adaptive air suspension for supreme versatility.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!
+// .`,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 234,
+//     exteriorColor: "Ultra Metal",
+//     interiorColor: "Black / White Premium Interior",
+//     vin: generateVIN(),
+//     price: 180,
+//     discountedPrice: 150,
+//     images: gallery(138),
+//     specifications: {
+//       engine: "Tri Motor All-Electric",
+//       power: "845 hp Combined",
+//       torque: "Instant Electric Torque",
+//       acceleration: "0-60 mph in 2.6 seconds",
+//       topSpeed: "130 mph",
+//       transmission: "Single-Speed Direct Drive",
+//       drivetrain: "All-Wheel Drive",
+//       fuelType: "Electric (320+ mi range)",
+//       seating: 5,
+//       cargo: "72 cu ft (with bed)",
+//     },
+//     features: [
+//       "30X Cold-Rolled Stainless Steel Exoskeleton",
+//       "Tesla Armor Glass",
+//       "Adaptive Air Suspension",
+//       "Four-Wheel Steering",
+//       "18.5-inch Central Display",
+//       "Full Self-Driving Capability",
+//       "Powered Tonneau Cover",
+//       "1,800W Bed Outlets",
+//       "Front Trunk (200 lb capacity)",
+//       "Tow Mode with Range Calculator",
+//       "Camp Mode",
+//       "Off-Road Mode",
+//     ],
+//     highlights: [
+//       "Ultra-Hard Stainless Steel Body",
+//       "0-60 in 2.6 Seconds",
+//       "11,000 lb Towing Capacity",
+//       "17 Inches of Suspension Travel",
+//     ],
+//   },
+//   {
+//     id: "25",
+//     name: "16-19 OEM BMW G12 G30 G11 750 M550 M760 Coolant Expansion Tank Reservoir",
+//     brand: "Cadillac",
+//     category: "SUV",
+//     tagline: "American Luxury Taken to Extremes",
+//     description:
+//       "American luxury taken to the extreme. A supercharged 6.2L V8 with 682 hp transforms this iconic luxury SUV into the most powerful full-size SUV ever produced.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!
+// `,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 567,
+//     exteriorColor: "Black Raven",
+//     interiorColor: "Jet Black with Jet Black Accents",
+//     vin: generateVIN(),
+//     price: 92,
+//     discountedPrice: 75,
+//     images: gallery(144),
+//     specifications: {
+//       engine: "6.2L Supercharged V8 (LT4)",
+//       power: "682 hp @ 6,000 rpm",
+//       torque: "653 lb-ft @ 4,400 rpm",
+//       acceleration: "0-60 mph in 4.4 seconds",
+//       topSpeed: "200 mph (de-limited)",
+//       transmission: "10-Speed Automatic",
+//       drivetrain: "All-Wheel Drive",
+//       fuelType: "Premium Gasoline",
+//       seating: 7,
+//       cargo: "25.5 cu ft",
+//     },
+//     features: [
+//       "Magnetic Ride Control 4.0",
+//       "Electronic Limited-Slip Differential",
+//       "38-inch Curved OLED Display",
+//       "AKG Studio Reference Audio (36 Speakers)",
+//       "Super Cruise Driver Assistance",
+//       "Air Ride Adaptive Suspension",
+//       "Brembo Performance Brakes",
+//       "V-Performance Mode",
+//       "Night Vision",
+//       "Rear Camera Mirror",
+//       "Massaging Front Seats",
+//       "Second-Row Captain's Chairs",
+//     ],
+//     highlights: [
+//       "Most Powerful Full-Size SUV Ever",
+//       "682 Horsepower Supercharged V8",
+//       "38-Inch Curved OLED Display",
+//       "Hand-Assembled Engine",
+//     ],
+//   },
+//   {
+//     id: "26",
+//     name: "Nissan GT-R Nismo",
+//     brand: "Nissan",
+//     category: "Sports",
+//     tagline: "Godzilla, The Ultimate Form",
+//     description:
+//       "Godzilla, the ultimate iteration. Hand-assembled twin-turbo V6 with 600 hp, NISMO-tuned suspension, and aerodynamics born from decades of motorsport dominance at every level.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!
+// `,
+//     condition: "Used",
+//     year: 2021,
+//     mileage: 8765,
+//     exteriorColor: "Super Silver",
+//     interiorColor: "Black / Red Alcantara",
+//     vin: generateVIN(),
+//     price: 212435,
+//     discountedPrice: 189900,
+//     images: gallery(2),
+//     specifications: {
+//       engine: "3.8L Twin-Turbocharged V6 (VR38DETT)",
+//       power: "600 hp @ 6,800 rpm",
+//       torque: "481 lb-ft @ 3,600-5,600 rpm",
+//       acceleration: "0-60 mph in 2.9 seconds",
+//       topSpeed: "205 mph",
+//       transmission: "6-Speed Dual-Clutch",
+//       drivetrain: "ATTESA E-TS All-Wheel Drive",
+//       fuelType: "Premium Gasoline",
+//       seating: 4,
+//       cargo: "8.8 cu ft",
+//     },
+//     features: [
+//       "Hand-Assembled Engine by Takumi",
+//       "Carbon Fiber Aerodynamic Package",
+//       "NISMO Bilstein DampTronic Suspension",
+//       "Carbon Ceramic Brakes",
+//       "Recaro Bucket Seats",
+//       "NISMO-Specific Turbos",
+//       "Rays Forged Aluminum Wheels",
+//       "Dunlop SP Sport Maxx GT 600 Tires",
+//       "NISMO Titanium Exhaust",
+//       "Bose Premium Audio",
+//       "Alcantara Interior Trim",
+//       "NISMO Tachometer with Shift Indicator",
+//     ],
+//     highlights: [
+//       "Hand-Assembled by Takumi Engine Builders",
+//       "Super GT-Derived Aerodynamics",
+//       "NISMO Racing Heritage",
+//       "ATTESA E-TS Pro AWD System",
+//     ],
+//   },
+//   {
+//     id: "27",
+//     name: "Porsche Cayenne Turbo GT",
+//     brand: "Porsche",
+//     category: "SUV",
+//     tagline: "The Sports Car of SUVs",
+//     description:
+//       "The sports car of SUVs. A twin-turbo V8 with 631 hp, active aerodynamics, and Porsche's motorsport DNA deliver lap times that embarrass many dedicated sports cars.",
+//     fullDescription: `The Porsche Cayenne Turbo GT is the most extreme Cayenne ever created, designed specifically to set records on racetracks around the world. This high-performance SUV embodies Porsche's belief that even practical vehicles should deliver exceptional driving experiences.
+
+// The 4.0-liter twin-turbocharged V8 engine has been extensively revised, producing 631 horsepower and 626 lb-ft of torque. New turbochargers, enhanced cooling, and unique calibration create an engine that delivers supercar-level power with remarkable linear delivery.
+
+// The Turbo GT is 17 mm lower than the standard Cayenne Turbo, with a wider track and model-specific three-chamber air suspension tuning. The rear-axle steering, active roll stabilization, and carbon ceramic brakes have been specifically calibrated for track performance.
+
+// Active aerodynamics include a larger front splitter and a dramatically increased rear wing that generates substantial downforce at speed. The Turbo GT holds the SUV lap record at the Nürburgring Nordschleife, demonstrating its exceptional performance credentials.
+
+// Inside, the Turbo GT features 8-way sport seats with GT-specific upholstery, an Alcantara-wrapped steering wheel with yellow center marker, and unique carbon fiber trim. The emphasis on lightweight materials throughout supports the vehicle's performance mission.`,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 345,
+//     exteriorColor: "Arctic Grey",
+//     interiorColor: "Black / Neodyme Leather",
+//     vin: generateVIN(),
+//     price: 186800,
+//     discountedPrice: 179900,
+//     images: gallery(1),
+//     specifications: {
+//       engine: "4.0L Twin-Turbocharged V8",
+//       power: "631 hp @ 6,000 rpm",
+//       torque: "626 lb-ft @ 2,300-4,500 rpm",
+//       acceleration: "0-60 mph in 3.1 seconds",
+//       topSpeed: "186 mph",
+//       transmission: "8-Speed Tiptronic S",
+//       drivetrain: "All-Wheel Drive",
+//       fuelType: "Premium Gasoline",
+//       seating: 4,
+//       cargo: "22.7 cu ft",
+//     },
+//     features: [
+//       "Porsche Active Suspension Management",
+//       "Rear-Axle Steering",
+//       "Porsche Dynamic Chassis Control Sport",
+//       "Porsche Ceramic Composite Brakes",
+//       "Active Roof Spoiler",
+//       "Titanium Sports Exhaust",
+//       "22-inch GT Design Wheels",
+//       "Sport Chrono Package",
+//       "8-Way Sport Seats Plus",
+//       "Alcantara Interior",
+//       "Bose Surround Sound",
+//       "Porsche InnoDrive",
+//     ],
+//     highlights: [
+//       "Nürburgring Nordschleife SUV Record Holder",
+//       "Most Powerful Cayenne Ever",
+//       "Titanium Exhaust System",
+//       "Track-Focused Aerodynamics",
+//     ],
+//   },
+//   {
+//     id: "28",
+//     name: "McLaren Artura",
+//     brand: "McLaren",
+//     category: "Sports",
+//     tagline: "A New Era of McLaren",
+//     description:
+//       "McLaren's new-era hybrid supercar. A twin-turbo V6 paired with an E-motor delivers 671 hp through a revolutionary carbon fiber architecture weighing just 1,395 kg.",
+//     fullDescription: `The McLaren Artura represents a transformative moment for McLaren, introducing an all-new hybrid powertrain and platform while maintaining the purity and driver engagement that define the brand. This is McLaren's vision of the next generation supercar.
+
+// The Artura introduces an entirely new 3.0-liter twin-turbocharged V6 engine, the first McLaren has designed from scratch for hybrid applications. Combined with an axial-flux electric motor, the system produces 671 horsepower and 531 lb-ft of torque. The electric motor fills in torque during turbo lag, providing instant response.
+
+// The all-new McLaren Carbon Lightweight Architecture (MCLA) is 10% lighter than the Monocage II structure, while incorporating the electric motor and battery into the structural design. The result is an astonishingly light curb weight of just 1,395 kg – among the lightest in the hybrid supercar segment.
+
+// The Artura features an all-new E-diff integrated into a new 8-speed seamless-shift gearbox, the first automatic transmission from McLaren. The system provides the driving engagement of a dual-clutch with the refinement of a torque converter automatic.
+
+// The interior continues McLaren's driver-focused philosophy with a new infotainment system featuring a portrait-oriented 8-inch screen and electronic instrument cluster. The cabin is minimalist yet luxurious, with extensive use of Alcantara and optional premium leather.`,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 456,
+//     exteriorColor: "Ember Orange",
+//     interiorColor: "Jet Black / McLaren Orange",
+//     vin: generateVIN(),
+//     price: 237500,
+//     discountedPrice: 224900,
+//     images: gallery(9),
+//     specifications: {
+//       engine: "3.0L Twin-Turbocharged V6 + E-Motor",
+//       power: "671 hp Combined",
+//       torque: "531 lb-ft Combined",
+//       acceleration: "0-60 mph in 3.0 seconds",
+//       topSpeed: "205 mph",
+//       transmission: "8-Speed Seamless Shift Automatic",
+//       drivetrain: "Rear-Wheel Drive",
+//       fuelType: "Plug-in Hybrid (19 mi electric range)",
+//       seating: 2,
+//     },
+//     features: [
+//       "McLaren Carbon Lightweight Architecture",
+//       "Axial-Flux Electric Motor",
+//       "E-Differential",
+//       "Proactive Damping Control",
+//       "Variable Drift Control",
+//       "Dihedral Doors",
+//       "8-inch Portrait Touchscreen",
+//       "Active Dynamics Panel",
+//       "Track Telemetry",
+//       "Bowers & Wilkins Audio",
+//       "Vehicle Lift System",
+//       "McLaren Track Pace App",
+//     ],
+//     highlights: [
+//       "All-New Platform and Powertrain",
+//       "Among Lightest Hybrid Supercars",
+//       "First McLaren Automatic Transmission",
+//       "Axial-Flux Electric Motor Technology",
+//     ],
+//   },
+//   {
+//     id: "29",
+//     name: "Lucid Air Sapphire",
+//     brand: "Lucid",
+//     category: "Electric",
+//     tagline: "The World's Most Powerful Sedan",
+//     description:
+//       "The world's most powerful electric sedan. Three motors produce 1,234 hp with a quarter-mile time under 9 seconds, redefining what's possible in electric luxury performance.",
+//     fullDescription: `The Lucid Air Sapphire represents the absolute pinnacle of electric vehicle technology, combining unprecedented performance with luxury sedan practicality. With over 1,200 horsepower, it stands as the most powerful production sedan ever made, regardless of powertrain.
+
+// Three electric motors – one at the front and two at the rear – produce a combined 1,234 horsepower and an estimated 1,430 lb-ft of torque. This enables the Air Sapphire to accelerate from 0 to 60 mph in under 2 seconds and complete the quarter-mile in under 9 seconds – figures that rival dedicated hypercars.
+
+// The dual-motor rear drive unit is all-new for Sapphire, featuring carbon-fiber motor sleeves that enable higher rotational speeds. The torque-vectoring capability of the independent rear motors provides exceptional handling dynamics and precision.
+
+// Despite its extreme performance, the Air Sapphire maintains impressive range thanks to Lucid's industry-leading efficiency. The 118 kWh battery provides over 400 miles of range, while 924-volt architecture enables exceptionally fast charging speeds.
+
+// The interior features unique Sapphire-exclusive trim, including Nappa leather with blue contrast stitching, carbon fiber with blue accent threads, and unique digital displays. The 34-inch curved Glass Cockpit display provides an immersive driver experience.`,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 234,
+//     exteriorColor: "Sapphire Blue",
+//     interiorColor: "Sapphire Black Mojave",
+//     vin: generateVIN(),
+//     price: 249000,
+//     discountedPrice: 239900,
+//     images: gallery(4),
+//     specifications: {
+//       engine: "Tri Motor All-Electric",
+//       power: "1,234 hp Combined",
+//       torque: "1,430 lb-ft (estimated)",
+//       acceleration: "0-60 mph in under 2 seconds",
+//       topSpeed: "205+ mph",
+//       transmission: "Single-Speed Direct Drive",
+//       drivetrain: "All-Wheel Drive",
+//       fuelType: "Electric (400+ mi range)",
+//       seating: 5,
+//       cargo: "18.3 cu ft",
+//     },
+//     features: [
+//       "Tri-Motor Powertrain",
+//       "924-Volt Electrical Architecture",
+//       "Torque-Vectoring Rear Drive Unit",
+//       "Carbon-Fiber Motor Sleeves",
+//       "34-inch Glass Cockpit Display",
+//       "21-Speaker Surreal Sound System",
+//       "Semi-Autonomous Driving",
+//       "Sapphire-Exclusive Interior",
+//       "Pilot Panel Display",
+//       "Glass Canopy Roof",
+//       "DreamDrive Pro",
+//       "Track Mode",
+//     ],
+//     highlights: [
+//       "Most Powerful Production Sedan Ever",
+//       "Sub-9-Second Quarter Mile",
+//       "Industry-Leading Efficiency",
+//       "924-Volt Fast Charging",
+//     ],
+//   },
+//   {
+//     id: "30",
+//     name: "Rimac Nevera",
+//     brand: "Rimac",
+//     category: "Hypercar",
+//     tagline: "The Electric Hypercar Revolution",
+//     description:
+//       "The electric hypercar that changed everything. Four motors deliver 1,914 hp with 2,360 Nm of torque, hand-built in Croatia as a testament to human innovation.",
+//     fullDescription: `Warranty covers the cost of the item! It does not cover shipping or labor!
+
+// Used condition items may have minor imperfections. Please look at pictures for details! And understand that this is a USED part after all!
+
+// Compatibility is the responsibility of the customer to ensure!!
+
+// Please feel free to reach out with any questions!!
+// .`,
+//     condition: "New",
+//     year: 2024,
+//     mileage: 89,
+//     exteriorColor: "California Copper",
+//     interiorColor: "Nappa Black / Copper Stitching",
+//     vin: generateVIN(),
+//     price: 2400000,
+//     discountedPrice: 2290000,
+//     images: gallery(8),
+//     specifications: {
+//       engine: "Quad Electric Motors",
+//       power: "1,914 hp Combined",
+//       torque: "1,740 lb-ft Combined",
+//       acceleration: "0-60 mph in 1.85 seconds",
+//       topSpeed: "258 mph",
+//       transmission: "Single-Speed per Motor",
+//       drivetrain: "All-Wheel Drive",
+//       fuelType: "Electric (340 mi range)",
+//       seating: 2,
+//     },
+//     features: [
+//       "Quad Motor All-Wheel Torque Vectoring 2",
+//       "120 kWh Battery Pack",
+//       "500 kW DC Fast Charging",
+//       "Carbon Fiber Monocoque",
+//       "Active Aerodynamics",
+//       "Face Recognition Entry",
+//       "Drift Mode",
+//       "Track Mode",
+//       "AI-Powered Driver Coach",
+//       "Alcantara / Nappa Leather Interior",
+//       "13-inch Touchscreen",
+//       "2,000 Hours Hand Assembly",
+//     ],
+//     highlights: [
+//       "World's Fastest Production Car to 60 mph",
+//       "258 mph Top Speed",
+//       "Per-Wheel Torque Vectoring",
+//       "Hand-Built in Croatia",
+//     ],
+//   },
+// ];
+
+// export function getCarById(id: string): Car | undefined {
+//   return cars.find((car) => car.id === id);
+// }
+
+// export function getPaginatedCars(page: number, perPage = 10) {
+//   const start = (page - 1) * perPage;
+//   const end = start + perPage;
+//   return {
+//     cars: cars.slice(start, end),
+//     totalPages: Math.ceil(cars.length / perPage),
+//     currentPage: page,
+//     total: cars.length,
+//   };
+// }
+
+// export function getCarsByCategory(category: string) {
+//   return cars.filter((car) => car.category === category);
+// }
+
+// export function getRelatedCars(carId: string, limit = 3): Car[] {
+//   const car = getCarById(carId);
+//   if (!car) return [];
+  
+//   return cars
+//     .filter((c) => c.id !== carId && (c.category === car.category || c.brand === car.brand))
+//     .slice(0, limit);
+// }

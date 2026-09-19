@@ -8,7 +8,7 @@ import { Car } from "@/types";
 import { formatPrice } from "@/lib/utils";
 import { getRelatedCars } from "@/data/cars";
 import ImageGallery from "@/components/image-gallery";
-import OrderModal from "@/components/order-modal";
+import OrderModal from "@/components/orderNow";
 import ScrollReveal from "@/components/scroll-reveal";
 import {
   ArrowLeft,
