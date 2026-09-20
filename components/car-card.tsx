@@ -121,7 +121,12 @@ export default function CarCard({ car, index }: CarCardProps) {
             </div>
 
             <p className="text-sm text-white/30 line-clamp-2 mb-4 font-light leading-relaxed">
-              {car.description}
+              {/* {car.description} */}
+              Your Quality Performance and Used parts for BMW II/ M cars-M2 M3 M4 M5 M6 M8 X5M X6MParts
+              Located in 9103 S Dairy Ashford Rd Houston, TX 77099 United States
+              Specialist DM (713) 487-6635 for any parts requests
+              Email: bimmerparts08@gmail.com
+              Check out
             </p>
 
             <div className="flex items-end justify-between">

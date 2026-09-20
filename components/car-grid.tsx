@@ -11,11 +11,6 @@ import { cn } from "@/lib/utils";
 
 const CATEGORIES: ("All" | CarCategory)[] = [
   "All",
-  "Hypercar",
-  "Sports",
-  "Luxury",
-  "Electric",
-  "SUV",
   "Coupe",
   "Convertible",
   "Sedan",
@@ -65,8 +60,7 @@ export default function CarGrid() {
               Exceptional <span className="gradient-text">Car parts</span>
             </h2>
             <p className="text-base text-white/30 max-w-xl mx-auto font-light">
-              Handpicked selection of the world&apos;s most desirable car parts,
-              each one a masterpiece of engineering and design.
+              Your Quality Performance and Used parts for BMW II/ M cars-M2 M3 M4 M5 M6 M8 X5M X6MParts
             </p>
           </div>
         </ScrollReveal>

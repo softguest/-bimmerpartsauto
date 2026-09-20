@@ -471,8 +471,8 @@ Please feel free to reach out with any questions!!
     exteriorColor: "Rosso Corsa",
     interiorColor: "Nero / Rosso",
     vin: generateVIN(),
-    price: 625000,
-    discountedPrice: 599000,
+    price: 625,
+    discountedPrice: 599,
     images: gallery(30),
     specifications: {
       engine: "4.0L Twin-Turbocharged V8 + 3 Electric Motors",
@@ -1336,7 +1336,7 @@ Please feel free to reach out with any questions!!
     interiorColor: "Nero Ade Sportivo",
     vin: generateVIN(),
     price: 260,
-    discountedPrice: 248900,
+    discountedPrice: 248,
     // images: gallery(120),
     images: gallery(84),
     specifications: {
