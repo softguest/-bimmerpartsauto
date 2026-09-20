@@ -120,6 +120,7 @@ export default function OrderModal({ isOpen, onClose, carName }: OrderModalProps
                 <a
                   href="tel:+17134876635"
                   className="flex items-center gap-4 rounded-xl border border-white/5 bg-white/5 p-4 transition hover:bg-white/10"
+                  style={{ margin: "10px 0" }}
                 >
                   <div style={{ margin: "10px 0" }} className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-blue-500/10">
                     <MailCheck className="h-5 w-5 text-blue-400" />
@@ -157,14 +158,14 @@ export default function OrderModal({ isOpen, onClose, carName }: OrderModalProps
               </div>
 
               {/* Call Button */}
-              <a
-                href="tel:+17134876635"
+              <div
+                // href="tel:+17134876635"
                 className="mt-6 flex w-full items-center justify-center gap-2 rounded-xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-blue-500"
-                style={{ padding: "5px 12px" }}
+                style={{ padding: "10px 24px" }}
               >
                 <Phone className="h-4 w-4" />
-                Call BIMMER PARTS AUTO
-              </a>
+                TEXT BIMMER PARTS AUTO
+              </div>
             </div>
 
             {/* Bottom Gradient Line */}
