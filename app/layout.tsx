@@ -56,21 +56,21 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "LUXE MOTORS | Premium Automotive Marketplace",
   description:
-    "Discover an exclusive collection of the world's most extraordinary vehicles. From hypercars to electric marvels, find your next masterpiece at Luxe Motors.",
+    "Discover an exclusive collection of car parts. get quality parts for hypercars to electric marvels, find your next masterpiece at BimmerPartAuto.",
   keywords: [
     "luxury cars",
-    "hypercars",
+    "hypercar parts",
     "sports cars",
-    "premium vehicles",
+    "premium car parts",
     "car marketplace",
     "automotive",
     "supercar",
-    "electric vehicles",
+    "electric parts",
   ],
   openGraph: {
     title: "LUXE MOTORS | Premium Automotive Marketplace",
     description:
-      "Discover the world's most extraordinary vehicles at Luxe Motors.",
+      "Discover the world's most extraordinary car parts at Luxe Motors.",
     type: "website",
   },
 };

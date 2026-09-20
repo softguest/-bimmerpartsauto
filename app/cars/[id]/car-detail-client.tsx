@@ -186,7 +186,11 @@ export default function CarDetailClient({ car }: Props) {
 
                 {/* Description */}
                 <p style={{ margin: "20px 0" }} className="text-base text-white/35 font-light leading-relaxed mb-8">
-                  {car.description}
+                  {/* {car.description} */}
+                  Your Quality Performance and Used parts for BMW II/ M cars-M2 M3 M4 M5 M6 M8 X5M X6MParts
+                  Located in 9103 S Dairy Ashford Rd Houston, TX 77099 United States
+                  Specialist DM for any parts requests + 1 (740) 324-0618
+                  Check out
                 </p>
 
                 {/* Quick Stats */}
@@ -273,161 +277,14 @@ export default function CarDetailClient({ car }: Props) {
           </div>
 
           {/* Tabs Section */}
-          <ScrollReveal delay={0.2}>
-            <div className="mt-20">
-              {/* Tab Navigation */}
-              <div className="flex items-center gap-2 mb-8 overflow-x-auto pb-2">
-                {[
-                  { id: "overview" as const, label: "Overview" },
-                  { id: "specs" as const, label: "Specifications" },
-                  { id: "features" as const, label: "Features" },
-                ].map((tab) => (
-                  <button
-                    key={tab.id}
-                    onClick={() => setActiveTab(tab.id)}
-                    className={`relative px-5 py-2.5 rounded-xl text-sm font-medium transition-all whitespace-nowrap ${
-                      activeTab === tab.id
-                        ? "text-white"
-                        : "text-white/40 hover:text-white/70"
-                    }`}
-                  >
-                    {activeTab === tab.id && (
-                      <motion.div
-                        layoutId="activeTab"
-                        className="absolute inset-0 rounded-xl bg-gradient-to-r from-blue-500/20 via-violet-500/20 to-fuchsia-500/20 border border-violet-500/30"
-                        transition={{ type: "spring", bounce: 0.2, duration: 0.5 }}
-                      />
-                    )}
-                    <span className="relative">{tab.label}</span>
-                  </button>
-                ))}
-              </div>
-
-              {/* Tab Content */}
-              <motion.div
-                key={activeTab}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.3 }}
-              >
-                {activeTab === "overview" && (
-                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                    {/* Full Description */}
-                    <div style={{ padding: "24px", margin: "20px 0" }} className="glass-card rounded-2xl p-6 lg:p-8">
-                      <h3 className="text-xl font-semibold text-white mb-4">
-                        About This Vehicle
-                      </h3>
-                      <div className="prose prose-invert prose-sm max-w-none">
-                        {car.fullDescription.split("\n\n").map((para, i) => (
-                          <p
-                            key={i}
-                            className="text-white/40 font-light leading-relaxed mb-4"
-                          >
-                            {para}
-                          </p>
-                        ))}
-                      </div>
-                    </div>
-
-                    {/* Vehicle Details */}
-                    <div className="space-y-6">
-                      <div style={{ padding: "24px", margin: "20px 0" }} className="glass-card rounded-2xl p-6 lg:p-8">
-                        <h3 className="text-xl font-semibold text-white mb-6">
-                          Vehicle Details
-                        </h3>
-                        <div className="grid grid-cols-2 gap-4">
-                          {detailItems.map((item) => (
-                            <div key={item.label} className="space-y-1">
-                              <div className="text-[11px] text-white/30 uppercase tracking-wider">
-                                {item.label}
-                              </div>
-                              <div className="text-sm text-white/70 font-medium">
-                                {item.value}
-                              </div>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-
-                      {/* Highlights */}
-                      <div style={{ padding: "24px", margin: "20px 0" }} className="glass-card rounded-2xl p-6 lg:p-8">
-                        <h3 className="text-xl font-semibold text-white mb-6">
-                          Highlights
-                        </h3>
-                        <div className="space-y-3">
-                          {car.highlights.map((highlight, i) => (
-                            <div
-                              style={{ margin: "10px 0" }}
-                              key={i}
-                              className="flex items-start gap-3 text-white/50"
-                            >
-                              <div className="w-5 h-5 rounded-full bg-violet-500/20 flex items-center justify-center shrink-0 mt-0.5">
-                                <Check className="w-3 h-3 text-violet-400" />
-                              </div>
-                              <span className="text-sm">{highlight}</span>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                )}
-
-                {activeTab === "specs" && (
-                  <div className="glass-card rounded-2xl p-6 lg:p-8">
-                    <h3 className="text-xl font-semibold text-white mb-8">
-                      Technical Specifications
-                    </h3>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
-                      {specItems.map((spec, i) => (
-                        <div
-                          key={i}
-                          className="p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:border-violet-500/20 transition-colors"
-                        >
-                          <spec.icon className="w-5 h-5 text-violet-400/60 mb-3" />
-                          <div className="text-[11px] text-white/30 uppercase tracking-wider mb-1">
-                            {spec.label}
-                          </div>
-                          <div className="text-sm text-white/80 font-medium">
-                            {spec.value}
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                )}
-
-                {activeTab === "features" && (
-                  <div className="glass-card rounded-2xl p-6 lg:p-8">
-                    <h3 className="text-xl font-semibold text-white mb-8">
-                      Features & Equipment
-                    </h3>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                      {car.features.map((feature, i) => (
-                        <div
-                          key={i}
-                          className="flex items-center gap-3 p-3 rounded-xl bg-white/[0.02] border border-white/5"
-                        >
-                          <div className="w-6 h-6 rounded-lg bg-emerald-500/10 flex items-center justify-center shrink-0">
-                            <Check className="w-3.5 h-3.5 text-emerald-400" />
-                          </div>
-                          <span className="text-sm text-white/60">{feature}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                )}
-              </motion.div>
-            </div>
-          </ScrollReveal>
-
+   
           {/* Related Cars */}
           {relatedCars.length > 0 && (
             <ScrollReveal delay={0.3}>
               <div className="mt-20">
                 <div className="flex items-center justify-between mb-8">
                   <h3 className="text-2xl font-bold text-white">
-                    Similar Vehicles
+                    Similar Car parts You Might Like
                   </h3>
                   <Link
                     href="/"

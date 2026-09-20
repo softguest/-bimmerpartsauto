@@ -68,7 +68,7 @@ export default function FloatingContact() {
                     Phone
                   </p>
                   <p className="mt-1 text-sm font-medium text-white">
-                    (713) 487-6635
+                    + 1 (740) 324-0618
                   </p>
                 </div>
               </a>

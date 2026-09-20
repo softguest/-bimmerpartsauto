@@ -62,10 +62,10 @@ export default function CarGrid() {
               </div>
             </div>
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white tracking-tight mb-4">
-              Exceptional <span className="gradient-text">Vehicles</span>
+              Exceptional <span className="gradient-text">Car parts</span>
             </h2>
             <p className="text-base text-white/30 max-w-xl mx-auto font-light">
-              Handpicked selection of the world&apos;s most desirable automobiles,
+              Handpicked selection of the world&apos;s most desirable car parts,
               each one a masterpiece of engineering and design.
             </p>
           </div>
@@ -103,7 +103,7 @@ export default function CarGrid() {
         <div className="text-sm text-white/20 mb-6 text-center">
           Showing {startIndex + 1}–
           {Math.min(startIndex + ITEMS_PER_PAGE, filteredCars.length)} of{" "}
-          {filteredCars.length} vehicles
+          {filteredCars.length} car parts
         </div>
 
         {/* Car Grid */}
@@ -128,7 +128,7 @@ export default function CarGrid() {
         {paginatedCars.length === 0 && (
           <div className="text-center py-20">
             <p className="text-white/30 text-lg">
-              No vehicles found in this category.
+              No car parts found in this category.
             </p>
           </div>
         )}

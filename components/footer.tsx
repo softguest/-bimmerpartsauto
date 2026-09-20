@@ -18,13 +18,14 @@ export default function Footer() {
                 <Car className="w-4 h-4 text-white" />
               </div>
               <div>
-                <span className="text-lg font-bold text-white">LUXE</span>
-                <span className="text-lg font-light text-white/50">MOTORS</span>
+                <span className="text-lg font-bold text-white">BIMMER</span>
+                <span className="text-lg font-light text-white/50">PARTS</span>
+                <span className="text-lg font-light text-white/50">AUTO</span>
               </div>
             </Link>
             <p className="text-sm text-white/25 max-w-sm leading-relaxed mb-6">
-              The premier destination for extraordinary automobiles. Curating the
-              finest vehicles from manufacturers worldwide.
+              The premier destination for extraordinary car parts. Curating the
+              finest parts from manufacturers worldwide.
             </p>
             <div className="flex items-center gap-3">
               {/* {[Twitter, Instagram, Github].map((Icon, i) => (

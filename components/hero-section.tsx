@@ -61,7 +61,7 @@ export default function HeroSection() {
           className="max-w-2xl mx-auto text-base sm:text-lg text-white/40 font-light leading-relaxed mb-12"
         >
           Discover an exclusive collection of the world&apos;s most extraordinary
-          vehicles. From hypercars to electric marvels, find your next
+          car parts. From hypercars to electric marvels, find your next
           masterpiece.
         </motion.p> */}
 

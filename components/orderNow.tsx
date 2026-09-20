@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { getWhatsAppUrl } from "@/lib/utils";
-import { X, Phone, Mail, Send, CheckCircle2, Loader2, MapPin } from "lucide-react";
+import { X, Phone, Mail, Send, CheckCircle2, Loader2, MapPin, MailCheck } from "lucide-react";
 
 interface OrderModalProps {
   isOpen: boolean;
@@ -113,7 +113,24 @@ export default function OrderModal({ isOpen, onClose, carName }: OrderModalProps
                       Phone
                     </p>
                     <p className="mt-1 text-sm font-medium text-white">
-                      (713) 487-6635
+                      + 1 (740) 324-0618
+                    </p>
+                  </div>
+                </a>
+                <a
+                  href="tel:+17134876635"
+                  className="flex items-center gap-4 rounded-xl border border-white/5 bg-white/5 p-4 transition hover:bg-white/10"
+                >
+                  <div style={{ margin: "10px 0" }} className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-blue-500/10">
+                    <MailCheck className="h-5 w-5 text-blue-400" />
+                  </div>
+
+                  <div style={{ margin: "10px 0" }} >
+                    <p className="text-xs uppercase tracking-wider text-white/40">
+                      Email
+                    </p>
+                    <p className="mt-1 text-sm font-medium text-white">
+                      bimmerparts08@gmail.com
                     </p>
                   </div>
                 </a>

@@ -1337,7 +1337,7 @@ The interior features Ferrari's dual-cockpit design philosophy, with driver and 
     tagline: "The Naturally Aspirated Legend",
     description:
       "A naturally aspirated 5.2L V10 masterpiece producing 602 hp at a soul-stirring 8,700 RPM. Quattro all-wheel drive with rear-biased torque for pure driving engagement.",
-    fullDescription: `The Audi R8 V10 Performance stands as one of the last naturally aspirated supercars in production, and its 5.2-liter V10 engine represents the pinnacle of this fading art form. This final-generation R8 delivers an experience that future electric vehicles may never replicate.
+    fullDescription: `The Audi R8 V10 Performance stands as one of the last naturally aspirated supercars in production, and its 5.2-liter V10 engine represents the pinnacle of this fading art form. This final-generation R8 delivers an experience that future electric car parts may never replicate.
 
 The V10 engine, shared with Lamborghini and derived from racing technology, produces 602 horsepower at 8,100 rpm and can rev to an intoxicating 8,700 rpm. The dry-sump lubrication system enables aggressive cornering without oil starvation, while the direct fuel injection ensures optimal power delivery.
 
@@ -1573,7 +1573,7 @@ Inside, the GT-R NISMO features Recaro bucket seats with red accents, an Alcanta
     tagline: "The Sports Car of SUVs",
     description:
       "The sports car of SUVs. A twin-turbo V8 with 631 hp, active aerodynamics, and Porsche's motorsport DNA deliver lap times that embarrass many dedicated sports cars.",
-    fullDescription: `The Porsche Cayenne Turbo GT is the most extreme Cayenne ever created, designed specifically to set records on racetracks around the world. This high-performance SUV embodies Porsche's belief that even practical vehicles should deliver exceptional driving experiences.
+    fullDescription: `The Porsche Cayenne Turbo GT is the most extreme Cayenne ever created, designed specifically to set records on racetracks around the world. This high-performance SUV embodies Porsche's belief that even practical car parts should deliver exceptional driving experiences.
 
 The 4.0-liter twin-turbocharged V8 engine has been extensively revised, producing 631 horsepower and 626 lb-ft of torque. New turbochargers, enhanced cooling, and unique calibration create an engine that delivers supercar-level power with remarkable linear delivery.
 
