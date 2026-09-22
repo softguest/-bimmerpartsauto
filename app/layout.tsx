@@ -68,9 +68,9 @@ export const metadata: Metadata = {
     "electric parts",
   ],
   openGraph: {
-    title: "LUXE MOTORS | Premium Automotive Marketplace",
+    title: "BIMMERPARTS | Premium Automotive Marketplace",
     description:
-      "Discover the world's most extraordinary car parts at Luxe Motors.",
+      "Discover the world's most extraordinary car parts at BimmerParts.",
     type: "website",
   },
 };
