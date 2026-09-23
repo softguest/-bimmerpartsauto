@@ -147,10 +147,13 @@ const PHOTOS = [
   "000214.webp",
   "000215.webp",
   "000216.webp",
+
+  "000901.jpg",
+  "000902.jpg",
+  "000903.jpg",
 ];
 
 function img(index: number, w = 1200, h = 800): string {
-//   return `https://images.unsplash.com/${PHOTOS[index % PHOTOS.length]}?w=${w}&h=${h}&fit=crop&auto=format&q=80`;
 return `/images/carpics/${PHOTOS[index % PHOTOS.length]}`;
 }
 
@@ -226,7 +229,7 @@ Please feel free to reach out with any questions!`,
     id: "2",
     name: "16-19 OEM BMW G12 G11 740 750 Front Seat Control Memory Module",
     brand: "",
-    category: "Sports",
+    category: "Coupe",
     tagline: "Born on the Racetrack",
     description:
       "All parts are used unless otherwise noted! Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!.",
@@ -282,7 +285,7 @@ Please feel free to reach out with any questions!!.`,
     id: "3",
     name: "OEM BMW E90 E92 E93 328 335 Wheels Rims 18x8/8.5\" ET:34/37 Star Spoke Style 189",
     brand: "BMW",
-    category: "Luxury",
+    category: "Coupe",
     tagline: "Power Meets Prestige",
     description:
       "All parts are used unless otherwise noted! Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!.",
@@ -339,7 +342,7 @@ Please feel free to reach out with any questions!!`,
     id: "4",
     name: "16-19 OEM BMW G11 G12 740 750 M760 B7 Rear Left Driver Outer LED Tail Light",
     brand: "Mercedes-AMG",
-    category: "Sports",
+    category: "Coupe",
     tagline: "The Most Powerful AMG Ever",
     description:
       "All parts are used unless otherwise noted! Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!.",
@@ -396,7 +399,7 @@ Please feel free to reach out with any questions!!
     id: "5",
     name: "17-23 OEM BMW F90 G30 M5 Gas Fuel Tank Filler Door Flap Cap Lid Cover Assembly",
     brand: "BMW",
-    category: "Sports",
+    category: "Coupe",
     tagline: "Precision Engineered for Perfect Fit",
     description:
       "All parts are used unless otherwise noted! Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!",
@@ -453,7 +456,7 @@ Please feel free to reach out with any questions!!`,
     id: "6",
     name: "OEM BMW G01 G12 G30 F90 M5 X3 ACC Adaptive Cruise Control Radar Sensor FRR-02",
     brand: "BMW",
-    category: "Sports",
+    category: "Coupe",
     tagline: "The Future of BMW",
     description:
       "BMW's advanced adaptive cruise control radar sensor enhances driving comfort and safety by maintaining a safe distance from the vehicle ahead.",
@@ -568,7 +571,7 @@ Please feel free to reach out with any questions!!
     id: "8",
     name: "16-19 OEM BMW G12 740 750 Right Passenger LED ICON Adaptive Headlight COMPLETE",
     brand: "Chevrolet",
-    category: "Sports",
+    category: "Coupe",
     tagline: "America's Track-Ready Supercar",
     description:
       "America's supercar redefined. The flat-plane crank 5.5L V8 screams to 8,600 RPM producing 670 hp, paired with race-proven aerodynamics and mid-engine precision handling.",
@@ -683,7 +686,7 @@ Please feel free to reach out with any questions!!
     id: "10",
     name: "15-20 OEM BMW F16 F90 F97 G01 G30 I12 i8 M5 X3 Bumper Parking PDC Sensor Module",
     brand: "BMW",
-    category: "Luxury",
+    category: "Coupe",
     tagline: "Precision Engineering for Your BMW",
     description:
       "Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!",
@@ -797,7 +800,7 @@ Please feel free to reach out with any questions!`,
     id: "12",
     name: "2016 BMW 750i G12 - Front Right Passenger Door Lock Actuator PN: 2581894",
     brand: "Bentley",
-    category: "Luxury",
+    category: "Coupe",
     tagline: "Breathtaking Performance, Handcrafted Luxury",
     description:
       "Handcrafted perfection at breathtaking pace. The W12 engine produces 650 hp, clothed in a body of timeless proportions with an interior of unrivaled British craftsmanship and heritage.",
@@ -1085,7 +1088,7 @@ Please feel free to reach out with any questions!!
     id: "17",
     name: "PRE-LCI OEM BMW G01 G12 G30 ABS Brake Pump Anti Lock DSC Dynamic Stability",
     brand: "Jaguar",
-    category: "Sports",
+    category: "Coupe",
     tagline: "A 75-Year Legacy of Sports Cars",
     description:
       "A celebration of 75 years of Jaguar sports cars. The supercharged 5.0L V8 with 575 hp delivers savage performance with distinctly British charm and a soundtrack to match.",
@@ -1433,7 +1436,7 @@ Please feel free to reach out with any questions!!
     id: "23",
     name: "16-22 OEM BMW G11 G12 740 750 iDrive Navigation Controller Knob Button CERAMIC",
     brand: "Audi",
-    category: "Sports",
+    category: "Coupe",
     tagline: "The Naturally Aspirated Legend",
     description:
       "All parts are used unless otherwise noted! Please understand that being that parts are used there may be some wear and tear & scratches etc. We cannot guarantee the condition of paint & or that paint color will be an exact match as yours. We try to show as much of the condition as possible through photos and notes!",
@@ -1607,7 +1610,7 @@ Please feel free to reach out with any questions!!
     id: "26",
     name: "Nissan GT-R Nismo",
     brand: "Nissan",
-    category: "Sports",
+    category: "Coupe",
     tagline: "Godzilla, The Ultimate Form",
     description:
       "Godzilla, the ultimate iteration. Hand-assembled twin-turbo V6 with 600 hp, NISMO-tuned suspension, and aerodynamics born from decades of motorsport dominance at every level.",
@@ -1724,7 +1727,7 @@ Inside, the Turbo GT features 8-way sport seats with GT-specific upholstery, an 
     id: "28",
     name: "McLaren Artura",
     brand: "McLaren",
-    category: "Sports",
+    category: "Coupe",
     tagline: "A New Era of McLaren",
     description:
       "McLaren's new-era hybrid supercar. A twin-turbo V6 paired with an E-motor delivers 671 hp through a revolutionary carbon fiber architecture weighing just 1,395 kg.",
@@ -1861,6 +1864,59 @@ Please feel free to reach out with any questions!!
     vin: generateVIN(),
     price: 240,
     discountedPrice: 229,
+    images: gallery(8),
+    specifications: {
+      engine: "Quad Electric Motors",
+      power: "1,914 hp Combined",
+      torque: "1,740 lb-ft Combined",
+      acceleration: "0-60 mph in 1.85 seconds",
+      topSpeed: "258 mph",
+      transmission: "Single-Speed per Motor",
+      drivetrain: "All-Wheel Drive",
+      fuelType: "Electric (340 mi range)",
+      seating: 2,
+    },
+    features: [
+      "Quad Motor All-Wheel Torque Vectoring 2",
+      "120 kWh Battery Pack",
+      "500 kW DC Fast Charging",
+      "Carbon Fiber Monocoque",
+      "Active Aerodynamics",
+      "Face Recognition Entry",
+      "Drift Mode",
+      "Track Mode",
+      "AI-Powered Driver Coach",
+      "Alcantara / Nappa Leather Interior",
+      "13-inch Touchscreen",
+      "2,000 Hours Hand Assembly",
+    ],
+    highlights: [
+      "World's Fastest Production Car to 60 mph",
+      "258 mph Top Speed",
+      "Per-Wheel Torque Vectoring",
+      "Hand-Built in Croatia",
+    ],
+  },
+  {
+    id: "31",
+    name: "BMW M5 F10 4.4L V8 S63B44B Engine - Complete",
+    brand: "BMW",
+    category: "Engine",
+    tagline: "High-Performance Engine for Ultimate Driving",
+    description:
+      "The BMW M5 F10 4.4L V8 S63B44B Engine is a high-performance engine designed for the ultimate driving experience. With its powerful V8 configuration and advanced engineering, this engine delivers exceptional performance and responsiveness.",
+    fullDescription: `Ideal for replacement, restoration, or performance projects.
+    Serious inquiries only. DM us for more details,
+    photos, and availability.
+    .`,
+    condition: "New",
+    year: 2024,
+    mileage: 89,
+    exteriorColor: "California Copper",
+    interiorColor: "Nappa Black / Copper Stitching",
+    vin: generateVIN(),
+    price: 6500,
+    discountedPrice: 6000,
     images: gallery(8),
     specifications: {
       engine: "Quad Electric Motors",

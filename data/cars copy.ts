@@ -101,7 +101,7 @@ Inside, the cabin features a perfect blend of racing-focused minimalism and Ital
     id: "2",
     name: "Porsche 911 GT3 RS",
     brand: "Porsche",
-    category: "Sports",
+    category: "Coupe",
     tagline: "Born on the Racetrack",
     description:
       "Born on the racetrack, refined for the road. The 911 GT3 RS features a naturally aspirated 4.0L flat-six producing 518 hp with motorsport-derived aerodynamics for unmatched precision.",
@@ -159,7 +159,7 @@ Inside, the GT3 RS features carbon fiber full bucket seats, a GT Sport steering 
     id: "3",
     name: "BMW M8 Competition Gran Coupé",
     brand: "BMW",
-    category: "Luxury",
+    category: "Coupe",
     tagline: "Power Meets Prestige",
     description:
       "A masterpiece of power and elegance. The M8 Competition delivers 617 hp through its twin-turbo V8, wrapped in a stunning four-door grand tourer silhouette with premium craftsmanship.",
@@ -218,7 +218,7 @@ The interior is a masterclass in luxury and technology. The BMW Live Cockpit Pro
     id: "4",
     name: "Mercedes-AMG GT Black Series",
     brand: "Mercedes-AMG",
-    category: "Sports",
+    category: "Coupe",
     tagline: "The Most Powerful AMG Ever",
     description:
       "The most powerful AMG V8 production engine ever. 720 hp channeled through race-bred engineering, advanced active aerodynamics, and a chassis tuned on the Nürburgring Nordschleife.",
@@ -452,7 +452,7 @@ The interior showcases Audi's commitment to sustainable luxury. Recycled materia
     id: "8",
     name: "Chevrolet Corvette Z06",
     brand: "Chevrolet",
-    category: "Sports",
+    category: "Coupe",
     tagline: "America's Track-Ready Supercar",
     description:
       "America's supercar redefined. The flat-plane crank 5.5L V8 screams to 8,600 RPM producing 670 hp, paired with race-proven aerodynamics and mid-engine precision handling.",
@@ -569,7 +569,7 @@ The interior blends Italian craftsmanship with modern technology. Premium leathe
     id: "10",
     name: "Rolls-Royce Ghost",
     brand: "Rolls-Royce",
-    category: "Luxury",
+    category: "Coupe",
     tagline: "The Purest Expression of Rolls-Royce",
     description:
       "The purest expression of automotive luxury. A 6.75L twin-turbo V12 delivers effortless power while the cabin crafted from the finest materials creates an unparalleled sanctuary of serenity.",
@@ -687,7 +687,7 @@ The innovative Pivi Pro infotainment system works with Amazon Alexa and features
     id: "12",
     name: "Bentley Continental GT Speed",
     brand: "Bentley",
-    category: "Luxury",
+    category: "Coupe",
     tagline: "Breathtaking Performance, Handcrafted Luxury",
     description:
       "Handcrafted perfection at breathtaking pace. The W12 engine produces 650 hp, clothed in a body of timeless proportions with an interior of unrivaled British craftsmanship and heritage.",
@@ -980,7 +980,7 @@ Inside, the LC 500 showcases Lexus's "Takumi" craftsmanship philosophy. Hand-ple
     id: "17",
     name: "Jaguar F-Type R75",
     brand: "Jaguar",
-    category: "Sports",
+    category: "Coupe",
     tagline: "A 75-Year Legacy of Sports Cars",
     description:
       "A celebration of 75 years of Jaguar sports cars. The supercharged 5.0L V8 with 575 hp delivers savage performance with distinctly British charm and a soundtrack to match.",
@@ -1333,7 +1333,7 @@ The interior features Ferrari's dual-cockpit design philosophy, with driver and 
     id: "23",
     name: "Audi R8 V10 Performance",
     brand: "Audi",
-    category: "Sports",
+    category: "Coupe",
     tagline: "The Naturally Aspirated Legend",
     description:
       "A naturally aspirated 5.2L V10 masterpiece producing 602 hp at a soul-stirring 8,700 RPM. Quattro all-wheel drive with rear-biased torque for pure driving engagement.",
@@ -1510,7 +1510,7 @@ Inside, the Escalade-V features a stunning 38-inch curved OLED display spanning 
     id: "26",
     name: "Nissan GT-R Nismo",
     brand: "Nissan",
-    category: "Sports",
+    category: "Coupe",
     tagline: "Godzilla, The Ultimate Form",
     description:
       "Godzilla, the ultimate iteration. Hand-assembled twin-turbo V6 with 600 hp, NISMO-tuned suspension, and aerodynamics born from decades of motorsport dominance at every level.",
@@ -1628,7 +1628,7 @@ Inside, the Turbo GT features 8-way sport seats with GT-specific upholstery, an 
     id: "28",
     name: "McLaren Artura",
     brand: "McLaren",
-    category: "Sports",
+    category: "Coupe",
     tagline: "A New Era of McLaren",
     description:
       "McLaren's new-era hybrid supercar. A twin-turbo V6 paired with an E-motor delivers 671 hp through a revolutionary carbon fiber architecture weighing just 1,395 kg.",

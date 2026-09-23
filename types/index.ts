@@ -57,8 +57,7 @@ export interface Car {
 export type CarCategory =
   | "SUV"
   | "Sedan"
-  | "Luxury"
-  | "Sports"
+  | "Engine"
   | "Electric"
   | "Hypercar"
   | "Coupe"
