@@ -1378,7 +1378,7 @@ Please feel free to reach out with any questions!!
   {
     id: "22",
     name: "OEM BMW F90 G12 G30 G32 Front Right Passenger Seat Adjustment Control Switch",
-    brand: "Ferrari",
+    brand: "BMW",
     category: "Convertible",
     tagline: "La Dolce Vita, Reimagined",
     description:
@@ -1397,8 +1397,8 @@ Please feel free to reach out with any questions!!
     exteriorColor: "Blu Corsa",
     interiorColor: "Cuoio / Nero",
     vin: generateVIN(),
-    price: 170,
-    discountedPrice: 120,
+    price: 6500,
+    discountedPrice: 6000,
     images: gallery(126),
     specifications: {
       engine: "3.9L Twin-Turbocharged V8",
