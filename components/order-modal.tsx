@@ -92,7 +92,7 @@ export default function OrderModal({ isOpen, onClose, carName }: OrderModalProps
                   <Send className="w-5 h-5 text-violet-400" />
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-2">
-                  Order This Vehicle
+                  Order This Part
                 </h3>
                 <p style={{ padding: "15px 0" }} className="text-sm text-white/40 font-light">
                   Submit your details and we&apos;ll connect you via WhatsApp for{" "}

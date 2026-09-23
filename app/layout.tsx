@@ -54,7 +54,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "LUXE MOTORS | Premium Automotive Marketplace",
+  title: "BIMMERPARTSAUTO | Quality Automotive Parts Marketplace",
   description:
     "Discover an exclusive collection of car parts. get quality parts for hypercars to electric marvels, find your next masterpiece at BimmerPartAuto.",
   keywords: [
