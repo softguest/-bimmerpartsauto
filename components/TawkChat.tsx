@@ -7,7 +7,7 @@ export default function TawkChat() {
     <Script
       id="tawk-to"
       strategy="afterInteractive"
-      src="https://embed.tawk.to/6ab3efec8582123445b61ab8/1k37e2da9"
+      src="https://embed.tawk.to/6ab406c24b957f34427b5863/1k37jkqo6"
       crossOrigin="anonymous"
     />
   );
