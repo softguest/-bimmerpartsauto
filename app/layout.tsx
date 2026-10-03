@@ -48,12 +48,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={cn("font-sans", geist.variable)}>
       <body className="bg-surface text-white antialiased">
-        <ParticleBackground />
-        <Navbar />
-        <main className="relative z-10">{children}</main>
-        {/* <FloatingContact /> */}
-        <Footer />
-        <TawkChat />
+        {/* <ParticleBackground /> */}
+        {/* <Navbar /> */}
+        {/* <main className="relative z-10">{children}</main> */}
+        {/* <Footer /> */}
+        {/* <TawkChat /> */}
       </body>
     </html>
   );
