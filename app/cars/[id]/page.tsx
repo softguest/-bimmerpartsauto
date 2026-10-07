@@ -31,10 +31,10 @@ export async function generateMetadata(
   }
 
   return {
-    title: `${car.name} | LUXE MOTORS`,
+    title: `${car.name} | BIMMERPARTSAUTO`,
     description: car.description,
     openGraph: {
-      title: `${car.name} | LUXE MOTORS`,
+      title: `${car.name} | BIMMER PARTS AUTO`,
       description: car.description,
       images: [
         {
