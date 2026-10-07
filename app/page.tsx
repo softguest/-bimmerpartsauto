@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <>
       <div className="text-center text-2xl font-bold">This Site Is Down</div>
-      <HeroSection />
+       <HeroSection />
       <CarGrid /> 
     </>
   );

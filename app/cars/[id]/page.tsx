@@ -34,7 +34,7 @@ export async function generateMetadata(
     title: `${car.name} | BIMMERPARTSAUTO`,
     description: car.description,
     openGraph: {
-      title: `${car.name} | BIMMER PARTS AUTO`,
+      title: `${car.name} | BIMMERPARTSAUTO`,
       description: car.description,
       images: [
         {
