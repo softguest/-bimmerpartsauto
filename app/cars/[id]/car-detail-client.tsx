@@ -189,7 +189,7 @@ export default function CarDetailClient({ car }: Props) {
                   {/* {car.description} */}
                   Your Quality Performance and Used parts for BMW II/ M cars-M2 M3 M4 M5 M6 M8 X5M X6MParts
                   Located in 9103 S Dairy Ashford Rd Houston, TX 77099 United States
-                  Specialist DM for any parts requests + 1 (740) 324-0618
+                  Specialist DM for any parts requests +1 (210) 943-7076
                   Check out
                 </p>
 

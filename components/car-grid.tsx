@@ -65,7 +65,7 @@ export default function CarGrid() {
                 Located at: <span style={{color: "white"}}>9103 S Dairy Ashford Rd Houston, TX 77099 United States</span>
               </span>
               <span style={{ display: "block", marginTop: "8px" }}>
-                Specialist DM: <span style={{color: "white"}}>(713) 487-6635</span> for any parts requests
+                Specialist DM: <span style={{color: "white"}}>+1 (210) 943-7076</span> for any parts requests
               </span>
               <span style={{ display: "block", marginTop: "8px" }}>
                 <span style={{color: "white"}}>Email: bimmerparts08@gmail.com</span>
